@@ -1502,6 +1502,12 @@ async function loadLiveData() {
     // Strip markdown code fences if present
     raw = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
+    // Strip markdown escape backslashes (e.g. \[ -> [, \_ -> _)
+    raw = raw.replace(/\\([\[\]_*])/g, '$1');
+
+    // Strip trailing spaces from line ends (markdown artifacts)
+    raw = raw.replace(/  \n/g, ' ').replace(/\\n/g, ' ');
+
     // Extract valid JSON object from first { to last }
     const firstBrace = raw.indexOf('{');
     const lastBrace = raw.lastIndexOf('}');
