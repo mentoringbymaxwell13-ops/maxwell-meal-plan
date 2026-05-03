@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxwell Kitchen — Weekly Meal Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #FAF7F2;
+    --warm-white: #FFFDF9;
+    --ink: #1C1A18;
+    --ink-light: #4A4540;
+    --ink-muted: #8A837A;
+    --rust: #C5502A;
+    --rust-light: #F0E4DC;
+    --sage: #4A6741;
+    --sage-light: #E3EBE2;
+    --gold: #C4962A;
+    --gold-light: #F5EDD6;
+    --sky: #2A6080;
+    --sky-light: #D9EAF3;
+    --border: #E8E2DA;
+    --shadow: 0 2px 20px rgba(28,26,24,0.08);
+    --shadow-lg: 0 8px 40px rgba(28,26,24,0.12);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .site-header {
+    background: var(--ink);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .site-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    color: var(--cream);
+    letter-spacing: -0.01em;
+  }
+  .site-logo span { color: var(--gold); }
+  .header-meta {
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .header-actions { display: flex; gap: 10px; align-items: center; }
+  .btn-export {
+    background: var(--rust);
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: all 0.2s;
+  }
+  .btn-export:hover { background: #a8431f; transform: translateY(-1px); }
+  .btn-skylight {
+    background: transparent;
+    color: var(--cream);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-skylight:hover { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.05); }
+
+  /* ── WEEK BANNER ── */
+  .week-banner {
+    background: var(--rust);
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .week-label {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    color: white;
+  }
+  .week-dates {
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.75);
+    letter-spacing: 0.05em;
+  }
+  .week-flags { margin-left: auto; display: flex; gap: 8px; }
+  .flag-chip {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 100px;
+    letter-spacing: 0.04em;
+  }
+  .flag-chip.travel { background: rgba(255,200,100,0.3); }
+  .flag-chip.busy { background: rgba(100,200,255,0.2); }
+
+  /* ── NAV TABS ── */
+  .main-nav {
+    background: var(--warm-white);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+  }
+  .nav-tab {
+    padding: 16px 22px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .nav-tab:hover { color: var(--ink); }
+  .nav-tab.active { color: var(--rust); border-bottom-color: var(--rust); font-weight: 600; }
+
+  /* ── LAYOUT ── */
+  .main-content { max-width: 1280px; margin: 0 auto; padding: 32px; }
+
+  /* ── TAB PANELS ── */
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  /* ── SECTION HEADER ── */
+  .section-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .section-subheading {
+    font-size: 0.82rem;
+    color: var(--ink-muted);
+    margin-bottom: 28px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── WEEKLY MENU GRID ── */
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .day-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    min-height: 130px;
+    transition: all 0.2s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .day-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .day-card.today { border-color: var(--rust); }
+  .day-card.today::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--rust);
+  }
+  .day-card.empty { background: var(--cream); opacity: 0.6; }
+  .day-name {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+  .day-date {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.3rem;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .day-meal {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.35;
+  }
+  .day-meal-tag {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 100px;
+    letter-spacing: 0.04em;
+  }
+  .tag-family { background: var(--sage-light); color: var(--sage); }
+  .tag-prep { background: var(--gold-light); color: var(--gold); }
+  .tag-quick { background: var(--sky-light); color: var(--sky); }
+  .tag-leftovers { background: var(--border); color: var(--ink-muted); }
+  .tag-travel { background: var(--rust-light); color: var(--rust); }
+
+  /* ── RECIPE CARDS ── */
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .recipe-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: all 0.25s;
+  }
+  .recipe-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+  .recipe-header {
+    padding: 20px 22px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .recipe-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: var(--ink);
+    line-height: 1.3;
+    flex: 1;
+  }
+  .macro-badge {
+    background: var(--ink);
+    color: white;
+    border-radius: 8px;
+    padding: 8px 10px;
+    text-align: center;
+    min-width: 80px;
+    flex-shrink: 0;
+  }
+  .macro-badge .macro-row {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+  }
+  .macro-badge .macro-vals {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--gold);
+    margin-top: 2px;
+  }
+  .recipe-meta {
+    padding: 12px 22px;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--cream);
+  }
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+  .meta-icon { font-size: 0.85rem; }
+
+  /* Recipe tabs */
+  .recipe-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+  }
+  .recipe-tab {
+    flex: 1;
+    padding: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    color: var(--ink-muted);
+    transition: all 0.2s;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .recipe-tab:hover { color: var(--ink); }
+  .recipe-tab.active { color: var(--rust); border-bottom-color: var(--rust); background: var(--warm-white); }
+  .recipe-panel { display: none; padding: 18px 22px; }
+  .recipe-panel.active { display: block; }
+
+  /* Ingredients */
+  .ingredient-group-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin: 14px 0 8px;
+  }
+  .ingredient-group-label:first-child { margin-top: 0; }
+  .ingredient-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4px 0;
+    border-bottom: 1px dotted var(--border);
+    font-size: 0.82rem;
+  }
+  .ingredient-item:last-child { border-bottom: none; }
+  .ingredient-name { color: var(--ink); }
+  .ingredient-qty { color: var(--ink-muted); font-weight: 500; font-size: 0.78rem; }
+
+  /* Steps */
+  .step-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .step-num {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    background: var(--rust);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-top: 2px;
+  }
+  .step-text { font-size: 0.82rem; line-height: 1.6; color: var(--ink); }
+  .pro-tip {
+    background: var(--gold-light);
+    border-left: 3px solid var(--gold);
+    padding: 8px 12px;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.75rem;
+    color: var(--ink-light);
+    margin-top: 6px;
+    line-height: 1.5;
+  }
+  .pro-tip strong { color: var(--gold); font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+  /* Kids tasks */
+  .kids-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .kids-icon { font-size: 1.4rem; }
+  .kids-title { font-family: 'DM Serif Display', serif; font-size: 1rem; color: var(--ink); }
+  .kids-task {
+    background: var(--sage-light);
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+  }
+  .kids-task-num {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--sage);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .kids-task-text {
+    font-size: 0.82rem;
+    color: var(--ink);
+    line-height: 1.45;
+  }
+
+  /* ── GROCERY LISTS ── */
+  .grocery-layout {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 28px;
+  }
+  .grocery-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .grocery-card-header {
+    padding: 18px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .grocery-card-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+  }
+  .grocery-store-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 100px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .badge-heb { background: var(--rust-light); color: var(--rust); }
+  .badge-costco { background: var(--sky-light); color: var(--sky); }
+  .grocery-section-label {
+    padding: 10px 22px 6px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    background: var(--cream);
+    border-bottom: 1px solid var(--border);
+  }
+  .grocery-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 22px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+    transition: background 0.15s;
+  }
+  .grocery-item:hover { background: var(--cream); }
+  .grocery-item:last-child { border-bottom: none; }
+  .grocery-check {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grocery-check.checked {
+    background: var(--sage);
+    border-color: var(--sage);
+    color: white;
+    font-size: 0.65rem;
+  }
+  .grocery-item-name {
+    font-size: 0.82rem;
+    color: var(--ink);
+    flex: 1;
+  }
+  .grocery-item-name.checked-name { text-decoration: line-through; color: var(--ink-muted); }
+  .grocery-item-qty {
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+  .curbside-note {
+    font-size: 0.65rem;
+    padding: 2px 7px;
+    border-radius: 100px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .free-pickup { background: var(--sage-light); color: var(--sage); }
+
+  /* Costco panel */
+  .costco-needed-by {
+    font-size: 0.68rem;
+    color: var(--rust);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── MAKE SETUP GUIDE ── */
+  .setup-layout { max-width: 820px; }
+  .setup-step {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+  .setup-step-num {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    background: var(--rust);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-top: 2px;
+  }
+  .setup-step-content { flex: 1; }
+  .setup-step-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .setup-step-desc {
+    font-size: 0.84rem;
+    line-height: 1.65;
+    color: var(--ink-light);
+    margin-bottom: 10px;
+  }
+  .setup-code {
+    background: var(--ink);
+    color: #A8E6CF;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    overflow-x: auto;
+    white-space: pre;
+  }
+  .setup-tip {
+    background: var(--sky-light);
+    border-left: 3px solid var(--sky);
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.78rem;
+    color: var(--ink-light);
+    line-height: 1.5;
+  }
+  .setup-tip strong { color: var(--sky); }
+  .setup-connector {
+    width: 2px;
+    background: var(--border);
+    margin: 0 17px;
+    height: 20px;
+    margin-bottom: 0;
+  }
+
+  /* ── ALERTS ── */
+  .alert-box {
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .alert-info { background: var(--sky-light); color: var(--sky); border: 1px solid rgba(42,96,128,0.15); }
+  .alert-warn { background: var(--gold-light); color: #7a5a10; border: 1px solid rgba(196,150,42,0.2); }
+  .alert-success { background: var(--sage-light); color: var(--sage); border: 1px solid rgba(74,103,65,0.2); }
+  .alert-icon { font-size: 1rem; margin-top: 1px; }
+
+  /* ── AGENT STATUS ── */
+  .agent-status-bar {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 22px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .agent-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--sage);
+    box-shadow: 0 0 0 3px var(--sage-light);
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 3px var(--sage-light); }
+    50% { box-shadow: 0 0 0 6px rgba(74,103,65,0.1); }
+  }
+  .agent-status-text { font-size: 0.82rem; color: var(--ink-light); }
+  .agent-status-text strong { color: var(--ink); }
+  .agent-last-run { margin-left: auto; font-size: 0.75rem; color: var(--ink-muted); }
+
+  /* ── CALENDAR EXPORT ── */
+  .export-preview {
+    background: var(--ink);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 16px;
+  }
+  .export-event {
+    display: flex;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    align-items: center;
+  }
+  .export-event:last-child { border-bottom: none; }
+  .export-day-label { font-size: 0.7rem; color: rgba(255,255,255,0.4); width: 60px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+  .export-meal-name { font-size: 0.82rem; color: rgba(255,255,255,0.9); flex: 1; }
+  .export-time { font-size: 0.7rem; color: var(--gold); }
+
+  /* ── UTILITY ── */
+  .divider { height: 1px; background: var(--border); margin: 32px 0; }
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--ink-muted);
+  }
+  .empty-state .empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
+  .empty-state .empty-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .empty-state .empty-desc { font-size: 0.82rem; line-height: 1.6; max-width: 320px; margin: 0 auto; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .menu-grid { grid-template-columns: repeat(4, 1fr); }
+    .grocery-layout { grid-template-columns: 1fr; }
+    .recipe-grid { grid-template-columns: 1fr; }
+    .main-content { padding: 20px 16px; }
+    .site-header { padding: 0 16px; }
+    .week-banner { padding: 12px 16px; flex-wrap: wrap; gap: 8px; }
+    .btn-skylight { display: none; }
+  }
+  @media (max-width: 600px) {
+    .menu-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="site-logo">Maxwell <span>Kitchen</span></div>
+  <div class="header-meta" id="currentDateLabel">Week of May 4, 2026</div>
+  <div class="header-actions">
+    <button class="btn-skylight" onclick="showSkylight()">☁ Skylight Export</button>
+    <button class="btn-export" onclick="exportGroceryList()">↓ Export List</button>
+  </div>
+</header>
+
+<!-- WEEK BANNER -->
+<div class="week-banner">
+  <div class="week-label" id="weekBannerLabel">Week of May 4–10, 2026</div>
+  <div class="week-dates" id="weekBannerSub">5 dinners planned · 1 leftover night · 1 flex</div>
+  <div class="week-flags" id="weekFlags">
+    <span class="flag-chip">🌽 Corn Season</span>
+    <span class="flag-chip">🫐 Blueberries Peak</span>
+  </div>
+</div>
+
+<!-- NAV TABS -->
+<nav class="main-nav">
+  <button class="nav-tab active" onclick="switchTab('menu', this)">Weekly Menu</button>
+  <button class="nav-tab" onclick="switchTab('recipes', this)">Recipes &amp; Instructions</button>
+  <button class="nav-tab" onclick="switchTab('grocery', this)">Grocery Lists</button>
+  <button class="nav-tab" onclick="switchTab('costco', this)">Costco Runs</button>
+  <button class="nav-tab" onclick="switchTab('setup', this)">Agent Setup</button>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+
+  <!-- ══════════════════════════════════════════
+       TAB 1: WEEKLY MENU
+  ══════════════════════════════════════════ -->
+  <div class="tab-panel active" id="tab-menu">
+
+    <div class="agent-status-bar">
+      <div class="agent-dot"></div>
+      <div class="agent-status-text"><strong>Agent Status:</strong> Awaiting Friday recipe selection. Last run: Friday May 2 at 12:04 PM.</div>
+      <div class="agent-last-run">Next run: Fri May 8 at 12:00 PM</div>
+    </div>
+
+    <h2 class="section-heading">This Week's Menu</h2>
+    <p class="section-subheading">Tap any day to view the full recipe card</p>
+
+    <div class="menu-grid" id="menuGrid">
+      <!-- Day cards generated by JS -->
+    </div>
+
+    <div class="divider"></div>
+
+    <h2 class="section-heading">Skylight Calendar Preview</h2>
+    <p class="section-subheading">These events will be written to your "Weekly Menu" Google Calendar and appear on Skylight automatically</p>
+
+    <div class="export-preview" id="skylightPreview">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       TAB 2: RECIPES
+  ══════════════════════════════════════════ -->
+  <div class="tab-panel" id="tab-recipes">
+    <h2 class="section-heading">This Week's Recipes</h2>
+    <p class="section-subheading">Full instructions, pro cooking tips, and toddler helper tasks</p>
+    <div class="recipe-grid" id="recipeGrid">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       TAB 3: GROCERY LISTS
+  ══════════════════════════════════════════ -->
+  <div class="tab-panel" id="tab-grocery">
+    <h2 class="section-heading">Grocery Lists</h2>
+    <p class="section-subheading">HEB curbside order ready for Saturday pickup</p>
+
+    <div class="alert-box alert-success">
+      <span class="alert-icon">✓</span>
+      <div>HEB curbside order placed for <strong>Saturday May 9 at 10:00 AM</strong> — free pickup (order placed 3 days out). <a href="#" style="color:var(--sage);font-weight:600">View order on HEB.com →</a></div>
+    </div>
+
+    <div class="grocery-layout">
+      <div class="grocery-card">
+        <div class="grocery-card-header">
+          <div class="grocery-card-title">HEB Weekly List</div>
+          <span class="grocery-store-badge badge-heb">H-E-B Curbside</span>
+        </div>
+        <div id="hebList">
+          <!-- filled by JS -->
+        </div>
+      </div>
+
+      <div>
+        <div class="grocery-card" style="margin-bottom:20px">
+          <div class="grocery-card-header">
+            <div class="grocery-card-title">Breakfast Staples</div>
+            <span class="grocery-store-badge badge-heb">H-E-B</span>
+          </div>
+          <div id="breakfastList"></div>
+        </div>
+
+        <div class="alert-box alert-info">
+          <span class="alert-icon">ℹ</span>
+          <div><strong>Costco Staples Excluded:</strong> Chicken breast, eggs, egg whites, Greek yogurt, Dave's Killer Bread, cottage cheese, and olive oil are assumed stocked. See Costco tab if restocking is needed.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       TAB 4: COSTCO RUNS
+  ══════════════════════════════════════════ -->
+  <div class="tab-panel" id="tab-costco">
+    <h2 class="section-heading">Costco Bulk Runs</h2>
+    <p class="section-subheading">Bi-weekly restocking — items flagged by estimated depletion date</p>
+
+    <div class="alert-box alert-warn">
+      <span class="alert-icon">⚠</span>
+      <div><strong>Next Costco Run Recommended:</strong> Saturday May 16 — egg whites and Greek yogurt estimated to run low by May 18.</div>
+    </div>
+
+    <div class="grocery-card" style="max-width:640px">
+      <div class="grocery-card-header">
+        <div class="grocery-card-title">May 16 Costco List</div>
+        <span class="grocery-store-badge badge-costco">Costco Bulk</span>
+      </div>
+      <div id="costcoList"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       TAB 5: AGENT SETUP
+  ══════════════════════════════════════════ -->
+  <div class="tab-panel" id="tab-setup">
+    <div class="setup-layout">
+      <h2 class="section-heading">Agent Setup Guide</h2>
+      <p class="section-subheading">One-time configuration steps to get the full automated system running</p>
+
+      <!-- CALENDAR CONSOLIDATION -->
+      <div class="alert-box alert-info" style="margin-bottom:28px">
+        <span class="alert-icon">📅</span>
+        <div><strong>Calendar Consolidation:</strong> All calendars flow into one Google account. The agent reads only Google Calendar — one connection covers everything.</div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">1</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Sync Outlook 365 → Google Calendar</div>
+          <div class="setup-step-desc">Publish your work calendar as a live ICS feed. Google subscribes and auto-refreshes every 8–24 hours. Free, native, zero third-party tools needed.</div>
+          <div class="setup-code">1. Go to outlook.office.com
+2. Settings (gear) → Calendar → Shared Calendars
+3. Under "Publish a Calendar" → select your work calendar
+4. Set to: "Can view all details" → Click Publish
+5. Copy the ICS link (NOT the HTML link)
+6. Open Google Calendar → Settings → Add Calendar → From URL
+7. Paste ICS link → Name it "Work — Outlook" → Add Calendar</div>
+          <div class="setup-tip"><strong>Tip:</strong> Repeat this for any other calendars (kids school, family shared, etc.) using the same "From URL" method in Google Calendar.</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">2</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Create "Weekly Menu" Google Calendar</div>
+          <div class="setup-step-desc">The agent writes dinner events here — isolated from your work and personal calendars. Skylight syncs it automatically.</div>
+          <div class="setup-code">1. Open Google Calendar → + Other Calendars → Create new calendar
+2. Name: "Weekly Menu"
+3. Color: Choose something distinct (orange or red works well)
+4. Click "Create Calendar"
+5. Open Skylight app → Settings → Sync Calendars → confirm "Weekly Menu" appears</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">3</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Upload Nutrition Reference to Google Drive</div>
+          <div class="setup-step-desc">This is the file the agent reads every Friday. Upload once, never re-explain your macros again.</div>
+          <div class="setup-code">1. Download "nutrition-reference.md" from this dashboard
+2. Go to drive.google.com
+3. Upload the file → right-click → Open with Google Docs
+   (This converts it to a native Google Doc the agent can read)
+4. Name it: "MAXWELL_AGENT_NUTRITION_REF"
+5. Copy the Doc URL — you'll need it for Make.com setup</div>
+          <div class="setup-tip"><strong>Token savings:</strong> This single doc replaces ~3,000 tokens of context per weekly run. At Claude API pricing, that saves ~$0.50–2.00/month.</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">4</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Create Make.com Account &amp; Connect Google</div>
+          <div class="setup-step-desc">Free account covers your weekly usage (1,000 ops/month). This is your automation backbone.</div>
+          <div class="setup-code">1. Go to make.com → Sign up free
+2. Dashboard → Connections → Google Drive → Connect
+   (Authorize with the same Google account as your calendar)
+3. Connections → Google Calendar → Connect
+4. Connections → HTTP → No setup needed (used for Claude API calls)
+5. Keep your Anthropic API key ready (console.anthropic.com)</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">5</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Install HEB Grocery Agent Chrome Extension</div>
+          <div class="setup-step-desc">This handles automated cart building on HEB.com without any coding. Claude in Chrome orchestrates it.</div>
+          <div class="setup-code">1. In Chrome, go to: Chrome Web Store
+   Search: "HEB Grocery Agent"
+2. Install extension → pin it to toolbar
+3. Go to heb.com → sign into your account
+4. Click the extension icon → confirm it shows your account
+5. Test: type one item → click "Start Shopping" → confirm it adds to cart
+6. Clear the test item before your first real run</div>
+          <div class="setup-tip"><strong>Note:</strong> This uses unofficial HEB browser automation. HEB may update their site — if the extension stops working, the fallback is Claude in Chrome's built-in browser tools.</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">6</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Deploy This Dashboard to Netlify</div>
+          <div class="setup-step-desc">Host this file as a live URL so the agent can update it and you can access it from any device.</div>
+          <div class="setup-code">1. Go to netlify.com → Sign up free
+2. From the dashboard: "Add new site" → "Deploy manually"
+3. Drag the index.html file into the deploy drop zone
+4. Netlify generates a URL: e.g., maxwell-kitchen.netlify.app
+5. Optional: Add custom domain under Site Settings → Domain Management
+6. Bookmark the URL on your phone — this is your weekly command center</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">7</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Make.com — Scenario 1: Friday Agent Run</div>
+          <div class="setup-step-desc">This scenario triggers every Friday at noon, reads your nutrition doc + calendar, generates recipes, and updates the dashboard.</div>
+          <div class="setup-code">Trigger: Schedule → Every Friday at 12:00 PM
+
+Step 1 — Google Drive: Get File Content
+  → File: "MAXWELL_AGENT_NUTRITION_REF"
+
+Step 2 — Google Calendar: List Events
+  → Calendar: All calendars
+  → Date range: Today + 14 days
+  → Filter: Include travel flags, evening events
+
+Step 3 — HTTP: POST to Anthropic API
+  → URL: https://api.anthropic.com/v1/messages
+  → Headers: x-api-key: [YOUR_API_KEY]
+             anthropic-version: 2023-06-01
+  → Body: {
+      "model": "claude-sonnet-4-20250514",
+      "max_tokens": 4000,
+      "system": "You are the Maxwell family meal planning agent. Read the nutrition reference and calendar data provided. Generate 5 macro-compliant dinner recipes for the week. Output valid JSON only.",
+      "messages": [{"role": "user", "content": "[NUTRITION_DOC] + [CALENDAR_EVENTS]"}]
+    }
+
+Step 4 — Netlify: Deploy updated index.html
+  → Method: POST to Netlify Deploy URL
+  → Body: Updated HTML with new recipes injected</div>
+          <div class="setup-tip"><strong>Tip:</strong> Request full instructions for this Make.com scenario build from Claude — it will generate the exact module configuration for you to copy in.</div>
+        </div>
+      </div>
+
+      <div class="setup-step">
+        <div class="setup-step-num">8</div>
+        <div class="setup-step-content">
+          <div class="setup-step-title">Make.com — Scenario 2: Saturday Cart Build</div>
+          <div class="setup-step-desc">Triggers Saturday morning after you've selected your recipes. Finalizes the grocery list and hands off to Claude in Chrome + HEB extension.</div>
+          <div class="setup-code">Trigger: Schedule → Every Saturday at 9:00 AM
+
+Step 1 — HTTP: GET selected recipes from dashboard data
+
+Step 2 — HTTP: POST to Anthropic API
+  → Generate finalized HEB grocery list JSON
+  → Exclude Costco staples
+  → Group by: Produce, Protein, Dairy, Pantry
+
+Step 3 — Claude in Chrome: 
+  → Open heb.com (signed in)
+  → Activate HEB Grocery Agent extension
+  → Paste finalized list
+  → Click "Start Shopping" — items added to cart automatically
+
+Step 4 — Google Calendar: Create Events
+  → Calendar: "Weekly Menu"
+  → Create 1 event per dinner (Mon–Sun)
+  → Event title: [Meal Name] — [Prep Time]
+  → Description: Link to recipe card on dashboard</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- MODAL for recipe detail -->
+<div id="recipeModal" style="display:none;position:fixed;inset:0;background:rgba(28,26,24,0.6);z-index:200;padding:24px;overflow-y:auto">
+  <div style="max-width:640px;margin:0 auto;background:var(--warm-white);border-radius:16px;overflow:hidden" id="recipeModalContent"></div>
+</div>
+
+<script>
+// ═══════════════════════════════
+// DATA — Replace with agent-generated JSON weekly
+// ═══════════════════════════════
+
+const WEEK_DATA = {
+  label: "Week of May 4–10, 2026",
+  seasonalTags: ["🌽 Corn Season", "🫐 Blueberries Peak", "🍅 Cherry Tomatoes"],
+  days: [
+    { day: "Sun", date: 3, meal: "Batch Prep Day", tag: "prep", tagLabel: "Prep" },
+    { day: "Mon", date: 4, meal: "Lemon Herb Chicken + Corn & Zucchini Rice", tag: "family", tagLabel: "Family", recipe: 0 },
+    { day: "Tue", date: 5, meal: "Shrimp Stir-Fry + Jasmine Rice", tag: "family", tagLabel: "Family", recipe: 1 },
+    { day: "Wed", date: 6, meal: "Leftovers", tag: "leftovers", tagLabel: "Leftovers" },
+    { day: "Thu", date: 7, meal: "Ground Turkey Taco Bowls", tag: "family", tagLabel: "Family", recipe: 2 },
+    { day: "Fri", date: 8, meal: "Baked Tilapia + Cherry Tomato Rice", tag: "quick", tagLabel: "30 min", recipe: 3 },
+    { day: "Sat", date: 9, meal: "Flex / Eat Out", tag: "travel", tagLabel: "Flex" }
+  ]
+};
+
+const RECIPES = [
+  {
+    name: "Lemon Herb Chicken + Corn & Zucchini Rice",
+    macros: { p: 51, f: 11, c: 72 },
+    prepTime: "10 min prep",
+    cookTime: "25 min cook",
+    totalTime: "35 min",
+    servings: "4 servings",
+    ingredients: {
+      "Protein": [
+        { name: "Chicken breast", qty: "4 × 7–8oz" },
+        { name: "Lemon, zested + juiced", qty: "2" }
+      ],
+      "Produce": [
+        { name: "Zucchini, diced", qty: "2 medium" },
+        { name: "Corn, fresh or frozen", qty: "2 ears / 1.5 cups" },
+        { name: "Garlic cloves, minced", qty: "3" },
+        { name: "Fresh parsley", qty: "¼ cup" }
+      ],
+      "Pantry": [
+        { name: "White rice", qty: "1 cup dry (→ 3 cups cooked)" },
+        { name: "Chicken broth, low-sodium", qty: "2 cups (for rice)" },
+        { name: "Olive oil", qty: "1 tbsp total" },
+        { name: "Dried oregano", qty: "1 tsp" },
+        { name: "Salt & black pepper", qty: "to taste" }
+      ]
+    },
+    steps: [
+      { text: "Cook rice in chicken broth instead of water — this builds flavor without any added fat.", tip: "Broth-cooked rice absorbs the liquid and tastes richer. Use a 1:1.75 rice-to-broth ratio so it doesn't get mushy." },
+      { text: "Season chicken with lemon zest, oregano, salt, pepper. Let sit 5 minutes." },
+      { text: "Heat ½ tbsp olive oil in a large skillet over medium-high. Sear chicken 4–5 minutes per side until golden and cooked through (165°F internal). Remove and rest 5 minutes.", tip: "Resist the urge to move the chicken. Let it sear undisturbed to build a crust — that's where all the flavor lives." },
+      { text: "In the same pan (wipe excess, add remaining ½ tbsp oil), sauté garlic 30 seconds. Add corn and zucchini, cook 4–5 minutes until tender-crisp." },
+      { text: "Fold vegetables into cooked rice. Add lemon juice and parsley, toss well." },
+      { text: "Slice chicken. Serve over rice. Toddler portions: dice chicken small, serve rice separately." }
+    ],
+    kidsTasks: [
+      { num: "Task 1", text: "Wash the zucchini and corn under running water — hold them carefully and scrub!" },
+      { num: "Task 2", text: "Help measure the dried oregano into the spoon and sprinkle it onto the chicken." },
+      { num: "Task 3", text: "Tear fresh parsley leaves off the stems and put them in the bowl." }
+    ]
+  },
+  {
+    name: "Shrimp Stir-Fry + Jasmine Rice",
+    macros: { p: 50, f: 12, c: 71 },
+    prepTime: "12 min prep",
+    cookTime: "15 min cook",
+    totalTime: "27 min",
+    servings: "4 servings",
+    ingredients: {
+      "Protein": [
+        { name: "Large shrimp, peeled & deveined", qty: "2 lbs (raw)" }
+      ],
+      "Produce": [
+        { name: "Broccoli florets", qty: "3 cups" },
+        { name: "Snap peas", qty: "1.5 cups" },
+        { name: "Carrots, thin-sliced", qty: "2 medium" },
+        { name: "Garlic, minced", qty: "3 cloves" },
+        { name: "Ginger, grated", qty: "1 tsp" }
+      ],
+      "Pantry": [
+        { name: "Jasmine rice", qty: "1 cup dry" },
+        { name: "Low-sodium soy sauce", qty: "3 tbsp" },
+        { name: "Cornstarch", qty: "1 tsp" },
+        { name: "Sesame oil", qty: "1 tsp (finishing only)" },
+        { name: "Avocado oil", qty: "1 tbsp cooking" }
+      ]
+    },
+    steps: [
+      { text: "Cook jasmine rice per package. Mix soy sauce + cornstarch in a small bowl — this is your sauce." },
+      { text: "Pat shrimp completely dry with paper towels.", tip: "Dry shrimp = seared shrimp. Any moisture steams the pan and prevents browning. This is the most important step." },
+      { text: "Heat ½ tbsp oil in a wok or large skillet over high heat until nearly smoking. Add shrimp in a single layer — cook 1.5 min per side. Remove." },
+      { text: "Add remaining ½ tbsp oil. Stir-fry carrots 2 min, then broccoli 2 min, then snap peas 1 min. Keep heat high.", tip: "High heat is the secret to a real stir-fry. Low heat just steams everything and turns vegetables soggy." },
+      { text: "Add garlic and ginger, cook 30 seconds. Return shrimp. Pour sauce over everything, toss 30 seconds to coat." },
+      { text: "Remove from heat. Drizzle 1 tsp sesame oil over the top — this adds aroma without extra cooking fat." }
+    ],
+    kidsTasks: [
+      { num: "Task 1", text: "Pull snap peas out of the bag and arrange them on a plate — count how many there are!" },
+      { num: "Task 2", text: "Help measure the rice into the measuring cup and pour it into the pot (with a grown-up's help)." },
+      { num: "Task 3", text: "Stir the soy sauce and cornstarch together in the little bowl with a spoon." }
+    ]
+  },
+  {
+    name: "Ground Turkey Taco Bowls",
+    macros: { p: 52, f: 13, c: 70 },
+    prepTime: "8 min prep",
+    cookTime: "20 min cook",
+    totalTime: "28 min",
+    servings: "4 servings",
+    ingredients: {
+      "Protein": [
+        { name: "Lean ground turkey (93/7)", qty: "2 lbs" }
+      ],
+      "Produce": [
+        { name: "Cherry tomatoes, halved", qty: "1.5 cups" },
+        { name: "Corn, fresh or frozen", qty: "1 cup" },
+        { name: "Lime, juiced", qty: "1" },
+        { name: "Cilantro (optional)", qty: "¼ cup" },
+        { name: "Garlic, minced", qty: "2 cloves" }
+      ],
+      "Pantry & Dairy": [
+        { name: "White rice", qty: "1 cup dry" },
+        { name: "Cumin", qty: "1.5 tsp" },
+        { name: "Chili powder (mild)", qty: "1 tsp — omit for toddlers" },
+        { name: "Non-fat plain Greek yogurt", qty: "4 tbsp (sour cream sub)" },
+        { name: "Olive oil", qty: "1 tbsp" }
+      ]
+    },
+    steps: [
+      { text: "Cook rice. Heat oil over medium-high. Add turkey, break apart, cook 6–7 minutes until no pink remains." },
+      { text: "Add garlic, cumin, mild chili powder (adults only — season toddler portions separately before adding). Cook 1 minute.", tip: "Season in layers. Salt the turkey as it cooks, then add spices. This builds depth instead of a flat, one-note flavor." },
+      { text: "Add corn and tomatoes, toss together, cook 3 more minutes." },
+      { text: "Squeeze lime over turkey mixture. Taste and adjust salt." },
+      { text: "Build bowls: rice base + turkey mixture. Top with Greek yogurt, cilantro. Toddlers: separate mild portions before adding spice." }
+    ],
+    kidsTasks: [
+      { num: "Task 1", text: "Pull cherry tomatoes off the vine and put them in a bowl — no eating until dinner!" },
+      { num: "Task 2", text: "Squeeze the lime with the squeezer (grown-up holds it steady, you push down)." },
+      { num: "Task 3", text: "Tear cilantro leaves and scatter them on top of each bowl like confetti." }
+    ]
+  },
+  {
+    name: "Baked Tilapia + Cherry Tomato Rice",
+    macros: { p: 49, f: 11, c: 69 },
+    prepTime: "5 min prep",
+    cookTime: "22 min cook",
+    totalTime: "27 min",
+    servings: "4 servings",
+    ingredients: {
+      "Protein": [
+        { name: "Tilapia fillets", qty: "4 × 7oz" }
+      ],
+      "Produce": [
+        { name: "Cherry tomatoes", qty: "2 cups" },
+        { name: "Garlic, sliced thin", qty: "3 cloves" },
+        { name: "Lemon", qty: "1, sliced into rounds" },
+        { name: "Fresh basil", qty: "¼ cup" }
+      ],
+      "Pantry": [
+        { name: "White rice", qty: "1 cup dry" },
+        { name: "Olive oil", qty: "1 tbsp total" },
+        { name: "Italian seasoning", qty: "1 tsp" },
+        { name: "Salt & pepper", qty: "to taste" }
+      ]
+    },
+    steps: [
+      { text: "Preheat oven to 400°F. Cook rice." },
+      { text: "Toss cherry tomatoes and garlic with ½ tbsp olive oil. Spread on one half of a sheet pan.", tip: "Roasting tomatoes intensifies their sweetness dramatically — 400°F is hot enough to blister and concentrate the flavor in under 20 minutes." },
+      { text: "Brush tilapia with remaining ½ tbsp olive oil. Season both sides. Place on other half of sheet pan. Lay lemon slices on top of fish." },
+      { text: "Roast everything together 18–20 minutes until fish flakes easily and tomatoes are blistered." },
+      { text: "Fold roasted tomatoes and their juices into cooked rice. Top with basil. Plate fish alongside." }
+    ],
+    kidsTasks: [
+      { num: "Task 1", text: "Wash the cherry tomatoes in a colander — let them roll around and shake it back and forth!" },
+      { num: "Task 2", text: "Tear basil leaves into small pieces and put them in a pile ready for the end." },
+      { num: "Task 3", text: "Help set the table while dinner bakes — this meal practically makes itself!" }
+    ]
+  }
+];
+
+const HEB_LIST = {
+  "Produce": [
+    { name: "Zucchini", qty: "2 medium", free: true },
+    { name: "Fresh corn (or frozen)", qty: "2 ears + 1 bag frozen", free: true },
+    { name: "Cherry tomatoes", qty: "32oz container", free: true },
+    { name: "Broccoli florets", qty: "12oz bag", free: true },
+    { name: "Snap peas", qty: "8oz bag", free: true },
+    { name: "Carrots", qty: "1 lb bag", free: true },
+    { name: "Fresh parsley + basil", qty: "1 bunch each", free: true },
+    { name: "Lemons", qty: "4", free: true },
+    { name: "Limes", qty: "2", free: true }
+  ],
+  "Protein": [
+    { name: "Large raw shrimp, peeled", qty: "2 lbs", free: true },
+    { name: "Tilapia fillets", qty: "4 × 7oz", free: true },
+    { name: "Ground turkey 93/7", qty: "2 lbs", free: true }
+  ],
+  "Dairy": [
+    { name: "Non-fat Greek yogurt (large tub)", qty: "32oz", free: true },
+    { name: "Low-fat cottage cheese", qty: "2 × 16oz", free: true }
+  ],
+  "Pantry": [
+    { name: "Jasmine rice", qty: "2 lb bag", free: true },
+    { name: "Low-sodium chicken broth", qty: "32oz carton", free: true },
+    { name: "Low-sodium soy sauce", qty: "1 bottle", free: true },
+    { name: "Cumin, chili powder (if low)", qty: "check pantry", free: true }
+  ],
+  "Bakery / Grains": [
+    { name: "Dave's Killer Bread Multigrain", qty: "1 loaf", free: true },
+    { name: "HEB granola", qty: "1 bag", free: true }
+  ]
+};
+
+const BREAKFAST_LIST = [
+  { name: "Strawberries", qty: "1 lb", free: true },
+  { name: "Blueberries", qty: "6oz + 1 pint", free: true },
+  { name: "Raspberries", qty: "6oz", free: true },
+  { name: "Bananas (for snack)", qty: "7 (1/day)", free: true },
+  { name: "Avocados", qty: "5–6", free: true }
+];
+
+const COSTCO_LIST = [
+  { name: "Egg whites (carton)", qty: "2 × 64oz", neededBy: "May 18", urgent: true },
+  { name: "Non-fat Greek yogurt (multi-pack)", qty: "4-pack", neededBy: "May 19", urgent: true },
+  { name: "Chicken breasts (frozen bulk)", qty: "6 lb bag", neededBy: "May 22", urgent: false },
+  { name: "Eggs (60-count)", qty: "1 flat", neededBy: "May 22", urgent: false },
+  { name: "Cottage cheese (multi-pack)", qty: "3-pack", neededBy: "May 25", urgent: false },
+  { name: "Dave's Killer Bread (2-pack)", qty: "2 loaves", neededBy: "May 24", urgent: false },
+  { name: "Olive oil (large)", qty: "1 jug", neededBy: "June 1", urgent: false },
+  { name: "Shrimp (frozen large bag)", qty: "3 lb bag", neededBy: "June 1", urgent: false }
+];
+
+// ═══════════════════════════════
+// RENDER FUNCTIONS
+// ═══════════════════════════════
+
+function renderMenu() {
+  const grid = document.getElementById('menuGrid');
+  const skylight = document.getElementById('skylightPreview');
+  
+  grid.innerHTML = WEEK_DATA.days.map((d, i) => `
+    <div class="day-card ${d.tag === 'prep' ? 'empty' : ''} ${d.date === new Date().getDate() ? 'today' : ''}" 
+         onclick="${d.recipe !== undefined ? `openRecipeModal(${d.recipe})` : ''}">
+      <div class="day-name">${d.day}</div>
+      <div class="day-date">${d.date}</div>
+      <div class="day-meal">${d.meal}</div>
+      <span class="day-meal-tag tag-${d.tag}">${d.tagLabel}</span>
+    </div>
+  `).join('');
+
+  // Skylight preview
+  const dinnerDays = WEEK_DATA.days.filter(d => d.recipe !== undefined);
+  skylight.innerHTML = dinnerDays.map(d => `
+    <div class="export-event">
+      <div class="export-day-label">${d.day} ${d.date}</div>
+      <div class="export-meal-name">${d.meal}</div>
+      <div class="export-time">6:30 PM · 30 min</div>
+    </div>
+  `).join('');
+}
+
+function renderRecipes() {
+  const grid = document.getElementById('recipeGrid');
+  grid.innerHTML = RECIPES.map((r, i) => `
+    <div class="recipe-card">
+      <div class="recipe-header">
+        <div class="recipe-title">${r.name}</div>
+        <div class="macro-badge">
+          <div class="macro-row">Dad's Macros</div>
+          <div class="macro-vals">${r.macros.p}P · ${r.macros.f}F · ${r.macros.c}C</div>
+        </div>
+      </div>
+      <div class="recipe-meta">
+        <div class="meta-item"><span class="meta-icon">⏱</span>${r.totalTime}</div>
+        <div class="meta-item"><span class="meta-icon">👨‍👩‍👧‍👦</span>${r.servings}</div>
+        <div class="meta-item"><span class="meta-icon">🍽</span>Family-friendly</div>
+      </div>
+      <div class="recipe-tabs">
+        <button class="recipe-tab active" onclick="switchRecipeTab(this, 'ingr-${i}')">Ingredients</button>
+        <button class="recipe-tab" onclick="switchRecipeTab(this, 'steps-${i}')">Steps &amp; Tips</button>
+        <button class="recipe-tab" onclick="switchRecipeTab(this, 'kids-${i}')">👶 Toddler Tasks</button>
+      </div>
+      <div class="recipe-panel active" id="ingr-${i}">
+        ${Object.entries(r.ingredients).map(([group, items]) => `
+          <div class="ingredient-group-label">${group}</div>
+          ${items.map(item => `
+            <div class="ingredient-item">
+              <span class="ingredient-name">${item.name}</span>
+              <span class="ingredient-qty">${item.qty}</span>
+            </div>
+          `).join('')}
+        `).join('')}
+      </div>
+      <div class="recipe-panel" id="steps-${i}">
+        ${r.steps.map((s, si) => `
+          <div class="step-item">
+            <div class="step-num">${si + 1}</div>
+            <div>
+              <div class="step-text">${s.text}</div>
+              ${s.tip ? `<div class="pro-tip"><strong>Pro Tip</strong><br>${s.tip}</div>` : ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+      <div class="recipe-panel" id="kids-${i}">
+        <div class="kids-header">
+          <div class="kids-icon">👶</div>
+          <div class="kids-title">Toddler Kitchen Helpers</div>
+        </div>
+        ${r.kidsTasks.map(t => `
+          <div class="kids-task">
+            <div class="kids-task-num">${t.num}</div>
+            <div class="kids-task-text">${t.text}</div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderGrocery() {
+  const heb = document.getElementById('hebList');
+  heb.innerHTML = Object.entries(HEB_LIST).map(([section, items]) => `
+    <div class="grocery-section-label">${section}</div>
+    ${items.map((item, i) => `
+      <div class="grocery-item" id="heb-item-${section}-${i}">
+        <div class="grocery-check" onclick="toggleCheck(this, 'heb-name-${section}-${i}')"></div>
+        <div class="grocery-item-name" id="heb-name-${section}-${i}">${item.name}</div>
+        <div class="grocery-item-qty">${item.qty}</div>
+        ${item.free ? '<span class="curbside-note free-pickup">Free pickup</span>' : ''}
+      </div>
+    `).join('')}
+  `).join('');
+
+  const breakfast = document.getElementById('breakfastList');
+  breakfast.innerHTML = BREAKFAST_LIST.map((item, i) => `
+    <div class="grocery-item">
+      <div class="grocery-check" onclick="toggleCheck(this, 'b-name-${i}')"></div>
+      <div class="grocery-item-name" id="b-name-${i}">${item.name}</div>
+      <div class="grocery-item-qty">${item.qty}</div>
+      ${item.free ? '<span class="curbside-note free-pickup">Free pickup</span>' : ''}
+    </div>
+  `).join('');
+}
+
+function renderCostco() {
+  const list = document.getElementById('costcoList');
+  list.innerHTML = COSTCO_LIST.map((item, i) => `
+    <div class="grocery-item">
+      <div class="grocery-check" onclick="toggleCheck(this, 'c-name-${i}')"></div>
+      <div class="grocery-item-name" id="c-name-${i}">${item.name}</div>
+      <div class="grocery-item-qty">${item.qty}</div>
+      <span class="costco-needed-by" style="${item.urgent ? 'color:var(--rust)' : 'color:var(--ink-muted)'}">${item.urgent ? '⚠ ' : ''}By ${item.neededBy}</span>
+    </div>
+  `).join('');
+}
+
+// ═══════════════════════════════
+// INTERACTIONS
+// ═══════════════════════════════
+
+function switchTab(tabId, btn) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + tabId).classList.add('active');
+  btn.classList.add('active');
+}
+
+function switchRecipeTab(btn, panelId) {
+  const card = btn.closest('.recipe-card');
+  card.querySelectorAll('.recipe-tab').forEach(b => b.classList.remove('active'));
+  card.querySelectorAll('.recipe-panel').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById(panelId).classList.add('active');
+}
+
+function toggleCheck(el, nameId) {
+  el.classList.toggle('checked');
+  el.innerHTML = el.classList.contains('checked') ? '✓' : '';
+  const nameEl = document.getElementById(nameId);
+  if (nameEl) nameEl.classList.toggle('checked-name');
+}
+
+function exportGroceryList() {
+  let text = "MAXWELL FAMILY — HEB GROCERY LIST\n";
+  text += "Week of " + WEEK_DATA.label + "\n\n";
+  Object.entries(HEB_LIST).forEach(([section, items]) => {
+    text += "── " + section.toUpperCase() + " ──\n";
+    items.forEach(i => text += `• ${i.name} — ${i.qty}\n`);
+    text += "\n";
+  });
+  text += "── BREAKFAST PRODUCE ──\n";
+  BREAKFAST_LIST.forEach(i => text += `• ${i.name} — ${i.qty}\n`);
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'maxwell-grocery-list.txt';
+  a.click();
+}
+
+function showSkylight() {
+  alert("Skylight export: The \"Weekly Menu\" Google Calendar events listed in the preview below will be written by the agent each Saturday. They sync automatically to your Skylight app within minutes. No manual action needed once setup is complete.");
+}
+
+function openRecipeModal(idx) {
+  // Mobile/detail view — scroll to recipe tab and highlight
+  switchTab('recipes', document.querySelectorAll('.nav-tab')[1]);
+  setTimeout(() => {
+    const cards = document.querySelectorAll('.recipe-card');
+    if (cards[idx]) {
+      cards[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      cards[idx].style.boxShadow = '0 0 0 3px var(--rust)';
+      setTimeout(() => cards[idx].style.boxShadow = '', 2000);
+    }
+  }, 100);
+}
+
+// ═══════════════════════════════
+// LIVE DATA FETCH
+// ═══════════════════════════════
+
+const LIVE_DATA_URL = 'https://maxwell-meal-plan.netlify.app/weekly_data.json';
+
+async function loadLiveData() {
+  try {
+    const statusBar = document.querySelector('.agent-status-text');
+    if (statusBar) statusBar.innerHTML = '<strong>Agent Status:</strong> Loading latest data...';
+
+    const response = await fetch(LIVE_DATA_URL);
+    if (!response.ok) throw new Error('Fetch failed');
+
+    const raw = await response.text();
+
+    // Parse outer API wrapper
+    const apiResponse = JSON.parse(raw);
+
+    // Extract text content from Claude response
+    let textContent = '';
+    if (apiResponse.content && Array.isArray(apiResponse.content)) {
+      const textBlock = apiResponse.content.find(b => b.type === 'text');
+      if (textBlock) textContent = textBlock.text;
+    }
+
+    // Strip markdown code fences if present
+    textContent = textContent.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+
+    // Parse the actual recipe JSON
+    const liveData = JSON.parse(textContent);
+
+    // Update WEEK_DATA if present
+    if (liveData.week_label) {
+      WEEK_DATA.label = liveData.week_label;
+      document.getElementById('weekBannerLabel').textContent = liveData.week_label;
+    }
+    if (liveData.seasonal_tags && liveData.seasonal_tags.length) {
+      const flags = document.getElementById('weekFlags');
+      flags.innerHTML = liveData.seasonal_tags.slice(0,3).map(t => 
+        `<span class="flag-chip">${t}</span>`
+      ).join('');
+    }
+
+    // Update recipes if present
+    if (liveData.recipes && liveData.recipes.length) {
+      RECIPES.length = 0;
+      liveData.recipes.forEach(r => {
+        RECIPES.push({
+          name: r.name || 'Recipe',
+          macros: r.macros || { p: 50, f: 12, c: 70 },
+          prepTime: r.prep_time || '',
+          cookTime: r.cook_time || '',
+          totalTime: r.prep_time || '',
+          servings: '4 servings',
+          ingredients: r.ingredients ? { 'Ingredients': r.ingredients.map(i => ({ name: i, qty: '' })) } : {},
+          steps: r.steps ? r.steps.map(s => ({ text: s })) : [],
+          kidsTasks: r.kids_tasks ? r.kids_tasks.map((t, i) => ({ num: `Task ${i+1}`, text: t })) : []
+        });
+      });
+
+      // Update menu days with live recipes
+      WEEK_DATA.days = WEEK_DATA.days.map((d, i) => {
+        if (d.recipe !== undefined && RECIPES[d.recipe]) {
+          return { ...d, meal: RECIPES[d.recipe].name };
+        }
+        return d;
+      });
+    }
+
+    // Update grocery list if present
+    if (liveData.grocery_preview) {
+      Object.keys(liveData.grocery_preview).forEach(section => {
+        const items = liveData.grocery_preview[section];
+        if (Array.isArray(items) && items.length) {
+          HEB_LIST[section] = items.map(item => ({
+            name: typeof item === 'string' ? item : item.name,
+            qty: typeof item === 'object' ? (item.qty || item.quantity || '') : '',
+            free: true
+          }));
+        }
+      });
+    }
+
+    // Re-render everything with live data
+    renderMenu();
+    renderRecipes();
+    renderGrocery();
+    renderCostco();
+
+    if (statusBar) {
+      const now = new Date();
+      statusBar.innerHTML = `<strong>Agent Status:</strong> Live data loaded successfully. Last updated: ${now.toLocaleDateString()} at ${now.toLocaleTimeString()}`;
+    }
+
+  } catch (err) {
+    console.warn('Live data load failed, using sample data:', err);
+    const statusBar = document.querySelector('.agent-status-text');
+    if (statusBar) statusBar.innerHTML = '<strong>Agent Status:</strong> Using sample data — live data will load after Friday agent run.';
+    // Fall back to sample data render
+    renderMenu();
+    renderRecipes();
+    renderGrocery();
+    renderCostco();
+  }
+}
+
+// ═══════════════════════════════
+// INIT
+// ═══════════════════════════════
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Set live date label
+  const now = new Date();
+  const startOfWeek = new Date(now);
+  startOfWeek.setDate(now.getDate() - now.getDay() + 1);
+  document.getElementById('currentDateLabel').textContent = 'Week of May ' + startOfWeek.getDate();
+
+  // Try to load live agent data first, fall back to sample data
+  loadLiveData();
+});
+</script>
+
+</body>
+</html>
