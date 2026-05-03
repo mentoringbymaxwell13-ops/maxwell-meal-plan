@@ -1,226 +1,220 @@
 null
 {
-  "week_label": "Maxwell Family Meal Plan – May, Houston TX",
+  "week_label": "Maxwell Family Meal Plan – Houston TX, May",
   "seasonal_tags": ["blueberries", "corn", "zucchini", "cherry tomatoes", "peaches"],
   "recipes": [
     {
       "id": 1,
-      "name": "Grilled Chicken Breast with Sweet Corn and Zucchini Rice Bowl",
+      "name": "Grilled Chicken Breast with Sweet Corn and Zucchini Rice",
       "macros": {
         "protein_g": 51,
         "fat_g": 11,
         "carbs_g": 69
       },
-      "prep_time": "15 minutes",
-      "cook_time": "25 minutes",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving",
-        "1.5 cups cooked white rice per serving",
+        "7.5 oz boneless skinless chicken breast per adult (3.5 oz per toddler)",
+        "1.5 cups long grain white rice (dry, serves 4)",
         "1 ear fresh corn, kernels cut off",
         "1 medium zucchini, diced small",
-        "1 cup cherry tomatoes, halved",
-        "2 tsp olive oil (total for pan, divided across 4 servings)",
+        "1 tbsp olive oil (total for entire recipe)",
         "1/2 tsp garlic powder",
         "1/2 tsp onion powder",
         "Salt to taste",
-        "1 tbsp unsalted butter (total, divided across 4 servings)"
+        "1/4 cup low sodium chicken broth"
       ],
       "steps": [
-        "Cook white rice according to package directions to yield 6 cups total cooked rice.",
-        "Pat chicken breasts dry and season lightly with garlic powder, onion powder, and a pinch of salt.",
-        "Heat 1 tsp olive oil in a large skillet over medium heat. Cook chicken breasts 6-7 minutes per side until internal temperature reaches 165°F. Rest 5 minutes, then slice.",
-        "In the same skillet, add remaining 1 tsp olive oil and 1 tbsp butter over medium heat.",
-        "Add zucchini and corn kernels. Cook 4-5 minutes, stirring occasionally, until tender and lightly golden.",
-        "Add cherry tomatoes and cook 2 minutes more until they just begin to soften.",
-        "Season vegetables lightly with salt.",
-        "Serve sliced chicken over rice, topped with the corn and zucchini mixture."
+        "Cook 1.5 cups white rice in 3 cups water with a pinch of salt according to package directions.",
+        "While rice cooks, pound chicken breasts to even thickness of about 3/4 inch.",
+        "Brush chicken lightly with half the olive oil and season with garlic powder, onion powder, and salt.",
+        "Heat a nonstick skillet or grill pan over medium heat. Cook chicken 6-7 minutes per side until internal temp reaches 165°F. Rest 5 minutes then slice.",
+        "In a separate pan, heat remaining olive oil over medium heat. Add zucchini and corn kernels. Cook 5 minutes stirring occasionally.",
+        "Add chicken broth to zucchini corn mixture and cook 2 more minutes until tender.",
+        "Fold zucchini and corn into cooked rice. Serve alongside sliced chicken."
       ],
       "kids_tasks": [
-        "Toddlers can rinse cherry tomatoes in a colander with supervision.",
-        "Toddlers can help pour pre-measured rice into the pot with adult help.",
-        "Older toddler can help stir the vegetables in the pan with a long spoon while standing on a step stool with adult supervision."
+        "Toddlers can help rinse the rice in a strainer with supervision.",
+        "Older toddler can use a butter knife to cut soft cooked zucchini pieces at the table.",
+        "Kids can help stir the corn and zucchini into the rice bowl."
       ]
     },
     {
       "id": 2,
-      "name": "Baked Chicken Breast with Peach Glaze over Buttered Pasta",
-      "macros": {
-        "protein_g": 50,
-        "fat_g": 12,
-        "carbs_g": 70
-      },
-      "prep_time": "10 minutes",
-      "cook_time": "30 minutes",
-      "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving",
-        "2 ripe fresh peaches, peeled and finely diced",
-        "2 tbsp honey",
-        "1/2 tsp garlic powder",
-        "Salt to taste",
-        "6 oz dry penne pasta (yields approximately 1.5 cups cooked per serving)",
-        "1 tbsp unsalted butter (total, divided across 4 servings)",
-        "1 tsp olive oil",
-        "Fresh cherry tomatoes, halved, for serving (optional garnish)"
-      ],
-      "steps": [
-        "Preheat oven to 400°F.",
-        "In a small saucepan, combine diced peaches, honey, and a pinch of salt. Cook over medium-low heat 8-10 minutes, stirring occasionally, until peaches break down into a thick sauce.",
-        "Season chicken breasts lightly with garlic powder and salt. Place in a baking dish lightly coated with 1 tsp olive oil.",
-        "Spoon peach glaze evenly over each chicken breast.",
-        "Bake 22-25 minutes until internal temperature reaches 165°F.",
-        "While chicken bakes, cook pasta according to package directions. Drain and toss immediately with 1 tbsp butter and a pinch of salt.",
-        "Slice chicken and serve over buttered pasta. Spoon any remaining pan glaze over the top.",
-        "Garnish plates with halved cherry tomatoes if desired."
-      ],
-      "kids_tasks": [
-        "Toddlers can help peel peach slices handed to them after adult scores the skin.",
-        "Toddlers can stir the pasta with a big spoon in the pot with adult supervision.",
-        "Older toddler can help spoon peach glaze onto the chicken breasts in the baking dish."
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Chicken and Zucchini Quesadillas with Corn and Cherry Tomato Salsa",
+      "name": "Baked Chicken Breast with Cherry Tomato Pasta",
       "macros": {
         "protein_g": 50,
         "fat_g": 12,
         "carbs_g": 71
       },
-      "prep_time": "20 minutes",
-      "cook_time": "20 minutes",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
       "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving, cooked and shredded",
-        "4 large (10-inch) flour tortillas",
-        "1 medium zucchini, shredded and excess moisture squeezed out",
-        "3/4 cup shredded mild cheddar cheese (total for 4 servings)",
-        "1 ear fresh corn, kernels cut off",
-        "1 cup cherry tomatoes, finely diced",
-        "1 tsp olive oil for cooking",
-        "1 tsp garlic powder",
+        "7.5 oz boneless skinless chicken breast per adult (3.5 oz per toddler)",
+        "6 oz dry whole wheat rotini pasta (serves 4)",
+        "1 cup cherry tomatoes, halved",
+        "1 tbsp olive oil (total for entire recipe)",
+        "1/2 tsp garlic powder",
+        "1/2 tsp dried basil",
         "Salt to taste",
-        "1 tbsp unsalted butter (total)"
+        "1/4 cup shredded mozzarella cheese (low moisture part skim)",
+        "1/4 cup low sodium chicken broth"
       ],
       "steps": [
-        "Season chicken breasts with garlic powder and salt. In a skillet with 1 tsp olive oil, cook chicken over medium heat 6-7 minutes per side until 165°F internal temperature. Let cool slightly, then shred with two forks.",
-        "Mix shredded chicken with squeezed-dry zucchini and a pinch of salt.",
-        "Make the corn salsa: combine raw corn kernels, diced cherry tomatoes, and a pinch of salt. Stir and set aside.",
-        "Lay a tortilla flat. On one half, layer shredded chicken and zucchini mixture, then a sprinkle of cheddar cheese. Fold tortilla in half.",
-        "Melt a small amount of the 1 tbsp butter in a clean skillet over medium-low heat. Cook quesadilla 2-3 minutes per side until golden and cheese is melted. Repeat for remaining quesadillas.",
-        "Cut each quesadilla into wedges and serve with corn salsa on the side."
+        "Preheat oven to 400°F. Line a baking sheet with foil.",
+        "Season chicken breasts with garlic powder, basil, and salt. Place on baking sheet and bake 20-22 minutes until internal temp is 165°F.",
+        "While chicken bakes, cook pasta according to package directions. Reserve 1/4 cup pasta water before draining.",
+        "In the same pasta pot, heat olive oil over medium-low heat. Add cherry tomatoes and cook 4-5 minutes until they soften and burst slightly.",
+        "Add chicken broth and reserved pasta water. Stir gently. Add drained pasta and toss to coat.",
+        "Slice rested chicken and serve over pasta. Top each adult plate with 1 tablespoon mozzarella. Serve toddler portions plain or with cheese melted on top."
       ],
       "kids_tasks": [
-        "Toddlers can help sprinkle shredded cheese onto the tortilla.",
-        "Toddlers can help stir the corn and tomato salsa in a bowl.",
-        "Older toddler can help fold the tortilla in half before it goes in the pan."
+        "Toddlers can help rinse cherry tomatoes in a colander.",
+        "Kids can sprinkle cheese on their own plates.",
+        "Older toddler can help stir the pasta with a large spoon."
       ]
     },
     {
-      "id": 4,
-      "name": "Chicken Breast and Cherry Tomato Pasta with Zucchini",
+      "id": 3,
+      "name": "Honey Peach Glazed Chicken with Corn and White Rice",
       "macros": {
         "protein_g": 51,
         "fat_g": 11,
         "carbs_g": 70
       },
       "prep_time": "15 minutes",
-      "cook_time": "25 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving",
-        "6 oz dry rotini pasta (yields approximately 1.5 cups cooked per serving)",
-        "1.5 cups cherry tomatoes, halved",
-        "1 medium zucchini, diced small",
+        "7.5 oz boneless skinless chicken breast per adult (3.5 oz per toddler)",
+        "1.5 cups white jasmine rice (dry, serves 4)",
+        "1 fresh peach, peeled and diced small",
+        "1 ear fresh corn, kernels cut off",
         "1 tbsp olive oil (total for entire recipe)",
-        "1/2 tsp garlic powder",
-        "1/4 tsp onion powder",
+        "1 tbsp honey",
+        "1/4 tsp garlic powder",
         "Salt to taste",
-        "2 tbsp grated Parmesan cheese (total, divided across 4 servings)",
-        "1/2 cup low-sodium chicken broth"
+        "1/4 cup low sodium chicken broth"
       ],
       "steps": [
-        "Cook rotini pasta according to package directions. Reserve 1/4 cup pasta water before draining.",
-        "Season chicken breasts with garlic powder, onion powder, and a pinch of salt.",
-        "Heat 1 tsp of the olive oil in a large skillet over medium heat. Cook chicken 6-7 minutes per side until 165°F. Remove and slice.",
-        "In the same skillet, add remaining 2 tsp olive oil over medium heat. Add zucchini and cook 3 minutes.",
-        "Add cherry tomatoes and cook 3-4 minutes until tomatoes begin to burst and release their juice.",
-        "Add chicken broth and reserved pasta water. Stir and cook 2 minutes until a light sauce forms.",
-        "Toss drained pasta in the skillet with the vegetable sauce.",
-        "Plate pasta and top with sliced chicken. Finish with a light sprinkle of Parmesan cheese per serving."
+        "Cook jasmine rice in 3 cups water with a pinch of salt. Bring to boil, reduce heat, cover and simmer 15 minutes.",
+        "In a small bowl, stir together diced peach, honey, chicken broth, and garlic powder to make glaze.",
+        "Season chicken with salt. Heat olive oil in a nonstick skillet over medium heat.",
+        "Add chicken and cook 6 minutes on first side. Flip chicken, pour peach glaze over top, and cook another 6-7 minutes basting occasionally until internal temp is 165°F.",
+        "Remove chicken and let rest 5 minutes. In the same pan, add corn kernels and cook in remaining glaze for 3-4 minutes.",
+        "Stir corn into cooked rice. Slice chicken and serve over corn rice with extra glaze spooned on top for adults."
       ],
       "kids_tasks": [
-        "Toddlers can wash the cherry tomatoes in a colander with supervision.",
-        "Toddlers can help sprinkle Parmesan cheese on the finished plates.",
-        "Older toddler can help stir the pasta into the sauce with a long spoon."
+        "Toddlers can help peel the cooked peach pieces with fingers.",
+        "Kids can drizzle honey into the measuring spoon (with help).",
+        "Older toddler can stir corn into the rice bowl."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chicken and Zucchini Stir Fry over Brown Rice",
+      "macros": {
+        "protein_g": 50,
+        "fat_g": 12,
+        "carbs_g": 68
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
+      "ingredients": [
+        "7.5 oz boneless skinless chicken breast per adult (3.5 oz per toddler), cut into 1-inch cubes",
+        "1.5 cups brown rice (dry, serves 4)",
+        "2 medium zucchini, sliced into half moons",
+        "1 cup cherry tomatoes, halved",
+        "1 tbsp olive oil (total for entire recipe)",
+        "2 tbsp low sodium soy sauce",
+        "1 tbsp honey",
+        "1/2 tsp garlic powder",
+        "1 tbsp cornstarch",
+        "1/4 cup water"
+      ],
+      "steps": [
+        "Cook brown rice according to package directions, approximately 25 minutes.",
+        "In a small bowl, whisk together soy sauce, honey, garlic powder, cornstarch, and water to make sauce. Set aside.",
+        "Heat half the olive oil in a large nonstick skillet over medium-high heat. Add chicken cubes and cook 6-8 minutes turning occasionally until cooked through to 165°F. Remove and set aside.",
+        "Add remaining olive oil to same pan. Add zucchini and cook 4 minutes until just tender.",
+        "Add cherry tomatoes and cook 2 minutes until they begin to soften.",
+        "Return chicken to pan, pour sauce over everything, and toss to coat. Cook 2 more minutes until sauce thickens.",
+        "Serve chicken stir fry over brown rice. For toddlers, cut chicken pieces smaller and ensure vegetables are well cooked and soft."
+      ],
+      "kids_tasks": [
+        "Toddlers can wash the cherry tomatoes.",
+        "Kids can help measure and pour the water.",
+        "Older toddler can help stir the sauce ingredients together in a bowl."
       ]
     },
     {
       "id": 5,
-      "name": "Sheet Pan Chicken Breast with Corn, Zucchini, and Blueberry Couscous",
+      "name": "Lemon Chicken Breast with Blueberry Couscous and Zucchini",
       "macros": {
-        "protein_g": 50,
-        "fat_g": 12,
-        "carbs_g": 69
+        "protein_g": 51,
+        "fat_g": 11,
+        "carbs_g": 71
       },
-      "prep_time": "15 minutes",
-      "cook_time": "25 minutes",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving",
-        "1.5 cups cooked couscous per serving (use 1.5 cups dry couscous total)",
-        "1 ear fresh corn, kernels cut off",
-        "1 medium zucchini, sliced into half-moons",
+        "7.5 oz boneless skinless chicken breast per adult (3.5 oz per toddler)",
+        "1.5 cups dry whole wheat couscous (serves 4)",
+        "1.5 cups low sodium chicken broth (for cooking couscous)",
         "1/2 cup fresh blueberries",
-        "2 tsp olive oil (total for sheet pan)",
+        "1 medium zucchini, diced small",
+        "1 tbsp olive oil (total for entire recipe)",
+        "Juice of 1 lemon",
         "1/2 tsp garlic powder",
-        "1/4 tsp onion powder",
         "Salt to taste",
-        "1 tbsp unsalted butter (for couscous)",
-        "1.5 cups low-sodium chicken broth (for cooking couscous)"
+        "1 tbsp honey"
       ],
       "steps": [
-        "Preheat oven to 425°F. Line a large sheet pan with foil and lightly coat with 1 tsp olive oil.",
-        "Season chicken breasts with garlic powder, onion powder, and a pinch of salt. Place on one side of the sheet pan.",
-        "Toss zucchini and corn kernels with remaining 1 tsp olive oil and a pinch of salt. Spread on the other side of the sheet pan.",
-        "Roast everything together for 22-25 minutes, until chicken reaches 165°F and vegetables are lightly browned. Flip vegetables halfway through.",
-        "While chicken cooks, bring 1.5 cups chicken broth to a boil in a small saucepan. Remove from heat, add 1.5 cups dry couscous and 1 tbsp butter. Stir, cover, and let sit 5 minutes. Fluff with a fork.",
-        "Gently fold fresh blueberries into the warm couscous just before serving.",
-        "Slice chicken and serve over blueberry couscous with roasted corn and zucchini on the side."
+        "Bring chicken broth to a boil in a medium saucepan. Stir in couscous, remove from heat, cover and let stand 5 minutes. Fluff with a fork.",
+        "While couscous rests, heat half the olive oil in a nonstick skillet over medium heat.",
+        "Season chicken with garlic powder and salt. Cook 6-7 minutes per side until internal temp reaches 165°F. Remove and rest 5 minutes.",
+        "In same pan, add remaining olive oil and diced zucchini. Cook 4-5 minutes until tender.",
+        "In a small bowl, stir together lemon juice and honey. Drizzle half over zucchini in pan and toss.",
+        "Fold cooked zucchini and fresh blueberries gently into couscous.",
+        "Slice chicken and serve over blueberry couscous. Drizzle remaining lemon honey over adult portions. Serve toddler portions without extra drizzle if preferred."
       ],
       "kids_tasks": [
-        "Toddlers can rinse blueberries in a colander with supervision.",
-        "Toddlers can help fluff the couscous with a fork with adult guidance.",
-        "Older toddler can help spread vegetables on the sheet pan before it goes in the oven."
+        "Toddlers can gently rinse blueberries in a small strainer.",
+        "Kids can help fluff the couscous with a fork.",
+        "Older toddler can place blueberries into the couscous bowl one by one."
       ]
     }
   ],
   "grocery_preview": {
     "grouped_by_section": {
       "Produce": [
-        "Boneless skinless chicken breasts (approx. 3.5 lbs total for 4 servings x 5 meals)",
-        "4 ears fresh corn",
-        "3 medium zucchini",
-        "2 pints cherry tomatoes",
-        "3 ripe peaches",
-        "1 pint fresh blueberries"
+        "Boneless skinless chicken breast – approximately 3.5 lbs total",
+        "4 ears fresh corn (or 2 cups kernels)",
+        "4 medium zucchini",
+        "2 cups cherry tomatoes",
+        "2 fresh peaches",
+        "1 cup fresh blueberries",
+        "1 lemon"
       ],
       "Protein": [
-        "Boneless skinless chicken breasts (approx. 3.5 lbs – listed here as primary protein source)"
+        "Boneless skinless chicken breast – approximately 3.5 lbs total"
       ],
       "Dairy": [
-        "Unsalted butter (1 stick)",
-        "Shredded mild cheddar cheese (1 bag, 8 oz)",
-        "Grated Parmesan cheese (small container)"
+        "1/4 cup shredded low moisture part skim mozzarella cheese"
       ],
       "Pantry": [
-        "White rice (1 bag, 2 lbs)",
-        "Penne pasta (1 box, 1 lb)",
-        "Rotini pasta (1 box, 1 lb)",
-        "Large flour tortillas (1 package of 8, 10-inch)",
-        "Dry couscous (1 box, 10 oz)",
-        "Olive oil",
-        "Unsalted butter (already listed under Dairy)",
+        "Long grain white rice – 1.5 cups dry",
+        "Jasmine white rice – 1.5 cups dry",
+        "Brown rice – 1.5 cups dry",
+        "Whole wheat rotini pasta – 6 oz dry",
+        "Whole wheat couscous – 1.5 cups dry",
+        "Olive oil – 1 small bottle",
+        "Low sodium chicken broth – 32 oz carton",
+        "Low sodium soy sauce – small bottle",
+        "Honey – small bottle",
+        "Cornstarch – small box",
         "Garlic powder",
         "Onion powder",
-        "Honey (small bottle)",
-        "Low-sodium chicken broth (2 cartons, 32 oz each)",
+        "Dried basil",
         "Salt"
       ]
     }
