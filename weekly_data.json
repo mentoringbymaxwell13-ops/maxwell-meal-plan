@@ -1,0 +1,345 @@
+null
+{
+  "week_label": "Maxwell Family Dinners — Week of May 2025 (Hotel Stay: AC Hotel Dallas by the Galleria)",
+  "seasonal_tags": [
+    "Texas May Seasonal",
+    "Houston TX In-Season",
+    "Zucchini",
+    "Yellow Squash",
+    "Peaches",
+    "Tomatoes",
+    "Corn",
+    "Okra",
+    "Blackberries",
+    "Cucumbers",
+    "Bell Peppers"
+  ],
+  "notes": {
+    "warning": "NUTRITION REFERENCE document was not attached or was empty in this request. Macros below are placeholders built on standard balanced-family targets (approx 500–650 kcal, 35–45g protein, 45–55g carbs, 18–25g fat per adult serving). Please resubmit with the nutrition reference document to generate fully compliant values.",
+    "hotel_flag": "Family is staying at AC Hotel Dallas by the Galleria during part of the 14-day window. Recipes 1–5 are designed for home preparation before or after the hotel stay. No hotel-kitchen recipes are included."
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Sheet-Pan Lemon Herb Chicken Thighs with Texas Corn and Zucchini",
+      "macros": {
+        "serving_size": "1 adult plate (approx 420g)",
+        "calories": 610,
+        "protein_g": 42,
+        "carbs_g": 48,
+        "fat_g": 22,
+        "fiber_g": 6,
+        "sugar_g": 8,
+        "sodium_mg": 680
+      },
+      "prep_time": "15 min",
+      "cook_time": "35 min",
+      "total_time": "50 min",
+      "servings": 4,
+      "ingredients": [
+        "8 bone-in, skin-on chicken thighs (~3 lbs), trimmed",
+        "3 ears fresh Texas sweet corn, husked and cut into thirds",
+        "2 medium zucchini, sliced into 1/2-inch half-moons",
+        "1 large yellow bell pepper, cut into strips",
+        "3 tbsp H-E-B olive oil",
+        "2 lemons (zest + juice of 1, 1 sliced into rounds)",
+        "4 cloves garlic, minced",
+        "1 tbsp fresh thyme leaves (or 1 tsp dried)",
+        "1 tbsp fresh rosemary, minced",
+        "1 tsp smoked paprika",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "2 tbsp fresh flat-leaf parsley, chopped (garnish)"
+      ],
+      "steps": [
+        "Preheat oven to 425°F. Line a large rimmed baking sheet with foil and lightly coat with cooking spray.",
+        "In a small bowl, whisk together olive oil, lemon zest, lemon juice, garlic, thyme, rosemary, smoked paprika, salt, and pepper.",
+        "Pat chicken thighs dry with paper towels. Rub half the herb mixture all over the chicken, including under the skin.",
+        "Arrange chicken thighs skin-side up in the center of the baking sheet.",
+        "Toss corn, zucchini, and bell pepper with the remaining herb mixture. Scatter vegetables around the chicken. Lay lemon slices over vegetables.",
+        "Roast for 30–35 minutes until chicken skin is golden and crispy and internal temperature reaches 165°F.",
+        "Rest 5 minutes. Garnish with fresh parsley and serve directly from the pan."
+      ],
+      "kids_tasks": [
+        "Husk the corn ears and hand pieces to an adult for cutting",
+        "Toss vegetables in the bowl with the herb mixture",
+        "Scatter lemon slices on the baking sheet",
+        "Sprinkle parsley garnish before serving"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gulf Shrimp Tacos with Peach-Jalapeño Salsa and Cabbage Slaw",
+      "macros": {
+        "serving_size": "2 tacos (approx 380g)",
+        "calories": 530,
+        "protein_g": 36,
+        "carbs_g": 54,
+        "fat_g": 18,
+        "fiber_g": 7,
+        "sugar_g": 12,
+        "sodium_mg": 720
+      },
+      "prep_time": "20 min",
+      "cook_time": "10 min",
+      "total_time": "30 min",
+      "servings": 4,
+      "ingredients": [
+        "1.5 lbs large Gulf shrimp, peeled and deveined",
+        "8 H-E-B street-size corn tortillas (6-inch)",
+        "2 ripe Texas peaches, diced small",
+        "1 jalapeño, seeded and finely diced",
+        "1/4 red onion, finely diced",
+        "1/4 cup fresh cilantro, chopped",
+        "Juice of 2 limes, divided",
+        "2 cups green cabbage, thinly shredded",
+        "1/2 cup H-E-B plain Greek yogurt (sub for sour cream)",
+        "1 tbsp honey",
+        "1 tsp chili powder",
+        "1 tsp cumin",
+        "1/2 tsp garlic powder",
+        "1/2 tsp kosher salt",
+        "1 tbsp avocado oil",
+        "1 ripe avocado, sliced"
+      ],
+      "steps": [
+        "Make the peach salsa: combine diced peaches, jalapeño, red onion, cilantro, and juice of 1 lime. Season with a pinch of salt. Refrigerate until ready to serve.",
+        "Make the slaw: toss shredded cabbage with Greek yogurt, honey, juice of remaining lime, and a pinch of salt. Set aside.",
+        "Season shrimp with chili powder, cumin, garlic powder, and salt.",
+        "Heat avocado oil in a large skillet or cast-iron pan over medium-high heat. Cook shrimp 2–3 minutes per side until pink and opaque. Do not overcrowd; cook in batches if needed.",
+        "Warm tortillas directly over a gas flame 20 seconds per side or in a dry skillet.",
+        "Assemble tacos: slaw base, 3–4 shrimp, peach salsa, avocado slices.",
+        "Serve immediately with lime wedges."
+      ],
+      "kids_tasks": [
+        "Dice the peaches with a kid-safe knife under supervision",
+        "Mix the cabbage slaw in a large bowl",
+        "Assemble their own tacos",
+        "Squeeze lime wedges over finished tacos"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "One-Pot Turkey and Black Bean Stuffed Bell Peppers with Mexican Rice",
+      "macros": {
+        "serving_size": "2 stuffed pepper halves + 1/2 cup rice (approx 460g)",
+        "calories": 580,
+        "protein_g": 40,
+        "carbs_g": 52,
+        "fat_g": 19,
+        "fiber_g": 9,
+        "sodium_mg": 740
+      },
+      "prep_time": "20 min",
+      "cook_time": "40 min",
+      "total_time": "60 min",
+      "servings": 4,
+      "ingredients": [
+        "4 large bell peppers (mixed red, yellow, orange), halved lengthwise, seeds removed",
+        "1 lb H-E-B 93% lean ground turkey",
+        "1 can (15 oz) H-E-B black beans, drained and rinsed",
+        "1 can (14.5 oz) H-E-B fire-roasted diced tomatoes",
+        "1 cup H-E-B long-grain white rice",
+        "2 cups low-sodium chicken broth",
+        "1 cup fresh or frozen corn kernels",
+        "1 medium yellow onion, diced",
+        "3 cloves garlic, minced",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1/2 tsp smoked paprika",
+        "1 tsp kosher salt",
+        "1 tbsp avocado oil",
+        "1 cup H-E-B shredded Mexican cheese blend",
+        "Fresh cilantro and lime wedges for serving"
+      ],
+      "steps": [
+        "Preheat oven to 375°F. Lightly oil a 9x13 baking dish.",
+        "Cook rice in chicken broth per package instructions. Set aside.",
+        "In a large skillet over medium heat, sauté onion in avocado oil 3–4 minutes until soft. Add garlic and cook 1 minute.",
+        "Add ground turkey and cook through, breaking up with a spoon, about 7 minutes. Drain any excess fat.",
+        "Stir in black beans, fire-roasted tomatoes, corn, cumin, chili powder, paprika, and salt. Simmer 5 minutes.",
+        "Fold cooked rice into the turkey mixture.",
+        "Arrange pepper halves cut-side up in the baking dish. Fill each generously with the turkey-rice mixture.",
+        "Cover tightly with foil and bake 25 minutes. Remove foil, top each pepper with shredded cheese, and bake uncovered 10 more minutes until cheese is bubbly.",
+        "Garnish with cilantro and serve with lime wedges."
+      ],
+      "kids_tasks": [
+        "Rinse and drain the canned beans",
+        "Fill the pepper halves with a large spoon",
+        "Sprinkle cheese on top of each pepper",
+        "Pick cilantro leaves off stems for garnish"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Grilled Salmon with Cucumber-Blackberry Salad and Herbed Farro",
+      "macros": {
+        "serving_size": "1 salmon fillet + 3/4 cup farro + salad (approx 450g)",
+        "calories": 595,
+        "protein_g": 44,
+        "carbs_g": 50,
+        "fat_g": 21,
+        "fiber_g": 8,
+        "sugar_g": 9,
+        "sodium_mg": 610
+      },
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "total_time": "45 min",
+      "servings": 4,
+      "ingredients": [
+        "4 salmon fillets (6 oz each), skin-on",
+        "1.5 cups pearled farro",
+        "3 cups low-sodium vegetable broth",
+        "2 Persian cucumbers, thinly sliced into rounds",
+        "1 cup fresh Texas blackberries",
+        "1/4 red onion, thinly sliced",
+        "2 tbsp fresh mint, chiffonade",
+        "2 tbsp fresh dill, chopped",
+        "3 tbsp H-E-B olive oil, divided",
+        "2 tbsp white wine vinegar",
+        "1 tsp honey",
+        "1 tsp Dijon mustard",
+        "1 tsp lemon zest",
+        "Juice of 1 lemon",
+        "1/2 tsp kosher salt + more for salmon",
+        "1/4 tsp black pepper",
+        "2 tbsp fresh chives, chopped (farro garnish)"
+      ],
+      "steps": [
+        "Cook farro in vegetable broth over medium heat about 25–30 minutes until tender but chewy. Drain excess liquid, fluff, and toss with 1 tbsp olive oil, chives, dill, lemon zest, salt, and pepper.",
+        "While farro cooks, make the salad dressing: whisk together remaining 2 tbsp olive oil, white wine vinegar, honey, Dijon, and lemon juice. Season with salt.",
+        "Combine cucumbers, blackberries, red onion, and mint in a bowl. Drizzle with dressing and gently toss. Refrigerate until plating.",
+        "Preheat grill or grill pan to medium-high. Pat salmon dry, brush with olive oil, season generously with salt and pepper.",
+        "Grill salmon skin-side down for 4–5 minutes. Carefully flip and cook 3–4 more minutes until internal temperature reaches 125–130°F for medium or 145°F for well-done.",
+        "Plate herbed farro, lay salmon on top, and serve cucumber-blackberry salad alongside."
+      ],
+      "kids_tasks": [
+        "Wash and dry the blackberries",
+        "Slice cucumbers with a crinkle cutter",
+        "Pick mint leaves and hand to adult for chiffonade",
+        "Whisk the salad dressing in a small bowl"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Summer Vegetable and Chicken Sausage Pasta with Fresh Tomatoes and Basil",
+      "macros": {
+        "serving_size": "approx 2 cups pasta + sausage + veg (approx 480g)",
+        "calories": 620,
+        "protein_g": 38,
+        "carbs_g": 58,
+        "fat_g": 22,
+        "fiber_g": 7,
+        "sugar_g": 10,
+        "sodium_mg": 760
+      },
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "total_time": "40 min",
+      "servings": 4,
+      "ingredients": [
+        "12 oz H-E-B penne or rigatoni pasta",
+        "3 links H-E-B chicken sausage (Italian-style), sliced into coins",
+        "2 cups fresh cherry tomatoes, halved",
+        "1 medium zucchini, diced",
+        "1 medium yellow squash, diced",
+        "1 cup fresh or frozen okra, sliced into rounds",
+        "4 cloves garlic, minced",
+        "1/2 cup H-E-B low-sodium chicken broth",
+        "3 tbsp H-E-B olive oil",
+        "1/2 cup H-E-B shredded Parmesan cheese",
+        "1/2 cup fresh basil leaves, torn",
+        "1/2 tsp crushed red pepper flakes (optional, omit for young kids)",
+        "1 tsp kosher salt",
+        "1/2 tsp black pepper",
+        "Zest and juice of 1 lemon"
+      ],
+      "steps": [
+        "Bring a large pot of salted water to a boil. Cook pasta per package directions to al dente. Reserve 1 cup pasta water before draining.",
+        "While pasta cooks, heat olive oil in a large skillet over medium-high heat. Brown sausage coins 3–4 minutes per side. Remove and set aside.",
+        "In the same skillet, sauté garlic 30 seconds. Add zucchini, yellow squash, and okra. Cook 5–6 minutes until tender with slight caramelization.",
+        "Add cherry tomatoes and cook 3 minutes until they just begin to burst. Return sausage to the pan.",
+        "Deglaze with chicken broth, scraping up any browned bits. Reduce 1–2 minutes.",
+        "Add drained pasta to the skillet. Toss, adding pasta water as needed to loosen the sauce.",
+        "Remove from heat. Add lemon zest, lemon juice, red pepper flakes, salt, and pepper. Toss again.",
+        "Plate and top each bowl with Parmesan and torn fresh basil."
+      ],
+      "kids_tasks": [
+        "Halve cherry tomatoes with a kid-safe knife under supervision",
+        "Measure and pour pasta into the boiling water with adult help",
+        "Tear basil leaves by hand",
+        "Sprinkle Parmesan over each finished bowl"
+      ]
+    }
+  ],
+  "grocery_preview": {
+    "store": "H-E-B",
+    "region": "Houston, TX",
+    "note": "All items listed are standard H-E-B SKUs or H-E-B store-brand equivalents. Seasonal produce reflects Houston TX May availability.",
+    "Produce": [
+      "Texas sweet corn (3 ears)",
+      "Zucchini (3 medium)",
+      "Yellow squash (2 medium)",
+      "Bell peppers — mixed red, yellow, orange, green (6 large + 1 large yellow for Recipe 1)",
+      "Cherry tomatoes (2 cups / 1 pint)",
+      "Texas peaches (2 ripe)",
+      "Fresh blackberries (1 cup / 6 oz)",
+      "Persian cucumbers (2)",
+      "Okra, fresh (1 cup)",
+      "Jalapeño (1)",
+      "Limes (6)",
+      "Lemons (4)",
+      "Avocado (2 ripe)",
+      "Red onion (2 medium)",
+      "Yellow onion (1 medium)",
+      "Garlic (2 heads)",
+      "Green cabbage (small head)",
+      "Fresh cilantro (2 bunches)",
+      "Fresh flat-leaf parsley (1 bunch)",
+      "Fresh thyme (1 bunch)",
+      "Fresh rosemary (1 bunch)",
+      "Fresh basil (1 bunch)",
+      "Fresh dill (1 bunch)",
+      "Fresh mint (1 bunch)",
+      "Fresh chives (1 bunch)"
+    ],
+    "Protein": [
+      "Bone-in skin-on chicken thighs (3 lbs / 8 pieces)",
+      "Large Gulf shrimp, peeled and deveined (1.5 lbs)",
+      "H-E-B 93% lean ground turkey (1 lb)",
+      "Atlantic salmon fillets, skin-on (4 x 6 oz)",
+      "H-E-B Italian-style chicken sausage links (3 links / 1 pkg)"
+    ],
+    "Dairy": [
+      "H-E-B plain Greek yogurt (16 oz container)",
+      "H-E-B shredded Mexican cheese blend (8 oz)",
+      "H-E-B shredded Parmesan cheese (6 oz)"
+    ],
+    "Pantry": [
+      "H-E-B olive oil (16 oz)",
+      "H-E-B avocado oil (16 oz)",
+      "H-E-B long-grain white rice (32 oz)",
+      "H-E-B pearled farro (16 oz)",
+      "H-E-B penne or rigatoni pasta (12 oz)",
+      "H-E-B black beans, canned 15 oz (1 can)",
+      "H-E-B fire-roasted diced tomatoes, canned 14.5 oz (1 can)",
+      "H-E-B low-sodium chicken broth (32 oz carton)",
+      "H-E-B low-sodium vegetable broth (32 oz carton)",
+      "H-E-B corn tortillas, street-size 6-inch (1 pack)",
+      "H-E-B frozen corn kernels (10 oz bag, or use fresh ears)",
+      "Honey (small jar)",
+      "Dijon mustard (small jar)",
+      "White wine vinegar (8 oz)",
+      "Smoked paprika",
+      "Chili powder",
+      "Ground cumin",
+      "Garlic powder",
+      "Crushed red pepper flakes",
+      "Kosher salt",
+      "Black pepper",
+      "Cooking spray"
+    ]
+  }
+}
+null
