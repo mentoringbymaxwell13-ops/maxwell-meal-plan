@@ -849,161 +849,135 @@
   ══════════════════════════════════════════ -->
   <div class="tab-panel" id="tab-setup">
     <div class="setup-layout">
-      <h2 class="section-heading">Agent Setup Guide</h2>
-      <p class="section-subheading">One-time configuration steps to get the full automated system running</p>
+      <h2 class="section-heading">System Reference</h2>
+      <p class="section-subheading">Your agent is fully configured and running. This tab is your reference for accounts, keys, and weekly workflow.</p>
 
-      <!-- CALENDAR CONSOLIDATION -->
-      <div class="alert-box alert-info" style="margin-bottom:28px">
-        <span class="alert-icon">📅</span>
-        <div><strong>Calendar Consolidation:</strong> All calendars flow into one Google account. The agent reads only Google Calendar — one connection covers everything.</div>
+      <!-- SYSTEM STATUS -->
+      <div class="alert-box alert-success" style="margin-bottom:24px">
+        <span class="alert-icon">✅</span>
+        <div><strong>System fully operational.</strong> Both Make.com scenarios are active. Dashboard updates every Friday at 1:00 PM ET automatically.</div>
       </div>
 
+      <!-- ACCOUNTS & KEYS -->
       <div class="setup-step">
         <div class="setup-step-num">1</div>
         <div class="setup-step-content">
-          <div class="setup-step-title">Sync Outlook 365 → Google Calendar</div>
-          <div class="setup-step-desc">Publish your work calendar as a live ICS feed. Google subscribes and auto-refreshes every 8–24 hours. Free, native, zero third-party tools needed.</div>
-          <div class="setup-code">1. Go to outlook.office.com
-2. Settings (gear) → Calendar → Shared Calendars
-3. Under "Publish a Calendar" → select your work calendar
-4. Set to: "Can view all details" → Click Publish
-5. Copy the ICS link (NOT the HTML link)
-6. Open Google Calendar → Settings → Add Calendar → From URL
-7. Paste ICS link → Name it "Work — Outlook" → Add Calendar</div>
-          <div class="setup-tip"><strong>Tip:</strong> Repeat this for any other calendars (kids school, family shared, etc.) using the same "From URL" method in Google Calendar.</div>
+          <div class="setup-step-title">Key Accounts & Credentials</div>
+          <div class="setup-desc" style="font-size:0.82rem;color:var(--ink-light);margin-bottom:10px;">Store these somewhere secure (1Password, Notes app, etc.)</div>
+          <div class="setup-code">Agent Google Account: mentoringbymaxwell13@gmail.com
+Personal Google Account: brandon.j.maxwell123@gmail.com
+Make.com: make.com (same agent Gmail)
+Anthropic API: console.anthropic.com
+GitHub: github.com/mentoringbymaxwell13-ops
+Netlify: netlify.com (maxwell-meal-plan.netlify.app)
+HEB Account: heb.com (your personal login)
+Dashboard: maxwell-meal-plan.netlify.app</div>
         </div>
       </div>
 
+      <!-- WEEKLY WORKFLOW -->
       <div class="setup-step">
         <div class="setup-step-num">2</div>
         <div class="setup-step-content">
-          <div class="setup-step-title">Create "Weekly Menu" Google Calendar</div>
-          <div class="setup-step-desc">The agent writes dinner events here — isolated from your work and personal calendars. Skylight syncs it automatically.</div>
-          <div class="setup-code">1. Open Google Calendar → + Other Calendars → Create new calendar
-2. Name: "Weekly Menu"
-3. Color: Choose something distinct (orange or red works well)
-4. Click "Create Calendar"
-5. Open Skylight app → Settings → Sync Calendars → confirm "Weekly Menu" appears</div>
+          <div class="setup-step-title">Your Weekly Workflow</div>
+          <div class="setup-step-desc">What you do each week — everything else is automated.</div>
+          <div class="setup-code">THURSDAY EVENING (optional but recommended):
+  Open dashboard → Weekly Agent Context box
+  Type any travel, schedule notes, or food preferences
+  Click "Save for Friday"
+  Example: "Brandon work trip Dallas Mon-Wed.
+  Family home needs 3 easy dinners."
+
+FRIDAY 1:00 PM (automatic):
+  Agent generates 5 recipes + grocery list
+  Dashboard updates automatically
+
+FRIDAY EVENING:
+  Open maxwell-meal-plan.netlify.app
+  Review 5 recipes on Recipes tab
+  Note which ones you want (no selection needed yet)
+
+SATURDAY 9:00 AM (automatic):
+  Agent finalizes HEB grocery list
+  Dinner events written to Weekly Menu calendar
+  Skylight syncs automatically
+
+SATURDAY MORNING:
+  Open Chrome → go to heb.com
+  Click HEB Grocery Agent extension
+  Paste the grocery list from dashboard
+  Review cart → remove anything you already have
+  Select curbside pickup time → confirm order
+
+SUNDAY:
+  Pick up curbside order
+  Batch prep lunch bowls for the week</div>
         </div>
       </div>
 
+      <!-- MAKE.COM SCENARIO MAP -->
       <div class="setup-step">
         <div class="setup-step-num">3</div>
         <div class="setup-step-content">
-          <div class="setup-step-title">Upload Nutrition Reference to Google Drive</div>
-          <div class="setup-step-desc">This is the file the agent reads every Friday. Upload once, never re-explain your macros again.</div>
-          <div class="setup-code">1. Download "nutrition-reference.md" from this dashboard
-2. Go to drive.google.com
-3. Upload the file → right-click → Open with Google Docs
-   (This converts it to a native Google Doc the agent can read)
-4. Name it: "MAXWELL_AGENT_NUTRITION_REF"
-5. Copy the Doc URL — you'll need it for Make.com setup</div>
-          <div class="setup-tip"><strong>Token savings:</strong> This single doc replaces ~3,000 tokens of context per weekly run. At Claude API pricing, that saves ~$0.50–2.00/month.</div>
+          <div class="setup-step-title">Make.com Scenario Map</div>
+          <div class="setup-step-desc">Current module structure — reference if something breaks.</div>
+          <div class="setup-code">SCENARIO 1 — Friday 1:00 PM ET
+  Module 1:  Set Variable — nutrition_ref (hardcoded text)
+  Module 6:  Google Calendar — Search Events (brandon Gmail)
+  Module 14: Set Variable — weekly_context (manual override)
+  Module 15: Text Parser — strip control chars from nutrition
+  Module 16: Text Parser — strip newlines from calendar
+  Module 2:  HTTP — POST to Anthropic API (claude-sonnet-4-6)
+  Module 4:  Set Variable — weekly_recipes
+  Module 12: Text Parser — strip opening code fence
+  Module 13: Text Parser — strip closing code fence
+  Module 17: Text Parser — strip escaped [
+  Module 18: Text Parser — strip escaped ]
+  Module 19: Text Parser — strip escaped _
+  Module 10: HTTP GET — GitHub SHA for weekly_data.json
+  Module 11: HTTP PUT — Push updated weekly_data.json to GitHub
+  Module 3:  Google Drive — Create File from Text (backup)
+
+SCENARIO 2 — Saturday 9:00 AM ET
+  Module 1:  Google Drive — Get nutrition ref
+  Module 2:  HTTP — POST to Anthropic API (finalize grocery list)
+  Module 3:  Google Calendar — Create dinner events (Weekly Menu)</div>
+          <div class="setup-tip"><strong>If something breaks:</strong> Go to make.com → Scenarios → click the scenario → check which module has a red error icon → come back and troubleshoot from there.</div>
         </div>
       </div>
 
+      <!-- NUTRITION REFERENCE -->
       <div class="setup-step">
         <div class="setup-step-num">4</div>
         <div class="setup-step-content">
-          <div class="setup-step-title">Create Make.com Account &amp; Connect Google</div>
-          <div class="setup-step-desc">Free account covers your weekly usage (1,000 ops/month). This is your automation backbone.</div>
-          <div class="setup-code">1. Go to make.com → Sign up free
-2. Dashboard → Connections → Google Drive → Connect
-   (Authorize with the same Google account as your calendar)
-3. Connections → Google Calendar → Connect
-4. Connections → HTTP → No setup needed (used for Claude API calls)
-5. Keep your Anthropic API key ready (console.anthropic.com)</div>
+          <div class="setup-step-title">Updating the Nutrition Reference</div>
+          <div class="setup-step-desc">To update macros, food preferences, or Costco staples — edit the Set Variable in Make.com Module 1.</div>
+          <div class="setup-code">1. Go to make.com → Scenario 1
+2. Click Module 1 (Set Variable — nutrition_ref)
+3. Edit the Variable Value text directly
+4. Click OK → Save scenario
+Examples of what to update:
+  - New macro targets
+  - Add/remove approved proteins
+  - Add/remove Costco staples
+  - Update travel context rules</div>
         </div>
       </div>
 
+      <!-- COSTS -->
       <div class="setup-step">
         <div class="setup-step-num">5</div>
         <div class="setup-step-content">
-          <div class="setup-step-title">Install HEB Grocery Agent Chrome Extension</div>
-          <div class="setup-step-desc">This handles automated cart building on HEB.com without any coding. Claude in Chrome orchestrates it.</div>
-          <div class="setup-code">1. In Chrome, go to: Chrome Web Store
-   Search: "HEB Grocery Agent"
-2. Install extension → pin it to toolbar
-3. Go to heb.com → sign into your account
-4. Click the extension icon → confirm it shows your account
-5. Test: type one item → click "Start Shopping" → confirm it adds to cart
-6. Clear the test item before your first real run</div>
-          <div class="setup-tip"><strong>Note:</strong> This uses unofficial HEB browser automation. HEB may update their site — if the extension stops working, the fallback is Claude in Chrome's built-in browser tools.</div>
-        </div>
-      </div>
-
-      <div class="setup-step">
-        <div class="setup-step-num">6</div>
-        <div class="setup-step-content">
-          <div class="setup-step-title">Deploy This Dashboard to Netlify</div>
-          <div class="setup-step-desc">Host this file as a live URL so the agent can update it and you can access it from any device.</div>
-          <div class="setup-code">1. Go to netlify.com → Sign up free
-2. From the dashboard: "Add new site" → "Deploy manually"
-3. Drag the index.html file into the deploy drop zone
-4. Netlify generates a URL: e.g., maxwell-kitchen.netlify.app
-5. Optional: Add custom domain under Site Settings → Domain Management
-6. Bookmark the URL on your phone — this is your weekly command center</div>
-        </div>
-      </div>
-
-      <div class="setup-step">
-        <div class="setup-step-num">7</div>
-        <div class="setup-step-content">
-          <div class="setup-step-title">Make.com — Scenario 1: Friday Agent Run</div>
-          <div class="setup-step-desc">This scenario triggers every Friday at noon, reads your nutrition doc + calendar, generates recipes, and updates the dashboard.</div>
-          <div class="setup-code">Trigger: Schedule → Every Friday at 12:00 PM
-
-Step 1 — Google Drive: Get File Content
-  → File: "MAXWELL_AGENT_NUTRITION_REF"
-
-Step 2 — Google Calendar: List Events
-  → Calendar: All calendars
-  → Date range: Today + 14 days
-  → Filter: Include travel flags, evening events
-
-Step 3 — HTTP: POST to Anthropic API
-  → URL: https://api.anthropic.com/v1/messages
-  → Headers: x-api-key: [YOUR_API_KEY]
-             anthropic-version: 2023-06-01
-  → Body: {
-      "model": "claude-sonnet-4-20250514",
-      "max_tokens": 4000,
-      "system": "You are the Maxwell family meal planning agent. Read the nutrition reference and calendar data provided. Generate 5 macro-compliant dinner recipes for the week. Output valid JSON only.",
-      "messages": [{"role": "user", "content": "[NUTRITION_DOC] + [CALENDAR_EVENTS]"}]
-    }
-
-Step 4 — Netlify: Deploy updated index.html
-  → Method: POST to Netlify Deploy URL
-  → Body: Updated HTML with new recipes injected</div>
-          <div class="setup-tip"><strong>Tip:</strong> Request full instructions for this Make.com scenario build from Claude — it will generate the exact module configuration for you to copy in.</div>
-        </div>
-      </div>
-
-      <div class="setup-step">
-        <div class="setup-step-num">8</div>
-        <div class="setup-step-content">
-          <div class="setup-step-title">Make.com — Scenario 2: Saturday Cart Build</div>
-          <div class="setup-step-desc">Triggers Saturday morning after you've selected your recipes. Finalizes the grocery list and hands off to Claude in Chrome + HEB extension.</div>
-          <div class="setup-code">Trigger: Schedule → Every Saturday at 9:00 AM
-
-Step 1 — HTTP: GET selected recipes from dashboard data
-
-Step 2 — HTTP: POST to Anthropic API
-  → Generate finalized HEB grocery list JSON
-  → Exclude Costco staples
-  → Group by: Produce, Protein, Dairy, Pantry
-
-Step 3 — Claude in Chrome: 
-  → Open heb.com (signed in)
-  → Activate HEB Grocery Agent extension
-  → Paste finalized list
-  → Click "Start Shopping" — items added to cart automatically
-
-Step 4 — Google Calendar: Create Events
-  → Calendar: "Weekly Menu"
-  → Create 1 event per dinner (Mon–Sun)
-  → Event title: [Meal Name] — [Prep Time]
-  → Description: Link to recipe card on dashboard</div>
+          <div class="setup-step-title">Monthly Cost Summary</div>
+          <div class="setup-step-desc">Approximate costs — all free tier except Anthropic API usage.</div>
+          <div class="setup-code">Make.com:          Free (under 1,000 ops/month)
+Anthropic API:     ~$3-8/month (weekly recipe generation)
+Netlify hosting:   Free
+Google Drive:      Free
+GitHub:            Free
+HEB curbside:      Free (order 2+ days ahead)
+Skylight:          Your existing subscription
+Total:             ~$3-8/month</div>
         </div>
       </div>
 
@@ -1360,16 +1334,37 @@ function renderGrocery() {
   `).join('');
 }
 
-function renderCostco() {
+function renderCostco(liveList) {
   const list = document.getElementById('costcoList');
-  list.innerHTML = COSTCO_LIST.map((item, i) => `
-    <div class="grocery-item">
-      <div class="grocery-check" onclick="toggleCheck(this, 'c-name-${i}')"></div>
-      <div class="grocery-item-name" id="c-name-${i}">${item.name}</div>
-      <div class="grocery-item-qty">${item.qty}</div>
-      <span class="costco-needed-by" style="${item.urgent ? 'color:var(--rust)' : 'color:var(--ink-muted)'}">${item.urgent ? '⚠ ' : ''}By ${item.neededBy}</span>
-    </div>
-  `).join('');
+  const sourceList = liveList || COSTCO_LIST;
+
+  // Handle both live format (item/quantity/needed_by_date/urgent) 
+  // and sample format (name/qty/neededBy/urgent)
+  list.innerHTML = sourceList.map((item, i) => {
+    const name = item.item || item.name || '';
+    const qty = item.quantity || item.qty || '';
+    const neededBy = item.needed_by_date || item.neededBy || '';
+    const urgent = item.urgent || false;
+    return `
+      <div class="grocery-item">
+        <div class="grocery-check" onclick="toggleCheck(this, 'c-name-${i}')"></div>
+        <div class="grocery-item-name" id="c-name-${i}">${name}</div>
+        <div class="grocery-item-qty">${qty}</div>
+        <span class="costco-needed-by" style="${urgent ? 'color:var(--rust)' : 'color:var(--ink-muted)'}">${urgent ? '⚠ ' : ''}${neededBy ? 'By ' + neededBy : ''}</span>
+      </div>
+    `;
+  }).join('');
+
+  // Update the alert box if urgent items exist
+  const urgentItems = sourceList.filter(i => i.urgent);
+  const alertBox = document.querySelector('#tab-costco .alert-warn');
+  if (alertBox && urgentItems.length > 0) {
+    const names = urgentItems.map(i => i.item || i.name).join(', ');
+    alertBox.innerHTML = '<span class="alert-icon">⚠</span><div><strong>Next Costco Run Recommended:</strong> ' + names + ' flagged as urgent — needed within 14 days.</div>';
+  } else if (alertBox && liveList) {
+    alertBox.innerHTML = '<span class="alert-icon">✓</span><div>All Costco staples well-stocked. No urgent restocking needed this week.</div>';
+    alertBox.className = 'alert-box alert-success';
+  }
 }
 
 // ═══════════════════════════════
@@ -1616,7 +1611,7 @@ async function loadLiveData() {
     renderMenu();
     renderRecipes();
     renderGrocery();
-    renderCostco();
+    renderCostco(liveData.costco_list || null);
 
     if (statusBar) {
       const now = new Date();
