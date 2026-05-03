@@ -1404,33 +1404,23 @@ async function loadLiveData() {
     const response = await fetch(LIVE_DATA_URL);
     if (!response.ok) throw new Error('Fetch failed');
 
-    const raw = await response.text();
+    let raw = await response.text();
 
-    // Parse outer API wrapper
-    const apiResponse = JSON.parse(raw);
-
-    // Extract text content from Claude response
-    let textContent = '';
-    if (apiResponse.content && Array.isArray(apiResponse.content)) {
-      const textBlock = apiResponse.content.find(b => b.type === 'text');
-      if (textBlock) textContent = textBlock.text;
-    }
+    // Strip any null prefix/suffix and whitespace
+    raw = raw.replace(/^null\s*/g, '').replace(/\s*null$/g, '').trim();
 
     // Strip markdown code fences if present
-    textContent = textContent.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-
-    // Strip leading/trailing null values
-    textContent = textContent.replace(/^null\s*/g, '').replace(/\s*null$/g, '').trim();
+    raw = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
     // Extract valid JSON object from first { to last }
-    const firstBrace = textContent.indexOf('{');
-    const lastBrace = textContent.lastIndexOf('}');
+    const firstBrace = raw.indexOf('{');
+    const lastBrace = raw.lastIndexOf('}');
     if (firstBrace !== -1 && lastBrace !== -1) {
-      textContent = textContent.substring(firstBrace, lastBrace + 1);
+      raw = raw.substring(firstBrace, lastBrace + 1);
     }
 
-    // Parse the actual recipe JSON
-    const liveData = JSON.parse(textContent);
+    // Parse recipe JSON directly
+    const liveData = JSON.parse(raw);
 
     // Update WEEK_DATA if present
     if (liveData.week_label) {
