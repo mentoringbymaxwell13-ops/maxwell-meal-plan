@@ -1,313 +1,299 @@
 null
 {
-  "week_label": "Maxwell Family Dinner Plan — Week of May 2025 (Normal Week, No Travel)",
+  "week_label": "Maxwell Family Dinner Plan — May Week (Normal Week, No Travel)",
   "seasonal_tags": ["blueberries", "corn", "zucchini", "cherry tomatoes", "peaches"],
   "recipes": [
     {
       "id": 1,
-      "name": "Grilled Chicken Breast with Street Corn Salad and Brown Rice",
-      "seasonal_produce_used": ["corn", "cherry tomatoes"],
+      "name": "Herb Chicken Breast with Fresh Corn and Zucchini",
+      "seasonal_items_used": ["corn", "zucchini"],
       "macros_per_serving": {
         "protein_g": 51,
         "fat_g": 11,
-        "carbs_g": 69,
-        "calories": 579
+        "carbs_g": 68
       },
       "prep_time": "15 min",
       "cook_time": "25 min",
+      "servings": 4,
       "ingredients": [
-        "2 lbs boneless skinless chicken breast (Costco)",
-        "3 ears fresh corn, husked and kernels cut off",
-        "1 cup cherry tomatoes, halved",
-        "1.5 tbsp plain Greek yogurt (Costco)",
-        "1 tbsp fresh lime juice",
-        "1 tbsp olive oil (Costco) — total added fat for entire batch",
-        "1/4 tsp garlic powder (mild)",
-        "1/4 cup fresh cilantro, finely chopped (omit for toddlers' portions)",
-        "6 cups cooked brown rice (from 2 cups dry) — Costco rice",
+        "2 lbs chicken breast (7-8oz per serving, sliced thin for even cooking)",
+        "3 ears fresh corn, kernels cut off cob (about 2 cups kernels)",
+        "2 medium zucchini, diced small (toddler-friendly small pieces)",
+        "1.5 cups dry white rice (yields 4.5 cups cooked, 1.5 cups per adult; blend for toddlers)",
+        "1 tbsp olive oil (total added fat — divided across entire dish)",
+        "1/2 tsp garlic powder",
+        "1/2 tsp onion powder",
+        "1/2 tsp dried parsley",
         "Salt to taste",
-        "1/4 cup crumbled cotija cheese (HEB dairy)"
+        "2 cups low-sodium chicken broth (for cooking rice, adds flavor without fat)",
+        "1/4 cup water (for sautéing vegetables)"
       ],
       "steps": [
-        "Step 1: Cook brown rice per package directions (about 45 min if starting from scratch — start this first).",
-        "Step 2: Slice chicken breasts to even thickness (~7–8 oz per adult serving, smaller cuts for toddlers). Season lightly with salt and garlic powder.",
-        "Step 3: Heat a non-stick grill pan or skillet over medium-high. Add olive oil (1 tbsp total for entire batch). Cook chicken 6–7 min per side until internal temp reaches 165°F. Rest 5 min, then slice.",
-        "Step 4: While chicken rests, heat the same pan over medium. Add corn kernels and cook 4–5 min stirring occasionally until lightly golden and tender-soft.",
-        "Step 5: In a bowl, combine corn, cherry tomatoes, Greek yogurt, and lime juice. Stir gently. This is your street corn salad.",
-        "Step 6: Plate rice (1.5 cups cooked per serving), top with sliced chicken and a generous scoop of corn salad. Sprinkle cotija on adult portions.",
-        "Step 7: For toddler plates — ensure chicken is sliced small, corn is soft, tomatoes are quartered small, and no cotija or cilantro unless child tolerates."
+        "Cook white rice in 2 cups low-sodium chicken broth + water per package instructions. Fluff and set aside.",
+        "Pat chicken breasts dry and season with garlic powder, onion powder, parsley, and salt.",
+        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium heat. Add chicken breasts and cook 6-7 min per side until internal temp reaches 165°F. Remove and rest 5 min, then slice.",
+        "In same skillet add remaining 1/2 tbsp olive oil. Add corn kernels and cook 3 min stirring gently. Add diced zucchini and cook another 4 min until softened. Season lightly with salt.",
+        "Plate 1.5 cups cooked rice per adult serving, top with sliced chicken (7-8oz) and generous scoop of corn-zucchini mixture.",
+        "For toddlers: shred chicken finely, dice zucchini and corn extra small, serve alongside soft rice."
       ],
       "kids_tasks": [
-        "Toddlers can shuck the corn ears with supervision",
-        "Kids can help halve cherry tomatoes using a kid-safe knife with adult guidance",
-        "Kids can stir the corn salad in the bowl"
+        "Toddlers can help husk the corn ears with supervision",
+        "Older toddler can stir the cooked rice gently with a spoon",
+        "Kids can rinse zucchini under running water"
       ]
     },
     {
       "id": 2,
-      "name": "Baked Cod with Zucchini, Cherry Tomatoes, and Orzo",
-      "seasonal_produce_used": ["zucchini", "cherry tomatoes"],
+      "name": "Shrimp and Cherry Tomato Rice Bowl with Zucchini",
+      "seasonal_items_used": ["cherry tomatoes", "zucchini"],
       "macros_per_serving": {
         "protein_g": 50,
         "fat_g": 12,
-        "carbs_g": 71,
-        "calories": 588
+        "carbs_g": 71
       },
-      "prep_time": "10 min",
-      "cook_time": "25 min",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 4,
       "ingredients": [
-        "2 lbs cod fillets (HEB seafood, fresh or frozen)",
-        "2 medium zucchini, sliced into thin half-moons",
-        "1.5 cups cherry tomatoes, halved",
-        "1 tbsp olive oil (Costco) — total added fat for entire batch",
+        "2 lbs large shrimp, peeled and deveined (7-8oz per serving)",
+        "2 cups cherry tomatoes, halved",
+        "2 medium zucchini, sliced into half-moons thin",
+        "1.5 cups dry white rice (yields 4.5 cups cooked)",
+        "1 tbsp olive oil (total for entire recipe)",
         "1/2 tsp garlic powder",
-        "1/2 tsp dried Italian seasoning (mild, no heat)",
+        "1/2 tsp dried basil",
         "Salt to taste",
-        "2 cups dry orzo pasta (HEB pantry)",
-        "2 tbsp fresh lemon juice",
-        "1/4 cup shredded low-moisture mozzarella (HEB dairy)"
+        "1/4 cup water or low-sodium broth for deglazing",
+        "1 tbsp lemon juice (fresh, fat-free flavor boost)"
       ],
       "steps": [
-        "Step 1: Preheat oven to 400°F. Line a large sheet pan with parchment paper.",
-        "Step 2: Cook orzo per package directions (8–10 min). Drain and set aside — measure 1.5 cups cooked per serving.",
-        "Step 3: Arrange cod fillets on one half of the sheet pan. On the other half, scatter zucchini and cherry tomatoes.",
-        "Step 4: Drizzle entire pan with olive oil (1 tbsp total), then sprinkle garlic powder, Italian seasoning, and salt evenly over fish and vegetables.",
-        "Step 5: Bake 18–20 min until cod flakes easily and reaches 145°F internal temp. Zucchini should be fork-tender.",
-        "Step 6: Squeeze lemon juice over fish and vegetables once out of oven.",
-        "Step 7: Plate orzo, place cod fillet on top, spoon zucchini and tomatoes alongside. Add mozzarella on top — it will melt slightly from the heat.",
-        "Step 8: For toddlers — flake cod into small pieces, confirm no bones, ensure zucchini is very soft, cut tomatoes into small pieces."
+        "Cook rice according to package directions. Set aside.",
+        "Pat shrimp dry and season with garlic powder, basil, and salt.",
+        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium-high heat. Add shrimp in single layer. Cook 2 min per side until pink and opaque. Remove and set aside.",
+        "Reduce heat to medium. Add remaining 1/2 tbsp olive oil. Add zucchini and cook 3 min. Add cherry tomatoes and cook another 3-4 min until tomatoes are soft and beginning to break down. Add splash of water if needed to prevent sticking.",
+        "Return shrimp to pan, drizzle with lemon juice, toss gently, remove from heat.",
+        "Serve over 1.5 cups cooked rice per serving. For toddlers: cut shrimp into small pieces, ensure tomatoes are fully softened, serve rice separately."
       ],
       "kids_tasks": [
-        "Kids can tear parchment paper and help line the pan",
-        "Kids can place zucchini slices onto the sheet pan",
-        "Kids can help sprinkle cheese on plates at the table"
+        "Toddlers can help rinse cherry tomatoes in a colander",
+        "Kids can place shrimp into a bowl for seasoning with supervision",
+        "Older toddler can help squeeze lemon with a hand juicer"
       ]
     },
     {
       "id": 3,
-      "name": "Ground Turkey Zucchini Rice Bowls with Savory Peach Glaze",
-      "seasonal_produce_used": ["zucchini", "peaches"],
+      "name": "Ground Turkey Stuffed Zucchini Boats with Corn Rice",
+      "seasonal_items_used": ["zucchini", "corn"],
       "macros_per_serving": {
         "protein_g": 52,
         "fat_g": 11,
-        "carbs_g": 70,
-        "calories": 591
+        "carbs_g": 69
       },
-      "prep_time": "10 min",
-      "cook_time": "20 min",
+      "prep_time": "20 min",
+      "cook_time": "30 min",
+      "servings": 4,
       "ingredients": [
-        "2 lbs 93% lean ground turkey (HEB meat)",
-        "2 medium zucchini, diced small",
-        "2 ripe peaches, peeled and finely diced",
-        "1 tbsp olive oil (Costco) — total added fat for entire batch",
-        "1 tbsp low-sodium soy sauce",
-        "1 tbsp apple cider vinegar",
-        "1 tsp honey",
+        "2 lbs 93% lean ground turkey",
+        "4 large zucchini, halved lengthwise and hollowed (boats), flesh reserved and chopped",
+        "2 ears fresh corn, kernels cut off (about 1.5 cups kernels)",
+        "1.5 cups dry white rice (yields 4.5 cups cooked)",
+        "1 tbsp olive oil (total for entire recipe)",
+        "1/2 cup low-sodium chicken broth",
         "1/2 tsp garlic powder",
-        "1/4 tsp onion powder",
+        "1/2 tsp onion powder",
+        "1/4 tsp dried Italian seasoning (mild, toddler safe)",
         "Salt to taste",
-        "6 cups cooked white or jasmine rice (Costco rice)"
+        "1/4 cup part-skim shredded mozzarella (optional light topping, accounts for fat budget)"
       ],
       "steps": [
-        "Step 1: Cook rice per package directions. Measure 1.5 cups cooked per serving.",
-        "Step 2: In a small bowl, mix diced peaches, soy sauce, apple cider vinegar, honey, and a pinch of salt. Set aside — this is your peach glaze.",
-        "Step 3: Heat a large skillet over medium-high. Add olive oil (1 tbsp). Add ground turkey, break apart, cook 7–8 min until no pink remains.",
-        "Step 4: Push turkey to one side, add diced zucchini to the pan. Cook 3–4 min until zucchini is fork-tender.",
-        "Step 5: Add garlic powder and onion powder, stir everything together.",
-        "Step 6: Pour peach glaze over the turkey-zucchini mixture. Stir and cook 2–3 min until sauce reduces slightly and coats the turkey.",
-        "Step 7: Serve over rice — 1.5 cups cooked rice per serving, topped with turkey-zucchini-peach mixture.",
-        "Step 8: For toddlers — ensure zucchini is very soft, dice peach pieces very small, serve over rice at a kid-friendly temperature."
+        "Preheat oven to 400°F. Cook rice with corn kernels folded in during last 5 min of cooking. Set aside.",
+        "Hollow out zucchini halves, chop the scooped flesh, set aside. Place zucchini boats on a parchment-lined baking sheet.",
+        "Heat 1/2 tbsp olive oil in skillet over medium heat. Add ground turkey, breaking into small pieces. Cook through about 8-10 min until no pink remains. Season with garlic powder, onion powder, Italian seasoning, salt.",
+        "Add chopped zucchini flesh and 1/4 cup broth. Cook 3 more min until softened.",
+        "Fill each zucchini boat with turkey mixture. Optionally add light sprinkle of mozzarella. Brush boats lightly with remaining 1/2 tbsp olive oil.",
+        "Bake 18-20 min until zucchini is fork-tender.",
+        "Serve 2 filled boat halves per adult (7-8oz protein total), alongside 1.5 cups corn rice. For toddlers: scoop out soft turkey and corn rice, serve bowl-style."
       ],
       "kids_tasks": [
-        "Toddlers can peel soft ripe peaches with a spoon or butter knife with supervision",
-        "Kids can help measure and pour rice into the cooker",
-        "Kids can stir the peach glaze ingredients together in a small bowl"
+        "Toddlers can help rinse zucchini",
+        "Kids can help scoop cooled cooked zucchini flesh with a spoon",
+        "Older toddler can help cut corn off the cob with a butter knife and adult supervision"
       ]
     },
     {
       "id": 4,
-      "name": "Shrimp and Corn Chowder with Soft Dinner Rolls",
-      "seasonal_produce_used": ["corn", "zucchini"],
+      "name": "Baked Cod with Cherry Tomato Pan Sauce and Herb Rice",
+      "seasonal_items_used": ["cherry tomatoes"],
       "macros_per_serving": {
         "protein_g": 50,
         "fat_g": 12,
-        "carbs_g": 72,
-        "calories": 596
+        "carbs_g": 70
       },
-      "prep_time": "15 min",
+      "prep_time": "10 min",
       "cook_time": "25 min",
+      "servings": 4,
       "ingredients": [
-        "2 lbs large shrimp, peeled and deveined (Costco frozen)",
-        "3 ears fresh corn, kernels cut off (or 2.5 cups frozen corn)",
-        "1 medium zucchini, diced small",
-        "2 cups low-sodium chicken broth (HEB pantry)",
-        "1 cup whole milk (HEB dairy)",
-        "1.5 cups plain Greek yogurt (Costco) — used as cream substitute",
-        "1 tbsp olive oil (Costco) — total added fat",
+        "2 lbs cod fillets (7-8oz per serving, boneless)",
+        "2 cups cherry tomatoes, halved",
+        "1.5 cups dry white rice (yields 4.5 cups cooked)",
+        "1 tbsp olive oil (total for entire recipe)",
+        "2 tbsp low-sodium chicken broth (for pan sauce)",
         "1/2 tsp garlic powder",
-        "1/4 tsp onion powder",
+        "1/2 tsp dried parsley",
+        "1/4 tsp dried basil",
         "Salt to taste",
-        "2 medium russet potatoes, peeled and diced small (for body and carbs)",
-        "4 soft dinner rolls (HEB bakery, ~60g each) — served alongside"
+        "1 tbsp lemon juice",
+        "2 cups low-sodium chicken broth for cooking rice"
       ],
       "steps": [
-        "Step 1: Peel and dice potatoes into small cubes. Set aside in cold water to prevent browning.",
-        "Step 2: Heat olive oil (1 tbsp) in a large pot over medium. Add diced zucchini and cook 3 min until beginning to soften.",
-        "Step 3: Add drained potatoes, corn kernels, chicken broth, garlic powder, and onion powder. Bring to a gentle boil.",
-        "Step 4: Reduce heat to medium-low, cover and simmer 12–15 min until potatoes are very soft and easily pierced with a fork.",
-        "Step 5: Using a potato masher or the back of a spoon, partially mash some of the potato and corn to thicken the chowder base.",
-        "Step 6: Stir in whole milk and warm through (do not boil). Remove from heat and stir in Greek yogurt to add creaminess without curdling.",
-        "Step 7: Add shrimp, return to low heat, and cook 3–4 min until shrimp are pink, opaque, and curled. Do not overcook.",
-        "Step 8: Season with salt. Serve in bowls with a soft dinner roll on the side.",
-        "Step 9: For toddlers — ensure shrimp are cut into small bite-size pieces, check for any shell remnants, make sure soup is cooled to a safe temperature."
+        "Preheat oven to 400°F. Cook rice in low-sodium chicken broth per package directions. Stir in dried parsley when done. Set aside.",
+        "Pat cod fillets dry. Season with garlic powder, basil, salt.",
+        "Heat 1/2 tbsp olive oil in oven-safe skillet over medium heat. Add cherry tomatoes and cook 3-4 min until softened. Add 2 tbsp broth and stir to create simple pan sauce.",
+        "Nestle cod fillets into the tomato mixture. Drizzle remaining 1/2 tbsp olive oil over fish. Drizzle lemon juice on top.",
+        "Transfer skillet to oven. Bake 12-15 min until fish flakes easily with fork (internal temp 145°F).",
+        "Serve each portion of cod over 1.5 cups herb rice, spooning tomato pan sauce on top.",
+        "For toddlers: flake cod into small pieces ensuring no bones, serve with soft rice and spoon sauce alongside."
       ],
       "kids_tasks": [
-        "Kids can shuck the corn ears with supervision",
-        "Toddlers can drop corn kernels into the pot with help",
-        "Kids can help stir the chowder gently with a long wooden spoon from a safe position"
+        "Toddlers can rinse cherry tomatoes in a colander",
+        "Kids can help stir the cooked rice",
+        "Older toddler can help tear parsley leaves if using fresh"
       ]
     },
     {
       "id": 5,
-      "name": "Baked Chicken Breast with Peach Glaze, Roasted Cherry Tomatoes, and Brown Rice",
-      "seasonal_produce_used": ["peaches", "cherry tomatoes"],
+      "name": "Chicken Breast and Peach Glaze with Corn Rice Pilaf",
+      "seasonal_items_used": ["peaches", "corn"],
       "macros_per_serving": {
         "protein_g": 51,
         "fat_g": 11,
-        "carbs_g": 69,
-        "calories": 577
+        "carbs_g": 72
       },
-      "prep_time": "12 min",
-      "cook_time": "28 min",
+      "prep_time": "15 min",
+      "cook_time": "30 min",
+      "servings": 4,
       "ingredients": [
-        "2 lbs boneless skinless chicken breast (Costco)",
-        "3 ripe peaches, peeled and diced (for glaze)",
-        "1.5 cups cherry tomatoes, left whole",
-        "1 tbsp olive oil (Costco) — total added fat",
-        "1 tbsp honey",
-        "1 tbsp low-sodium soy sauce",
-        "1/2 tsp garlic powder",
+        "2 lbs chicken breast, butterflied thin for even cooking (7-8oz per serving)",
+        "3 ripe peaches, peeled and diced small (about 2 cups)",
+        "2 ears fresh corn, kernels removed (about 1.5 cups)",
+        "1.5 cups dry white rice (yields 4.5 cups cooked)",
+        "1 tbsp olive oil (total for entire recipe)",
+        "2 tbsp water",
+        "1 tbsp honey (natural fruit glaze base, minimal added sugar)",
+        "1/4 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/2 tsp dried thyme (very mild, toddler-safe herb)",
         "Salt to taste",
-        "6 cups cooked brown rice (Costco rice)",
-        "1 tbsp fresh lemon juice",
-        "Fresh parsley, chopped, for garnish (optional, adult portions)"
+        "2 cups low-sodium chicken broth for rice"
       ],
       "steps": [
-        "Step 1: Preheat oven to 400°F. Cook brown rice per package directions.",
-        "Step 2: In a small saucepan over medium-low, combine diced peaches, honey, soy sauce, and lemon juice. Simmer 5–6 min stirring until peaches break down into a loose glaze. Remove from heat.",
-        "Step 3: Place chicken breasts in a baking dish. Season with garlic powder and salt. Spoon peach glaze generously over each breast.",
-        "Step 4: Scatter cherry tomatoes around the chicken in the baking dish. Drizzle olive oil (1 tbsp) over tomatoes only.",
-        "Step 5: Bake uncovered 22–26 min until chicken reaches 165°F internal temp and glaze is caramelized. Tomatoes should be burst and jammy.",
-        "Step 6: Rest chicken 5 min before slicing into portions — 7–8 oz per adult, smaller pieces for toddlers.",
-        "Step 7: Plate 1.5 cups cooked brown rice per serving, top with sliced chicken, spoon pan juices and tomatoes over everything.",
-        "Step 8: For toddlers — slice chicken very thin or shred, ensure tomatoes are very soft and burst (no firm skin), check temperature before serving."
+        "Cook rice in low-sodium chicken broth per package directions. During last 5 min fold in corn kernels. Cover and let steam. Fluff and set aside.",
+        "Season butterflied chicken breasts with garlic powder, onion powder, thyme, salt.",
+        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium heat. Cook chicken 5-6 min per side until internal temp hits 165°F. Remove and rest.",
+        "In same pan add remaining 1/2 tbsp olive oil over medium-low heat. Add diced peaches and 2 tbsp water. Cook 4-5 min stirring gently until peaches soften.",
+        "Stir in honey and cook 1 more min until lightly syrupy. Season with tiny pinch of salt.",
+        "Slice chicken and return to pan, coat gently in peach glaze.",
+        "Serve sliced chicken with peach glaze over 1.5 cups corn rice pilaf per adult serving.",
+        "For toddlers: shred chicken finely, ensure peaches are very soft, serve corn rice with small pieces mixed in. Toddlers typically love the mild sweet peach flavor."
       ],
       "kids_tasks": [
-        "Kids can help peel soft ripe peaches",
-        "Toddlers can place cherry tomatoes into the baking dish with supervision",
-        "Kids can help spoon peach glaze onto chicken with adult guidance"
+        "Toddlers can help peel soft ripe peaches with fingers with supervision",
+        "Kids can help stir corn rice gently",
+        "Older toddler can drizzle honey into the pan with adult holding the bottle together"
       ]
     }
   ],
   "grocery_preview": {
     "grouped_by_section": {
       "Produce": [
-        "3 ears fresh corn (organic preferred)",
-        "3 medium zucchini (organic preferred)",
-        "3 cups cherry tomatoes (organic preferred)",
-        "5 ripe peaches (organic preferred)",
-        "2 medium russet potatoes (organic preferred)",
-        "2 lemons",
-        "1 lime",
-        "Fresh cilantro (organic preferred)",
+        "5 ears fresh corn (organic preferred)",
+        "6 medium zucchini (organic preferred)",
+        "4 cups cherry tomatoes (organic preferred)",
+        "3 ripe peaches (organic preferred)",
+        "2 lemons (organic preferred)",
         "Fresh parsley (organic preferred)"
       ],
       "Protein": [
-        "2 lbs fresh cod fillets (HEB seafood)",
-        "2 lbs 93% lean ground turkey (HEB meat)"
+        "2 lbs cod fillets (boneless)",
+        "2 lbs 93% lean ground turkey"
       ],
       "Dairy": [
-        "1 cup crumbled cotija cheese",
-        "1 cup shredded low-moisture mozzarella",
-        "1 quart whole milk",
-        "4 soft dinner rolls (HEB bakery)"
+        "Part-skim shredded mozzarella (small bag, optional for stuffed zucchini recipe)"
       ],
       "Pantry": [
-        "2 cups dry orzo pasta",
-        "Low-sodium chicken broth (32 oz carton)",
-        "Low-sodium soy sauce",
-        "Apple cider vinegar",
-        "Honey",
-        "Garlic powder",
-        "Onion powder",
+        "Low-sodium chicken broth (4 cartons 32oz each)",
+        "Honey (small bottle)",
+        "Dried basil",
+        "Dried thyme",
         "Dried Italian seasoning",
-        "Salt"
+        "Garlic powder (if low)",
+        "Onion powder (if low)",
+        "Dried parsley",
+        "Parchment paper (if needed)"
       ]
-    }
+    },
+    "notes": [
+      "Chicken breasts, shrimp, olive oil, and rice are Costco staples — excluded from HEB list",
+      "Organic produce flagged above where available at HEB",
+      "All 5 dinners use 2-3 seasonal items per recipe as required",
+      "Cherry tomatoes appear in 2 recipes — purchase 4 cups total",
+      "Corn appears in 3 recipes — purchase 7 ears total to cover kernels needed"
+    ]
   },
   "costco_list": [
     {
-      "item": "Chicken Breasts (boneless skinless)",
-      "quantity": "10–12 lbs (used in 2 of 5 dinners plus daily lunches/meal prep)",
-      "needed_by_date": "Within 3–5 days of shopping trip",
-      "urgent": true,
-      "notes": "Used in Recipes 1 and 5. Also core daily protein for lunches and meal prep. High weekly volume."
-    },
-    {
-      "item": "Shrimp (large, peeled and deveined, frozen)",
-      "quantity": "3 lbs",
-      "needed_by_date": "Within 7 days",
-      "urgent": true,
-      "notes": "Used in Recipe 4. Frozen bag keeps longer but pull to thaw day before dinner."
+      "item": "Chicken Breasts",
+      "quantity": "10-12 lbs (family of 4, used in 3 of 5 dinners plus lunches/meal prep across week)",
+      "needed_by_date": "Within 3-5 days — purchase fresh or freeze immediately",
+      "urgent": true
     },
     {
       "item": "Eggs",
-      "quantity": "2 dozen (24 count)",
-      "needed_by_date": "Within 14 days",
-      "urgent": true,
-      "notes": "Daily staple for breakfast and meal prep across all 7 days for family of 4."
+      "quantity": "2 dozen (daily household use for 2 adults and 2 toddlers over 14 days)",
+      "needed_by_date": "Within 7 days",
+      "urgent": true
     },
     {
       "item": "Egg Whites (carton)",
-      "quantity": "2 x 32 oz cartons",
-      "needed_by_date": "Within 14 days",
-      "urgent": true,
-      "notes": "Daily use for Dad's protein targets. Two cartons cover 7 days at typical usage."
-    },
-    {
-      "item": "Greek Yogurt (plain, nonfat or 2%)",
-      "quantity": "3 lbs tub",
-      "needed_by_date": "Within 10 days",
-      "urgent": true,
-      "notes": "Used in Recipes 1 and 4. Also daily snack and breakfast staple. Check current fridge stock."
-    },
-    {
-      "item": "Dave's Killer Bread (21 Whole Grains)",
-      "quantity": "2 loaves",
+      "quantity": "2 large cartons (Dad's daily protein macros 150-170g protein — egg whites critical for breakfast targets)",
       "needed_by_date": "Within 7 days",
-      "urgent": true,
-      "notes": "Daily sandwich/toast staple for lunches. Two loaves cover a normal full week for family of 4."
+      "urgent": true
+    },
+    {
+      "item": "Shrimp (large, peeled and deveined, frozen)",
+      "quantity": "3 lbs (2 lbs for dinner recipe this week plus reserve for next week)",
+      "needed_by_date": "Within 7 days — used in dinner recipe this week",
+      "urgent": true
+    },
+    {
+      "item": "Greek Yogurt (plain nonfat)",
+      "quantity": "2 large tubs 32oz each (daily snacks and breakfast for family of 4 over 14 days)",
+      "needed_by_date": "Within 10 days",
+      "urgent": true
+    },
+    {
+      "item": "Dave's Killer Bread",
+      "quantity": "2 loaves (family of 4 daily lunches and snacks over 14 days)",
+      "needed_by_date": "Within 7 days — bread shelf life consideration",
+      "urgent": true
     },
     {
       "item": "Cottage Cheese",
-      "quantity": "2 x 24 oz tubs",
+      "quantity": "2 large tubs 24oz each (Dad's protein macro staple, toddler snack)",
       "needed_by_date": "Within 14 days",
-      "urgent": false,
-      "notes": "Daily snack and protein supplement for Dad. Check current stock — reorder if below one tub."
+      "urgent": true
     },
     {
       "item": "Olive Oil (extra virgin)",
-      "quantity": "1 x 2L bottle (if current bottle is below half)",
-      "needed_by_date": "Within 14 days",
-      "urgent": false,
-      "notes": "Used as the 1 tbsp added fat in every dinner recipe this week plus daily cooking. Monitor level."
+      "quantity": "1 large bottle 2L (staple — used in every dinner recipe at 1 tbsp max per meal, plus other uses)",
+      "needed_by_date": "Within 14 days — assess current level before purchasing",
+      "urgent": false
     },
     {
-      "item": "Rice (long grain white or jasmine)",
-      "quantity": "1 x 25 lb bag (if pantry is running low)",
-      "needed_by_date": "Within 14 days",
-      "urgent": false,
-      "notes": "Used in Recipes 1, 3, and 5 this week. Also daily lunch carb staple. Costco bag lasts 6–8 weeks for this family."
+      "item": "White Rice (long grain)",
+      "quantity": "10 lb bag (used in all 5 dinner recipes this week at 1.5 cups dry per recipe, plus ongoing household staple)",
+      "needed_by_date": "Within 14 days — pantry staple, non-perishable",
+      "urgent": false
     }
   ]
 }
