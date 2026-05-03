@@ -1540,16 +1540,9 @@ async function loadLiveData() {
         let normalizedIngredients = {};
         if (r.ingredients && Array.isArray(r.ingredients)) {
           if (typeof r.ingredients[0] === 'string') {
-            normalizedIngredients = { 'Ingredients': r.ingredients.map(i => {
-              // Try to split "2 cups rice" into qty:"2 cups" name:"rice"
-              // But just store the whole string as name if no clear split
-              const str = String(i);
-              const match = str.match(/^([\d\/\.\s]*(cups?|tbsp|tsp|oz|lbs?|g|kg|ml|l|pounds?|ounces?|cloves?|cans?|bunches?|heads?|medium|large|small|whole)[\s\w]*?)\s+(.+)$/i);
-              if (match) {
-                return { name: match[3], qty: match[1].trim() };
-              }
-              return { name: str, qty: '' };
-            })) };
+            normalizedIngredients = { 'Ingredients': r.ingredients.map(function(i) {
+              return { name: String(i), qty: '' };
+            }) };
           } else if (typeof r.ingredients[0] === 'object') {
             // Group by category if available, otherwise flat list
             const grouped = {};
