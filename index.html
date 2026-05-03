@@ -1499,14 +1499,18 @@ async function loadLiveData() {
     // Strip any null prefix/suffix and whitespace
     raw = raw.replace(/^null\s*/g, '').replace(/\s*null$/g, '').trim();
 
-    // Strip markdown code fences if present
-    raw = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+    // Strip markdown code fences
+    raw = raw.replace(/```json/g, '').replace(/```/g, '').trim();
 
-    // Strip markdown escape backslashes (e.g. \[ -> [, \_ -> _)
-    raw = raw.replace(/\\([\[\]_*])/g, '$1');
+    // Fix markdown-escaped characters that break JSON
+    // e.g. \[ -> [  \] -> ]  \_ -> _  \* -> *
+    raw = raw.replace(/\\\[/g, '[');
+    raw = raw.replace(/\\\]/g, ']');
+    raw = raw.replace(/\\_/g, '_');
+    raw = raw.replace(/\\\*/g, '*');
 
-    // Strip trailing spaces from line ends (markdown artifacts)
-    raw = raw.replace(/  \n/g, ' ').replace(/\\n/g, ' ');
+    // Fix markdown trailing spaces on lines (two spaces + newline)
+    raw = raw.replace(/  \n/g, '\n');
 
     // Extract valid JSON object from first { to last }
     const firstBrace = raw.indexOf('{');
@@ -1515,8 +1519,15 @@ async function loadLiveData() {
       raw = raw.substring(firstBrace, lastBrace + 1);
     }
 
-    // Parse recipe JSON directly
-    const liveData = JSON.parse(raw);
+    // Try parsing — if it fails log the exact error
+    let liveData;
+    try {
+      liveData = JSON.parse(raw);
+    } catch(parseErr) {
+      console.error('JSON parse failed:', parseErr.message);
+      console.error('Raw content preview:', raw.substring(0, 500));
+      throw parseErr;
+    }
 
     // Update WEEK_DATA if present
     if (liveData.week_label) {
