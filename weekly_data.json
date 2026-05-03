@@ -1,298 +1,280 @@
 null
 {
-  "week_label": "Maxwell Family Dinner Plan — May Week (Normal Week, No Travel)",
-  "seasonal_tags": ["blueberries", "corn", "zucchini", "cherry tomatoes", "peaches"],
+  "week_label": "Maxwell Family Dinner Plan — May 2025 (Normal Week, 5 Dinners)",
+  "seasonal_tags": ["corn", "zucchini", "cherry tomatoes", "blueberries", "peaches"],
   "recipes": [
     {
       "id": 1,
-      "name": "Herb Chicken Breast with Fresh Corn and Zucchini",
-      "seasonal_items_used": ["corn", "zucchini"],
+      "name": "Sheet Pan Chicken Breast with Roasted Corn and Zucchini",
+      "seasonal_produce_used": ["corn", "zucchini"],
       "macros_per_serving": {
         "protein_g": 51,
         "fat_g": 11,
-        "carbs_g": 68
+        "carbs_g": 69
       },
-      "prep_time": "15 min",
-      "cook_time": "25 min",
-      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes",
       "ingredients": [
-        "2 lbs chicken breast (7-8oz per serving, sliced thin for even cooking)",
-        "3 ears fresh corn, kernels cut off cob (about 2 cups kernels)",
-        "2 medium zucchini, diced small (toddler-friendly small pieces)",
-        "1.5 cups dry white rice (yields 4.5 cups cooked, 1.5 cups per adult; blend for toddlers)",
-        "1 tbsp olive oil (total added fat — divided across entire dish)",
+        "2 lbs boneless skinless chicken breasts (7–8 oz per adult serving, proportioned smaller for toddlers)",
+        "2 ears fresh corn, kernels cut from cob",
+        "2 medium organic zucchini, sliced into half-moons",
+        "1 tbsp olive oil (total for entire pan)",
         "1/2 tsp garlic powder",
         "1/2 tsp onion powder",
-        "1/2 tsp dried parsley",
         "Salt to taste",
-        "2 cups low-sodium chicken broth (for cooking rice, adds flavor without fat)",
-        "1/4 cup water (for sautéing vegetables)"
+        "3 cups dry white rice (yields 6 cups cooked, 1.5 cups per serving)"
       ],
       "steps": [
-        "Cook white rice in 2 cups low-sodium chicken broth + water per package instructions. Fluff and set aside.",
-        "Pat chicken breasts dry and season with garlic powder, onion powder, parsley, and salt.",
-        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium heat. Add chicken breasts and cook 6-7 min per side until internal temp reaches 165°F. Remove and rest 5 min, then slice.",
-        "In same skillet add remaining 1/2 tbsp olive oil. Add corn kernels and cook 3 min stirring gently. Add diced zucchini and cook another 4 min until softened. Season lightly with salt.",
-        "Plate 1.5 cups cooked rice per adult serving, top with sliced chicken (7-8oz) and generous scoop of corn-zucchini mixture.",
-        "For toddlers: shred chicken finely, dice zucchini and corn extra small, serve alongside soft rice."
+        "Preheat oven to 400°F. Line a large sheet pan with parchment paper.",
+        "Cook white rice according to package directions to yield 6 cups cooked. Set aside.",
+        "Pound chicken breasts to even 3/4-inch thickness for uniform cooking.",
+        "Place chicken breasts on one side of the sheet pan. Arrange corn kernels and zucchini slices on the other side.",
+        "Drizzle all of the 1 tbsp olive oil evenly over the chicken and vegetables.",
+        "Season chicken and vegetables lightly with garlic powder, onion powder, and salt.",
+        "Roast for 25–30 minutes until chicken reaches internal temperature of 165°F and vegetables are tender.",
+        "Let chicken rest 5 minutes, then slice. Serve 7–8 oz sliced chicken over 1.5 cups rice per adult; serve smaller portions for toddlers with soft-cut pieces.",
+        "Spoon roasted corn and zucchini alongside rice."
       ],
       "kids_tasks": [
-        "Toddlers can help husk the corn ears with supervision",
-        "Older toddler can stir the cooked rice gently with a spoon",
-        "Kids can rinse zucchini under running water"
+        "Toddlers can help shuck the corn ears before kernels are cut by an adult.",
+        "Older toddler can help pour washed zucchini into a bowl."
       ]
     },
     {
       "id": 2,
-      "name": "Shrimp and Cherry Tomato Rice Bowl with Zucchini",
-      "seasonal_items_used": ["cherry tomatoes", "zucchini"],
+      "name": "Ground Turkey and Cherry Tomato Rice Bowl",
+      "seasonal_produce_used": ["cherry tomatoes"],
       "macros_per_serving": {
         "protein_g": 50,
         "fat_g": 12,
         "carbs_g": 71
       },
-      "prep_time": "15 min",
-      "cook_time": "20 min",
-      "servings": 4,
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
       "ingredients": [
-        "2 lbs large shrimp, peeled and deveined (7-8oz per serving)",
-        "2 cups cherry tomatoes, halved",
-        "2 medium zucchini, sliced into half-moons thin",
-        "1.5 cups dry white rice (yields 4.5 cups cooked)",
-        "1 tbsp olive oil (total for entire recipe)",
-        "1/2 tsp garlic powder",
-        "1/2 tsp dried basil",
+        "2 lbs 93/7 lean ground turkey",
+        "2 cups organic cherry tomatoes, halved",
+        "1 cup low-sodium chicken broth",
+        "1 tbsp olive oil (total for skillet)",
+        "3 cloves garlic, minced",
+        "1/2 medium yellow onion, finely diced",
         "Salt to taste",
-        "1/4 cup water or low-sodium broth for deglazing",
-        "1 tbsp lemon juice (fresh, fat-free flavor boost)"
+        "3 cups dry white rice (yields 6 cups cooked, 1.5 cups per serving)"
       ],
       "steps": [
-        "Cook rice according to package directions. Set aside.",
-        "Pat shrimp dry and season with garlic powder, basil, and salt.",
-        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium-high heat. Add shrimp in single layer. Cook 2 min per side until pink and opaque. Remove and set aside.",
-        "Reduce heat to medium. Add remaining 1/2 tbsp olive oil. Add zucchini and cook 3 min. Add cherry tomatoes and cook another 3-4 min until tomatoes are soft and beginning to break down. Add splash of water if needed to prevent sticking.",
-        "Return shrimp to pan, drizzle with lemon juice, toss gently, remove from heat.",
-        "Serve over 1.5 cups cooked rice per serving. For toddlers: cut shrimp into small pieces, ensure tomatoes are fully softened, serve rice separately."
+        "Cook white rice according to package directions. Set aside.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Add diced onion and cook 3–4 minutes until softened and translucent.",
+        "Add minced garlic and cook 1 minute.",
+        "Add ground turkey, breaking into small crumbles. Cook 8–10 minutes until fully cooked through.",
+        "Add halved cherry tomatoes and chicken broth. Stir to combine.",
+        "Simmer uncovered 8–10 minutes until tomatoes soften and sauce reduces slightly. Season with salt.",
+        "Serve turkey-tomato mixture over 1.5 cups cooked rice per adult. Portion toddler servings with small, easy-to-manage pieces."
       ],
       "kids_tasks": [
-        "Toddlers can help rinse cherry tomatoes in a colander",
-        "Kids can place shrimp into a bowl for seasoning with supervision",
-        "Older toddler can help squeeze lemon with a hand juicer"
+        "Toddlers can rinse cherry tomatoes in a colander in the sink with supervision.",
+        "Older toddler can help stir the rice in the pot with an adult holding the handle."
       ]
     },
     {
       "id": 3,
-      "name": "Ground Turkey Stuffed Zucchini Boats with Corn Rice",
-      "seasonal_items_used": ["zucchini", "corn"],
+      "name": "Lemon Garlic Shrimp with Zucchini and Pasta",
+      "seasonal_produce_used": ["zucchini"],
       "macros_per_serving": {
-        "protein_g": 52,
+        "protein_g": 51,
         "fat_g": 11,
-        "carbs_g": 69
+        "carbs_g": 70
       },
-      "prep_time": "20 min",
-      "cook_time": "30 min",
-      "servings": 4,
+      "prep_time": "12 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "2 lbs 93% lean ground turkey",
-        "4 large zucchini, halved lengthwise and hollowed (boats), flesh reserved and chopped",
-        "2 ears fresh corn, kernels cut off (about 1.5 cups kernels)",
-        "1.5 cups dry white rice (yields 4.5 cups cooked)",
-        "1 tbsp olive oil (total for entire recipe)",
-        "1/2 cup low-sodium chicken broth",
-        "1/2 tsp garlic powder",
-        "1/2 tsp onion powder",
-        "1/4 tsp dried Italian seasoning (mild, toddler safe)",
+        "2 lbs large raw shrimp, peeled and deveined (31/40 count)",
+        "2 medium organic zucchini, diced small",
+        "1 tbsp olive oil (total for skillet)",
+        "3 cloves garlic, minced",
+        "Juice of 1 lemon",
         "Salt to taste",
-        "1/4 cup part-skim shredded mozzarella (optional light topping, accounts for fat budget)"
+        "12 oz dry penne pasta (yields approximately 6 cups cooked)",
+        "Low-sodium chicken broth as needed to loosen sauce (2–3 tbsp)"
       ],
       "steps": [
-        "Preheat oven to 400°F. Cook rice with corn kernels folded in during last 5 min of cooking. Set aside.",
-        "Hollow out zucchini halves, chop the scooped flesh, set aside. Place zucchini boats on a parchment-lined baking sheet.",
-        "Heat 1/2 tbsp olive oil in skillet over medium heat. Add ground turkey, breaking into small pieces. Cook through about 8-10 min until no pink remains. Season with garlic powder, onion powder, Italian seasoning, salt.",
-        "Add chopped zucchini flesh and 1/4 cup broth. Cook 3 more min until softened.",
-        "Fill each zucchini boat with turkey mixture. Optionally add light sprinkle of mozzarella. Brush boats lightly with remaining 1/2 tbsp olive oil.",
-        "Bake 18-20 min until zucchini is fork-tender.",
-        "Serve 2 filled boat halves per adult (7-8oz protein total), alongside 1.5 cups corn rice. For toddlers: scoop out soft turkey and corn rice, serve bowl-style."
+        "Bring a large pot of salted water to boil. Cook penne according to package directions to al dente. Reserve 1/4 cup pasta water before draining.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Add diced zucchini and cook 4–5 minutes until tender. Remove and set aside.",
+        "Add minced garlic to same skillet and cook 30 seconds.",
+        "Add shrimp in a single layer. Cook 1–2 minutes per side until pink and cooked through. Do not overcook.",
+        "Return zucchini to skillet. Add lemon juice and 2–3 tbsp reserved pasta water or broth to create a light sauce.",
+        "Add drained pasta and toss to combine. Season with salt.",
+        "Serve approximately 1.5 cups pasta mixture per adult with shrimp portioned to 7–8 oz. Cut toddler shrimp into small soft pieces."
       ],
       "kids_tasks": [
-        "Toddlers can help rinse zucchini",
-        "Kids can help scoop cooled cooked zucchini flesh with a spoon",
-        "Older toddler can help cut corn off the cob with a butter knife and adult supervision"
+        "Toddlers can help wash the zucchini under running water.",
+        "Older toddler can help squeeze the lemon with a hand juicer with adult supervision."
       ]
     },
     {
       "id": 4,
-      "name": "Baked Cod with Cherry Tomato Pan Sauce and Herb Rice",
-      "seasonal_items_used": ["cherry tomatoes"],
+      "name": "Tilapia Tacos with Corn Salsa and Soft Flour Tortillas",
+      "seasonal_produce_used": ["corn", "cherry tomatoes"],
       "macros_per_serving": {
         "protein_g": 50,
         "fat_g": 12,
-        "carbs_g": 70
+        "carbs_g": 68
       },
-      "prep_time": "10 min",
-      "cook_time": "25 min",
-      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "2 lbs cod fillets (7-8oz per serving, boneless)",
-        "2 cups cherry tomatoes, halved",
-        "1.5 cups dry white rice (yields 4.5 cups cooked)",
-        "1 tbsp olive oil (total for entire recipe)",
-        "2 tbsp low-sodium chicken broth (for pan sauce)",
+        "2 lbs tilapia fillets",
+        "1 tbsp olive oil (total for skillet)",
         "1/2 tsp garlic powder",
-        "1/2 tsp dried parsley",
-        "1/4 tsp dried basil",
         "Salt to taste",
-        "1 tbsp lemon juice",
-        "2 cups low-sodium chicken broth for cooking rice"
+        "2 ears fresh corn, kernels cut from cob",
+        "1 cup organic cherry tomatoes, finely diced",
+        "Juice of 1 lime",
+        "1/4 cup fresh cilantro, chopped (optional for adults)",
+        "8 medium soft flour tortillas (approximately 8-inch, about 45g each)",
+        "1/2 cup plain non-fat Greek yogurt (as mild topping in place of sour cream)"
       ],
       "steps": [
-        "Preheat oven to 400°F. Cook rice in low-sodium chicken broth per package directions. Stir in dried parsley when done. Set aside.",
-        "Pat cod fillets dry. Season with garlic powder, basil, salt.",
-        "Heat 1/2 tbsp olive oil in oven-safe skillet over medium heat. Add cherry tomatoes and cook 3-4 min until softened. Add 2 tbsp broth and stir to create simple pan sauce.",
-        "Nestle cod fillets into the tomato mixture. Drizzle remaining 1/2 tbsp olive oil over fish. Drizzle lemon juice on top.",
-        "Transfer skillet to oven. Bake 12-15 min until fish flakes easily with fork (internal temp 145°F).",
-        "Serve each portion of cod over 1.5 cups herb rice, spooning tomato pan sauce on top.",
-        "For toddlers: flake cod into small pieces ensuring no bones, serve with soft rice and spoon sauce alongside."
+        "Prepare corn salsa: In a bowl combine corn kernels, diced cherry tomatoes, lime juice, and cilantro if using. Season lightly with salt. Set aside.",
+        "Pat tilapia fillets dry. Season both sides with garlic powder and salt.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Cook tilapia 3–4 minutes per side until fish flakes easily with a fork.",
+        "Remove fish and flake into large pieces with a fork.",
+        "Warm flour tortillas in a dry skillet or wrapped in a damp paper towel in the microwave for 30 seconds.",
+        "Assemble tacos: layer flaked tilapia onto tortillas, top with corn salsa and a small dollop of Greek yogurt.",
+        "For toddlers, serve flaked fish and corn salsa on a plate alongside a torn soft tortilla for easy eating.",
+        "Adults receive 2 tacos each at approximately 3.5–4 oz tilapia per taco to reach 7–8 oz total."
       ],
       "kids_tasks": [
-        "Toddlers can rinse cherry tomatoes in a colander",
-        "Kids can help stir the cooked rice",
-        "Older toddler can help tear parsley leaves if using fresh"
+        "Toddlers can help stir the corn salsa in a bowl with a spoon.",
+        "Older toddler can help place the tortillas on plates."
       ]
     },
     {
       "id": 5,
-      "name": "Chicken Breast and Peach Glaze with Corn Rice Pilaf",
-      "seasonal_items_used": ["peaches", "corn"],
+      "name": "Baked Cod with Peach Glaze over Brown Rice and Steamed Zucchini",
+      "seasonal_produce_used": ["peaches", "zucchini"],
       "macros_per_serving": {
         "protein_g": 51,
         "fat_g": 11,
-        "carbs_g": 72
+        "carbs_g": 71
       },
-      "prep_time": "15 min",
-      "cook_time": "30 min",
-      "servings": 4,
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes",
       "ingredients": [
-        "2 lbs chicken breast, butterflied thin for even cooking (7-8oz per serving)",
-        "3 ripe peaches, peeled and diced small (about 2 cups)",
-        "2 ears fresh corn, kernels removed (about 1.5 cups)",
-        "1.5 cups dry white rice (yields 4.5 cups cooked)",
-        "1 tbsp olive oil (total for entire recipe)",
-        "2 tbsp water",
-        "1 tbsp honey (natural fruit glaze base, minimal added sugar)",
-        "1/4 tsp garlic powder",
-        "1/4 tsp onion powder",
-        "1/2 tsp dried thyme (very mild, toddler-safe herb)",
+        "2 lbs cod fillets",
+        "2 ripe organic peaches, peeled and pureed (approximately 3/4 cup puree)",
+        "1 tbsp low-sodium soy sauce",
+        "1 tsp honey",
+        "1 tsp garlic powder",
         "Salt to taste",
-        "2 cups low-sodium chicken broth for rice"
+        "2 medium organic zucchini, cut into 1/2-inch rounds",
+        "3 cups dry brown rice (yields 6 cups cooked, 1.5 cups per serving)",
+        "1 tbsp olive oil (total — brushed lightly on baking dish only)"
       ],
       "steps": [
-        "Cook rice in low-sodium chicken broth per package directions. During last 5 min fold in corn kernels. Cover and let steam. Fluff and set aside.",
-        "Season butterflied chicken breasts with garlic powder, onion powder, thyme, salt.",
-        "Heat 1/2 tbsp olive oil in large non-stick skillet over medium heat. Cook chicken 5-6 min per side until internal temp hits 165°F. Remove and rest.",
-        "In same pan add remaining 1/2 tbsp olive oil over medium-low heat. Add diced peaches and 2 tbsp water. Cook 4-5 min stirring gently until peaches soften.",
-        "Stir in honey and cook 1 more min until lightly syrupy. Season with tiny pinch of salt.",
-        "Slice chicken and return to pan, coat gently in peach glaze.",
-        "Serve sliced chicken with peach glaze over 1.5 cups corn rice pilaf per adult serving.",
-        "For toddlers: shred chicken finely, ensure peaches are very soft, serve corn rice with small pieces mixed in. Toddlers typically love the mild sweet peach flavor."
+        "Cook brown rice according to package directions. Note: brown rice takes 40–45 minutes; start first.",
+        "Preheat oven to 375°F.",
+        "Make peach glaze: blend or mash peeled peaches until smooth. Stir in soy sauce, honey, garlic powder, and a pinch of salt.",
+        "Lightly brush a baking dish with the 1 tbsp olive oil using a pastry brush.",
+        "Place cod fillets in baking dish. Spoon peach glaze generously over each fillet.",
+        "Bake 18–22 minutes until cod flakes easily with a fork and reaches 145°F internal temperature.",
+        "While cod bakes, steam zucchini rounds in a steamer basket over boiling water for 5–6 minutes until very tender (toddler-friendly soft texture).",
+        "Serve 7–8 oz cod per adult over 1.5 cups cooked brown rice with steamed zucchini alongside. Flake cod into smaller pieces for toddler portions.",
+        "Spoon any remaining pan glaze over fish before serving."
       ],
       "kids_tasks": [
-        "Toddlers can help peel soft ripe peaches with fingers with supervision",
-        "Kids can help stir corn rice gently",
-        "Older toddler can drizzle honey into the pan with adult holding the bottle together"
+        "Toddlers can help wash the peaches and zucchini in the sink.",
+        "Older toddler can help spoon the peach puree into the bowl for an adult to mix."
       ]
     }
   ],
   "grocery_preview": {
     "grouped_by_section": {
       "Produce": [
-        "5 ears fresh corn (organic preferred)",
-        "6 medium zucchini (organic preferred)",
-        "4 cups cherry tomatoes (organic preferred)",
-        "3 ripe peaches (organic preferred)",
-        "2 lemons (organic preferred)",
-        "Fresh parsley (organic preferred)"
+        "organic zucchini (organic preferred) — 6 medium",
+        "organic cherry tomatoes (organic preferred) — 1 pint",
+        "organic peaches (organic preferred) — 2 ripe",
+        "fresh corn on the cob — 4 ears",
+        "yellow onion — 1 medium",
+        "garlic — 2 heads",
+        "lemons — 2",
+        "limes — 2",
+        "fresh cilantro — 1 bunch"
       ],
       "Protein": [
-        "2 lbs cod fillets (boneless)",
-        "2 lbs 93% lean ground turkey"
+        "tilapia fillets — 2 lbs",
+        "cod fillets — 2 lbs",
+        "93/7 lean ground turkey — 2 lbs"
       ],
       "Dairy": [
-        "Part-skim shredded mozzarella (small bag, optional for stuffed zucchini recipe)"
+        "plain non-fat Greek yogurt — 1 cup (if not sourcing from Costco supply)"
       ],
       "Pantry": [
-        "Low-sodium chicken broth (4 cartons 32oz each)",
-        "Honey (small bottle)",
-        "Dried basil",
-        "Dried thyme",
-        "Dried Italian seasoning",
-        "Garlic powder (if low)",
-        "Onion powder (if low)",
-        "Dried parsley",
-        "Parchment paper (if needed)"
+        "dry white rice — 6 cups dry (if not already stocked from Costco supply)",
+        "dry brown rice — 3 cups dry",
+        "dry penne pasta — 12 oz",
+        "soft flour tortillas (8-inch) — 1 package of 8",
+        "low-sodium chicken broth — 1 carton (32 oz)",
+        "low-sodium soy sauce — 1 bottle",
+        "honey — 1 small bottle"
       ]
-    },
-    "notes": [
-      "Chicken breasts, shrimp, olive oil, and rice are Costco staples — excluded from HEB list",
-      "Organic produce flagged above where available at HEB",
-      "All 5 dinners use 2-3 seasonal items per recipe as required",
-      "Cherry tomatoes appear in 2 recipes — purchase 4 cups total",
-      "Corn appears in 3 recipes — purchase 7 ears total to cover kernels needed"
-    ]
+    }
   },
   "costco_list": [
     {
-      "item": "Chicken Breasts",
-      "quantity": "10-12 lbs (family of 4, used in 3 of 5 dinners plus lunches/meal prep across week)",
-      "needed_by_date": "Within 3-5 days — purchase fresh or freeze immediately",
+      "item": "Boneless Skinless Chicken Breasts",
+      "quantity_needed": "2 lbs (for Recipe 1 — Sheet Pan Chicken)",
+      "needed_by_date": "May 2025 weekly dinner",
+      "urgent": true
+    },
+    {
+      "item": "Large Raw Shrimp (peeled and deveined, 31/40 count)",
+      "quantity_needed": "2 lbs (for Recipe 3 — Lemon Garlic Shrimp)",
+      "needed_by_date": "May 2025 weekly dinner",
       "urgent": true
     },
     {
       "item": "Eggs",
-      "quantity": "2 dozen (daily household use for 2 adults and 2 toddlers over 14 days)",
-      "needed_by_date": "Within 7 days",
-      "urgent": true
+      "quantity_needed": "1 dozen (household staple replenish)",
+      "needed_by_date": "Ongoing staple",
+      "urgent": false
     },
     {
-      "item": "Egg Whites (carton)",
-      "quantity": "2 large cartons (Dad's daily protein macros 150-170g protein — egg whites critical for breakfast targets)",
-      "needed_by_date": "Within 7 days",
-      "urgent": true
+      "item": "Egg Whites",
+      "quantity_needed": "1 carton (household staple replenish)",
+      "needed_by_date": "Ongoing staple",
+      "urgent": false
     },
     {
-      "item": "Shrimp (large, peeled and deveined, frozen)",
-      "quantity": "3 lbs (2 lbs for dinner recipe this week plus reserve for next week)",
-      "needed_by_date": "Within 7 days — used in dinner recipe this week",
-      "urgent": true
-    },
-    {
-      "item": "Greek Yogurt (plain nonfat)",
-      "quantity": "2 large tubs 32oz each (daily snacks and breakfast for family of 4 over 14 days)",
-      "needed_by_date": "Within 10 days",
-      "urgent": true
-    },
-    {
-      "item": "Dave's Killer Bread",
-      "quantity": "2 loaves (family of 4 daily lunches and snacks over 14 days)",
-      "needed_by_date": "Within 7 days — bread shelf life consideration",
+      "item": "Plain Non-Fat Greek Yogurt",
+      "quantity_needed": "1 large tub (used in Recipe 4 tacos and general weekly use)",
+      "needed_by_date": "May 2025 weekly dinner",
       "urgent": true
     },
     {
       "item": "Cottage Cheese",
-      "quantity": "2 large tubs 24oz each (Dad's protein macro staple, toddler snack)",
-      "needed_by_date": "Within 14 days",
-      "urgent": true
-    },
-    {
-      "item": "Olive Oil (extra virgin)",
-      "quantity": "1 large bottle 2L (staple — used in every dinner recipe at 1 tbsp max per meal, plus other uses)",
-      "needed_by_date": "Within 14 days — assess current level before purchasing",
+      "quantity_needed": "1 large tub (household staple replenish)",
+      "needed_by_date": "Ongoing staple",
       "urgent": false
     },
     {
-      "item": "White Rice (long grain)",
-      "quantity": "10 lb bag (used in all 5 dinner recipes this week at 1.5 cups dry per recipe, plus ongoing household staple)",
-      "needed_by_date": "Within 14 days — pantry staple, non-perishable",
+      "item": "Olive Oil",
+      "quantity_needed": "1 bottle (household staple replenish if running low)",
+      "needed_by_date": "Ongoing staple",
+      "urgent": false
+    },
+    {
+      "item": "White Rice",
+      "quantity_needed": "1 large bag (used across Recipes 1 and 2)",
+      "needed_by_date": "May 2025 weekly dinner",
+      "urgent": true
+    },
+    {
+      "item": "Dave's Killer Bread 21 Whole Grains and Seeds Organic Sliced Bread",
+      "quantity_needed": "1–2 loaves (household staple replenish)",
+      "needed_by_date": "Ongoing staple",
       "urgent": false
     }
   ]
