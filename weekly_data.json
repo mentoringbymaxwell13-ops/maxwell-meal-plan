@@ -1,11 +1,12 @@
 null
 {
-  "week_label": "Maxwell Family Dinner Week — May, Houston TX",
+  "week_label": "Maxwell Family Meal Plan — May Week, Houston TX",
   "seasonal_tags": ["blueberries", "corn", "zucchini", "cherry tomatoes", "peaches"],
+  "seasonal_items_used_this_week": ["corn", "zucchini", "cherry tomatoes"],
   "recipes": [
     {
       "id": 1,
-      "name": "Grilled Chicken Breast with Fresh Corn & Zucchini Rice Bowl",
+      "name": "Baked Chicken Breast with Roasted Corn and Zucchini Rice Bowl",
       "seasonal_produce_used": ["corn", "zucchini"],
       "macros_per_serving": {
         "protein_g": 51,
@@ -13,240 +14,320 @@ null
         "carbs_g": 69,
         "calories": 579
       },
-      "prep_time": "15 min",
-      "cook_time": "25 min",
+      "prep_time": "10 minutes",
+      "cook_time": "30 minutes",
       "servings": 4,
-      "ingredients": [
-        "2 lbs boneless skinless chicken breast (yields ~7.5 oz cooked per serving)",
-        "1.5 cups dry white rice (yields 6 cups cooked, 1.5 cups per serving)",
-        "2 ears fresh corn, kernels cut off (approx 1.5 cups kernels)",
-        "2 medium zucchini, diced small",
-        "1 tbsp olive oil (total for entire recipe)",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "1/2 tsp salt",
-        "1/4 tsp black pepper",
-        "Low-sodium chicken broth, 3 cups (to cook rice)",
-        "Fresh parsley, chopped, 2 tbsp (garnish)"
-      ],
+      "protein_source": "chicken breast",
+      "protein_oz_per_serving": 7.5,
+      "added_fat_tbsp_total": 1,
+      "cooked_grain_cups_per_serving": 1.5,
+      "ingredients": {
+        "protein": [
+          "2 lbs boneless skinless chicken breasts (from Costco)"
+        ],
+        "produce": [
+          "2 ears fresh corn, kernels cut off",
+          "2 medium zucchini, diced small",
+          "1 tsp garlic powder",
+          "1 tsp onion powder",
+          "1/2 tsp salt"
+        ],
+        "grain": [
+          "3 cups dry white rice (yields 6 cups cooked)"
+        ],
+        "fat": [
+          "1 tbsp olive oil (from Costco)"
+        ],
+        "dairy": [
+          "none"
+        ]
+      },
       "steps": [
-        "Cook rice in low-sodium chicken broth per package instructions. Fluff when done.",
-        "Season chicken breasts with garlic powder, onion powder, salt, and pepper.",
-        "Heat 1/2 tbsp olive oil in a large non-stick skillet over medium heat. Cook chicken breasts 6-7 min per side until internal temp reaches 165°F. Rest 5 min, then slice.",
-        "In same skillet add remaining 1/2 tbsp olive oil over medium heat. Add zucchini and corn kernels. Sauté 5-6 min until zucchini is soft and corn is tender — toddler-friendly texture.",
-        "Fold corn and zucchini into cooked rice. Season lightly with salt.",
-        "Serve 1.5 cups rice mixture per serving topped with sliced chicken breast. Garnish with parsley."
+        "Preheat oven to 400°F.",
+        "Season chicken breasts with garlic powder, onion powder, and salt on both sides.",
+        "Place chicken in a baking dish and bake for 25-28 minutes until internal temp reaches 165°F.",
+        "While chicken bakes, cook rice according to package directions to yield 6 cups cooked (1.5 cups per serving).",
+        "Heat olive oil in a skillet over medium heat — this is your entire 1 tbsp added fat for the dish.",
+        "Add zucchini to skillet and cook 4-5 minutes until just tender and soft for toddlers.",
+        "Add corn kernels and cook another 3 minutes until corn is soft and sweet.",
+        "Remove chicken from oven, rest 5 minutes, then slice thinly for toddlers or portion 7.5 oz per adult.",
+        "Build bowls: 1.5 cups rice, topped with zucchini and corn mixture, then sliced chicken.",
+        "Serve toddler portions with extra soft-cooked zucchini and corn on the side."
       ],
       "kids_tasks": [
-        "Toddlers can help rinse the rice in a strainer with supervision",
-        "Toddlers can help pull corn husks off the ears before an adult cuts the kernels",
-        "Toddlers can tear fresh parsley leaves for garnish"
+        "Help pull corn kernels off cob with adult supervision",
+        "Stir the rice when it is safe to do so",
+        "Help arrange bowls with spoon"
       ]
     },
     {
       "id": 2,
-      "name": "Mild Shrimp & Cherry Tomato Pasta with Zucchini",
-      "seasonal_produce_used": ["cherry tomatoes", "zucchini"],
+      "name": "Ground Turkey and Cherry Tomato Pasta Skillet",
+      "seasonal_produce_used": ["cherry tomatoes"],
       "macros_per_serving": {
         "protein_g": 50,
         "fat_g": 12,
         "carbs_g": 71,
-        "calories": 591
+        "calories": 596
       },
-      "prep_time": "10 min",
-      "cook_time": "20 min",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
       "servings": 4,
-      "ingredients": [
-        "2 lbs large shrimp, peeled and deveined (yields ~7.5 oz per serving)",
-        "10 oz dry penne pasta (approx 1.5 cups cooked volume per serving when portioned)",
-        "2 cups cherry tomatoes, halved",
-        "2 medium zucchini, sliced into half-moons",
-        "1 tbsp olive oil (total)",
-        "3 cloves garlic, minced (mild, cooked fully so flavor is gentle)",
-        "1/2 tsp salt",
-        "1/4 tsp black pepper",
-        "1/4 cup low-sodium chicken broth (to loosen sauce)",
-        "2 tbsp fresh basil, torn",
-        "2 tbsp grated Parmesan (light sprinkle, divided across 4 servings)"
-      ],
+      "protein_source": "ground turkey",
+      "protein_oz_per_serving": 7,
+      "added_fat_tbsp_total": 1,
+      "cooked_grain_cups_per_serving": 1.5,
+      "ingredients": {
+        "protein": [
+          "1.75 lbs 93% lean ground turkey"
+        ],
+        "produce": [
+          "2 cups cherry tomatoes, halved",
+          "1/2 tsp garlic powder",
+          "1/2 tsp onion powder",
+          "1/2 tsp salt"
+        ],
+        "grain": [
+          "12 oz dry penne pasta (yields approximately 6 cups cooked)"
+        ],
+        "fat": [
+          "1 tbsp olive oil (from Costco)"
+        ],
+        "dairy": [
+          "2 tbsp low-sodium chicken broth or pasta water to loosen sauce"
+        ],
+        "pantry": [
+          "1 can (14.5 oz) no-salt-added crushed tomatoes",
+          "1 tsp dried basil (mild, toddler safe)"
+        ]
+      },
       "steps": [
-        "Cook penne according to package directions in salted water. Reserve 1/4 cup pasta water before draining.",
-        "Heat 1/2 tbsp olive oil in large skillet over medium heat. Add garlic and cook 1 min until fragrant but not browned.",
-        "Add cherry tomatoes and zucchini. Cook 5-6 min stirring occasionally until tomatoes burst and zucchini is soft.",
-        "Push vegetables to side. Add remaining 1/2 tbsp olive oil and shrimp. Cook shrimp 2 min per side until pink and opaque.",
-        "Add cooked pasta, chicken broth, and reserved pasta water. Toss gently to combine. Season with salt and pepper.",
-        "Serve in bowls topped with fresh basil and a light sprinkle of Parmesan per serving."
+        "Boil pasta according to package directions until very soft for toddler texture; reserve 1/2 cup pasta water.",
+        "While pasta cooks, heat olive oil in a large skillet over medium heat.",
+        "Add ground turkey and break apart with a spoon. Cook 8-10 minutes until fully cooked through, no pink remaining.",
+        "Season turkey with garlic powder, onion powder, salt, and dried basil.",
+        "Add cherry tomatoes to skillet and cook 4-5 minutes until they burst and soften completely.",
+        "Stir in crushed tomatoes and simmer 5 minutes. Add a splash of pasta water if sauce is too thick.",
+        "Drain pasta and add directly to the skillet. Toss everything together over low heat for 2 minutes.",
+        "Serve 1.5 cups cooked pasta with turkey-tomato sauce per serving. Cut any large pieces small for toddlers.",
+        "Toddler portions should be well-sauced and pasta should be soft enough to mash with tongue."
       ],
       "kids_tasks": [
-        "Toddlers can wash cherry tomatoes in a colander",
-        "Toddlers can tear fresh basil leaves with fingers",
-        "Toddlers can help sprinkle Parmesan on finished bowls"
+        "Rinse cherry tomatoes in a colander",
+        "Help stir pasta with a safe spoon when pan is off heat",
+        "Place pasta in bowls with a ladle"
       ]
     },
     {
       "id": 3,
-      "name": "Ground Turkey Taco Rice Bowls with Corn & Cherry Tomatoes",
-      "seasonal_produce_used": ["corn", "cherry tomatoes"],
+      "name": "Tilapia Soft Tacos with Corn Slaw and Flour Tortillas",
+      "seasonal_produce_used": ["corn", "zucchini"],
       "macros_per_serving": {
-        "protein_g": 52,
+        "protein_g": 50,
         "fat_g": 11,
         "carbs_g": 70,
-        "calories": 585
+        "calories": 583
       },
-      "prep_time": "10 min",
-      "cook_time": "25 min",
+      "prep_time": "15 minutes",
+      "cook_time": "15 minutes",
       "servings": 4,
-      "ingredients": [
-        "2 lbs 93% lean ground turkey",
-        "1.5 cups dry white rice (yields 6 cups cooked)",
-        "2 ears fresh corn, kernels removed (approx 1.5 cups)",
-        "1.5 cups cherry tomatoes, quartered",
-        "1 tbsp olive oil (total)",
-        "1 tsp cumin (mild, toddler-tolerated warm spice — no heat)",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "1/2 tsp salt",
-        "3/4 cup low-sodium chicken broth",
-        "1/2 cup plain Greek yogurt (topping, replaces sour cream)",
-        "Fresh cilantro optional for adults"
-      ],
+      "protein_source": "tilapia",
+      "protein_oz_per_serving": 7.5,
+      "added_fat_tbsp_total": 1,
+      "cooked_grain_cups_per_serving": "N/A — tortillas used as grain equivalent per serving: 3 medium flour tortillas",
+      "ingredients": {
+        "protein": [
+          "2 lbs tilapia fillets"
+        ],
+        "produce": [
+          "2 ears fresh corn, kernels cut off",
+          "1 medium zucchini, shredded or finely diced",
+          "1/2 tsp salt",
+          "1/2 tsp garlic powder"
+        ],
+        "grain": [
+          "12 medium (6-inch) soft flour tortillas"
+        ],
+        "fat": [
+          "1 tbsp olive oil (from Costco)"
+        ],
+        "dairy": [
+          "1/2 cup plain Greek yogurt (from Costco, used as slaw dressing)"
+        ],
+        "pantry": [
+          "1 tbsp fresh lemon juice",
+          "1/4 tsp salt for slaw"
+        ]
+      },
       "steps": [
-        "Cook rice in chicken broth according to package directions.",
-        "Heat 1/2 tbsp olive oil in large skillet over medium-high heat. Add ground turkey. Break apart and cook 8-10 min until no pink remains.",
-        "Drain any excess fat from turkey. Season with cumin, garlic powder, onion powder, and salt. Stir well.",
-        "Add corn kernels to skillet with turkey. Cook 3-4 min until corn is tender.",
-        "Remove from heat. Gently fold in quartered cherry tomatoes (no cooking — keeps them soft and fresh).",
-        "Serve 1.5 cups rice per bowl topped with turkey-corn-tomato mixture. Add a dollop of Greek yogurt on top."
+        "Mix shredded zucchini, corn kernels, Greek yogurt, lemon juice, and 1/4 tsp salt in a bowl to make mild slaw. Refrigerate.",
+        "Pat tilapia fillets dry with paper towels. Season both sides with garlic powder and salt.",
+        "Heat olive oil (1 tbsp total — entire added fat allotment) in a large nonstick skillet over medium heat.",
+        "Cook tilapia 3-4 minutes per side until fish flakes easily and is fully cooked through.",
+        "Flake tilapia into large soft pieces with a fork — no big chunks for toddlers.",
+        "Warm flour tortillas in microwave wrapped in a damp paper towel for 30 seconds.",
+        "Assemble tacos: 3 tortillas per serving, fill each with flaked tilapia and corn-zucchini slaw.",
+        "For toddlers: serve fish and slaw open-faced on one soft tortilla cut into small pieces.",
+        "Adult serving: 3 filled tacos with remaining fish and slaw divided evenly."
       ],
       "kids_tasks": [
-        "Toddlers can quarter cherry tomatoes using a butter knife with supervision",
-        "Toddlers can scoop Greek yogurt dollops onto finished bowls",
-        "Toddlers can help stir the rice after it is done cooking with a big spoon"
+        "Shred zucchini using a box grater with adult holding the grater steady",
+        "Stir the slaw in the bowl",
+        "Place slaw onto their own tortilla"
       ]
     },
     {
       "id": 4,
-      "name": "Baked Tilapia with Peach Glaze, Zucchini & Brown Rice",
-      "seasonal_produce_used": ["peaches", "zucchini"],
+      "name": "Shrimp Fried Rice with Corn and Zucchini",
+      "seasonal_produce_used": ["corn", "zucchini"],
       "macros_per_serving": {
-        "protein_g": 50,
+        "protein_g": 51,
         "fat_g": 12,
         "carbs_g": 68,
-        "calories": 573
+        "calories": 580
       },
-      "prep_time": "15 min",
-      "cook_time": "25 min",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
       "servings": 4,
-      "ingredients": [
-        "2 lbs tilapia fillets (yields ~7.5 oz per serving)",
-        "1.5 cups dry brown rice (yields ~6 cups cooked)",
-        "2 ripe peaches, peeled and diced small",
-        "2 medium zucchini, sliced thin",
-        "1 tbsp olive oil (total, split between glaze and zucchini)",
-        "2 tbsp honey",
-        "1 tbsp low-sodium soy sauce",
-        "1 tsp garlic powder",
-        "1/2 tsp onion powder",
-        "1/2 tsp salt",
-        "Fresh parsley for garnish",
-        "Cooking spray for baking dish"
-      ],
+      "protein_source": "shrimp",
+      "protein_oz_per_serving": 7,
+      "added_fat_tbsp_total": 1,
+      "cooked_grain_cups_per_serving": 1.5,
+      "ingredients": {
+        "protein": [
+          "1.75 lbs large shrimp, peeled and deveined (from Costco)",
+          "2 whole eggs (from Costco)"
+        ],
+        "produce": [
+          "2 ears fresh corn, kernels cut off",
+          "2 medium zucchini, diced small",
+          "1/2 tsp garlic powder",
+          "1/4 tsp onion powder"
+        ],
+        "grain": [
+          "3 cups dry white rice, cooked ahead and chilled (yields 6 cups cooked) (from Costco)"
+        ],
+        "fat": [
+          "1 tbsp olive oil (from Costco)"
+        ],
+        "pantry": [
+          "3 tbsp low-sodium soy sauce",
+          "1/2 tsp sesame oil (counted as part of total fat — use only 1 tsp here and reduce olive oil to 2 tsp to stay within 1 tbsp limit)"
+        ],
+        "dairy": []
+      },
+      "fat_note": "Total added fat kept to 1 tbsp equivalent: 2 tsp olive oil + 1 tsp sesame oil = 1 tbsp total added fat",
       "steps": [
-        "Preheat oven to 400°F. Cook brown rice according to package directions.",
-        "Make peach glaze: In small saucepan combine diced peaches, honey, soy sauce, and 1 tsp garlic powder over medium-low heat. Simmer 5-6 min stirring until peaches soften into a chunky gentle sauce. Remove from heat.",
-        "Spray baking dish with cooking spray. Place tilapia fillets in dish. Season with salt and onion powder. Spoon peach glaze evenly over each fillet.",
-        "Toss sliced zucchini with 1/2 tbsp olive oil and a pinch of salt. Arrange around tilapia in baking dish.",
-        "Bake 18-20 min until tilapia flakes easily and zucchini is fork-tender.",
-        "Serve tilapia and zucchini over 1.5 cups brown rice per serving. Spoon extra pan glaze on top. Garnish with parsley."
+        "Cook rice the day before or morning of — cold rice fries much better and prevents clumping.",
+        "Heat 2 tsp olive oil in a large wide skillet or wok over medium-high heat.",
+        "Add shrimp in a single layer and cook 2-3 minutes per side until pink and curled. Remove shrimp and set aside.",
+        "Add zucchini to same pan and cook 3-4 minutes until soft enough for toddlers to mash.",
+        "Add corn kernels and cook 2 more minutes.",
+        "Push vegetables to the side. Add cold cooked rice to the pan. Press flat and let sit 1 minute to get light crust.",
+        "Stir everything together. Push to side again and crack eggs into center. Scramble quickly then fold into rice.",
+        "Return shrimp to pan. Add soy sauce and 1 tsp sesame oil. Toss everything together over medium heat 2 minutes.",
+        "Serve 1.5 cups fried rice per person with shrimp portions divided evenly.",
+        "For toddlers: chop shrimp into small pieces before serving and ensure rice is not clumped."
       ],
       "kids_tasks": [
-        "Toddlers can help wash the peaches",
-        "Toddlers can tear parsley leaves for garnish",
-        "Toddlers can help spoon cooked rice into bowls with a big scoop"
+        "Help pull corn kernels off cob with adult supervision",
+        "Crack eggs into a small bowl first (fun with supervision)",
+        "Stir the rice mixture gently with a spatula when cool enough"
       ]
     },
     {
       "id": 5,
-      "name": "Lean Ground Beef & Corn Stuffed Zucchini Boats with Rice",
-      "seasonal_produce_used": ["zucchini", "corn"],
+      "name": "Baked Mahi-Mahi with Cherry Tomato Orzo",
+      "seasonal_produce_used": ["cherry tomatoes"],
       "macros_per_serving": {
-        "protein_g": 51,
-        "fat_g": 12,
-        "carbs_g": 70,
-        "calories": 580
+        "protein_g": 50,
+        "fat_g": 11,
+        "carbs_g": 71,
+        "calories": 583
       },
-      "prep_time": "20 min",
-      "cook_time": "35 min",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
       "servings": 4,
-      "ingredients": [
-        "2 lbs 93% lean ground beef",
-        "4 large zucchini (halved lengthwise, scooped — boats are the vessel)",
-        "1.5 cups dry white rice (yields 6 cups cooked)",
-        "1.5 cups fresh corn kernels (from 2 ears)",
-        "1 tbsp olive oil (total)",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "1/2 tsp salt",
-        "1/4 tsp black pepper",
-        "1/2 cup low-sodium beef broth",
-        "1/2 cup shredded part-skim mozzarella (divided across 4 servings)",
-        "Cooking spray"
-      ],
+      "protein_source": "mahi-mahi",
+      "protein_oz_per_serving": 7.5,
+      "added_fat_tbsp_total": 1,
+      "cooked_grain_cups_per_serving": 1.5,
+      "ingredients": {
+        "protein": [
+          "2 lbs mahi-mahi fillets"
+        ],
+        "produce": [
+          "2 cups cherry tomatoes, halved",
+          "1/2 tsp garlic powder",
+          "1/4 tsp onion powder",
+          "1/2 tsp salt",
+          "1 tsp lemon zest"
+        ],
+        "grain": [
+          "12 oz dry orzo pasta (yields approximately 6 cups cooked)"
+        ],
+        "fat": [
+          "1 tbsp olive oil (from Costco)"
+        ],
+        "dairy": [
+          "2 tbsp grated parmesan (optional garnish, small amount, mild flavor toddlers enjoy)"
+        ],
+        "pantry": [
+          "1/2 tsp dried basil",
+          "1/2 cup low-sodium chicken broth",
+          "1 tbsp fresh lemon juice"
+        ]
+      },
       "steps": [
-        "Preheat oven to 375°F. Cook rice in beef broth plus water according to package directions.",
-        "Halve zucchini lengthwise. Scoop out centers with a spoon leaving a 1/4 inch shell. Chop scooped flesh finely and set aside. Spray a baking sheet with cooking spray and place zucchini boats cut-side up.",
-        "Heat 1/2 tbsp olive oil in skillet over medium-high heat. Add ground beef and chopped zucchini flesh. Cook 8-10 min breaking apart until beef is fully browned and cooked through. Drain excess fat.",
-        "Add corn kernels, garlic powder, onion powder, salt, pepper, and 1/2 tbsp olive oil to skillet. Stir and cook 3-4 min until corn is tender.",
-        "Spoon beef and corn mixture evenly into zucchini boats. Sprinkle mozzarella on top of each boat.",
-        "Bake 18-20 min until zucchini is tender and cheese is melted and lightly golden.",
-        "Serve 2 stuffed zucchini boat halves per adult serving and 1 boat half cut into smaller pieces for toddlers alongside 1.5 cups cooked rice per serving."
+        "Preheat oven to 400°F. Line a baking sheet with parchment paper.",
+        "Pat mahi-mahi fillets dry. Season both sides with garlic powder, onion powder, salt, and lemon zest.",
+        "Place fish on lined baking sheet and bake 15-18 minutes until fish flakes easily with a fork and is opaque throughout.",
+        "While fish bakes, cook orzo in boiling water until very soft (1-2 minutes beyond package direction for toddler texture). Drain.",
+        "In a medium saucepan, heat olive oil (1 tbsp — entire added fat allotment) over medium heat.",
+        "Add cherry tomatoes and cook 5-6 minutes until they fully burst, soften, and release their juices. They should be completely soft.",
+        "Add chicken broth, lemon juice, and dried basil to tomatoes. Simmer 3 minutes.",
+        "Add cooked orzo to tomato mixture. Stir and simmer on low 2 minutes to marry flavors.",
+        "Serve 1.5 cups orzo per serving topped with 7.5 oz mahi-mahi per adult serving. Adjust toddler portions as needed.",
+        "For toddlers: flake fish finely and mix gently into orzo so textures are uniform and easy to eat.",
+        "Optionally top with a small sprinkle of parmesan for a mild savory flavor kids love."
       ],
       "kids_tasks": [
-        "Toddlers can help shred mozzarella using a box grater with close supervision",
-        "Toddlers can help sprinkle cheese onto the zucchini boats",
-        "Toddlers can rinse the zucchini under the faucet before prep"
+        "Rinse cherry tomatoes in a colander",
+        "Stir the orzo when it is cool enough and in the pot off heat",
+        "Sprinkle parmesan on bowls"
       ]
     }
   ],
   "grocery_preview": {
+    "note": "Costco staples NOT included below: chicken breasts, eggs, egg whites, shrimp, Greek yogurt, Daves Killer Bread, cottage cheese, olive oil, rice. Purchase those at Costco separately.",
     "grouped_by_section": {
       "Produce": [
-        "4 ears fresh corn (used across recipes 1, 3, 5)",
-        "6 medium zucchini (used across recipes 1, 2, 4, 5)",
-        "3 cups cherry tomatoes / 1 pint (used in recipes 2, 3)",
-        "2 ripe peaches (recipe 4)",
-        "Fresh parsley, 1 bunch (recipes 1, 4)",
-        "Fresh basil, 1 bunch (recipe 2)",
-        "3 heads of garlic or 1 jar minced garlic",
-        "Fresh cilantro, optional (recipe 3)"
+        "Fresh corn on the cob — 8 ears (used in recipes 1, 3, 4)",
+        "Zucchini — 7 medium (used in recipes 1, 3, 4)",
+        "Cherry tomatoes — 4 cups / approximately 1.5 pints (used in recipes 2, 5)",
+        "Lemons — 3 (zest and juice for recipes 3, 5)",
+        "Blueberries — 1 pint (seasonal, available for snacks or breakfast sides this week)"
       ],
       "Protein": [
-        "2 lbs boneless skinless chicken breast — Costco staple, exclude from HEB list",
-        "2 lbs large shrimp, peeled and deveined — Costco staple, exclude from HEB list",
-        "2 lbs 93% lean ground turkey (recipe 3)",
-        "2 lbs tilapia fillets (recipe 4)",
-        "2 lbs 93% lean ground beef (recipe 5)"
+        "Tilapia fillets — 2 lbs (recipe 3)",
+        "Ground turkey 93% lean — 1.75 lbs (recipe 2)",
+        "Mahi-mahi fillets — 2 lbs (recipe 5)"
       ],
       "Dairy": [
-        "Plain Greek yogurt — Costco staple, exclude from HEB list",
-        "1/2 cup shredded part-skim mozzarella (recipe 5)",
-        "Small block or bag Parmesan cheese (recipe 2)"
+        "Parmesan cheese — small block or pre-grated, 2 oz (recipe 5 optional garnish)"
       ],
       "Pantry": [
-        "Olive oil — Costco staple, exclude from HEB list",
-        "White rice, 1 large bag — Costco staple, exclude from HEB list",
-        "Brown rice, 1 bag (recipe 4)",
-        "Dry penne pasta, 10 oz box (recipe 2)",
-        "Low-sodium chicken broth, 2 cartons (recipes 1, 2, 3)",
-        "Low-sodium beef broth, 1 carton (recipe 5)",
-        "Low-sodium soy sauce, 1 bottle (recipe 4)",
-        "Honey, 1 bottle (recipe 4)",
-        "Cooking spray (recipes 4, 5)",
-        "Garlic powder",
-        "Onion powder",
-        "Cumin",
-        "Salt",
-        "Black pepper"
+        "Penne pasta — 12 oz box (recipe 2)",
+        "Flour tortillas medium 6-inch — 1 package of 12 (recipe 3)",
+        "Orzo pasta — 12 oz box (recipe 5)",
+        "Canned no-salt-added crushed tomatoes — one 14.5 oz can (recipe 2)",
+        "Low-sodium soy sauce — small bottle (recipe 4)",
+        "Sesame oil — small bottle (recipe 4)",
+        "Low-sodium chicken broth — 1 carton 32 oz (recipes 4 and 5)",
+        "Garlic powder — if running low",
+        "Onion powder — if running low",
+        "Dried basil — small jar (recipes 2 and 5)",
+        "Salt — pantry staple, verify supply"
       ]
     }
   }
