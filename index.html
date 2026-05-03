@@ -1419,6 +1419,16 @@ async function loadLiveData() {
     // Strip markdown code fences if present
     textContent = textContent.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
+    // Strip leading/trailing null values
+    textContent = textContent.replace(/^null\s*/g, '').replace(/\s*null$/g, '').trim();
+
+    // Extract valid JSON object from first { to last }
+    const firstBrace = textContent.indexOf('{');
+    const lastBrace = textContent.lastIndexOf('}');
+    if (firstBrace !== -1 && lastBrace !== -1) {
+      textContent = textContent.substring(firstBrace, lastBrace + 1);
+    }
+
     // Parse the actual recipe JSON
     const liveData = JSON.parse(textContent);
 
