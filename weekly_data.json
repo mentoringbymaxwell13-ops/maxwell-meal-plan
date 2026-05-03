@@ -1,196 +1,203 @@
 null
 {
-  "week_label": "Maxwell Family Dinner Plan — Week of May 11, 2026",
+  "week_label": "Maxwell Family Dinners – Week of May 11, 2026",
   "seasonal_tags": ["corn", "zucchini", "cherry tomatoes", "blueberries", "peaches"],
   "recipes": [
     {
-      "name": "Grilled Chicken Breast with Street Corn Rice and Zucchini",
+      "name": "Grilled Chicken Breast with Corn and Zucchini Quinoa Bowl",
       "macros": {
         "protein_g": 51,
-        "fat_g": 12,
+        "fat_g": 11,
         "carbs_g": 69
       },
       "prep_time": "15 minutes",
       "cook_time": "25 minutes",
       "ingredients": [
-        "7 oz chicken breast per serving (28 oz total)",
-        "1.5 cups cooked white rice per serving (6 cups total cooked)",
-        "2 ears fresh corn, kernels cut off",
-        "2 medium zucchini, diced small",
-        "1/2 cup plain Greek yogurt",
-        "1/4 cup crumbled cotija cheese",
-        "1 tbsp olive oil (total for entire batch)",
-        "1 tbsp lime juice",
-        "1/4 tsp garlic powder",
-        "Salt to taste"
-      ],
-      "steps": [
-        "Cook white rice according to package directions to yield 6 cups cooked.",
-        "Season chicken breasts lightly with garlic powder and salt.",
-        "Heat a non-stick skillet or grill pan over medium heat. Add 1 tbsp olive oil total for the entire batch.",
-        "Cook chicken breasts 6-7 minutes per side until internal temperature reaches 165°F. Let rest 5 minutes then slice.",
-        "In the same pan with residual heat, add corn kernels and diced zucchini. Cook 4-5 minutes stirring occasionally until tender and lightly golden. No additional oil needed.",
-        "Mix cooked rice with corn and zucchini. Stir in Greek yogurt and lime juice until creamy.",
-        "Plate 1.5 cups of corn zucchini rice per serving topped with sliced chicken. Sprinkle cotija cheese on top.",
-        "For toddler plates, slice chicken into small bite-sized pieces and ensure zucchini is soft."
-      ],
-      "kids_tasks": [
-        "Help cut corn kernels off the cob with a butter knife and adult supervision",
-        "Stir the rice and veggie mixture with a big spoon",
-        "Sprinkle cotija cheese on top of each plate"
-      ]
-    },
-    {
-      "name": "Ground Turkey and Cherry Tomato Stuffed Zucchini Boats with Quinoa",
-      "macros": {
-        "protein_g": 50,
-        "fat_g": 11,
-        "carbs_g": 70
-      },
-      "prep_time": "20 minutes",
-      "cook_time": "30 minutes",
-      "ingredients": [
-        "7 oz ground turkey per serving (28 oz total)",
-        "4 large zucchini, halved lengthwise",
-        "1.5 cups cooked quinoa per serving (6 cups total cooked)",
+        "7.5 oz chicken breast per serving",
+        "1.5 cups cooked quinoa per serving",
+        "1 ear fresh corn, kernels cut off",
+        "1 medium zucchini, diced small",
         "1 cup cherry tomatoes, halved",
-        "1/2 cup low-sodium chicken broth",
-        "1/2 cup shredded mozzarella cheese",
         "1 tbsp olive oil (total for entire batch)",
-        "1/4 tsp garlic powder",
-        "1/4 tsp onion powder",
-        "Salt to taste"
+        "Salt to taste",
+        "1 tbsp lemon juice",
+        "1 tsp garlic powder",
+        "1 tsp dried parsley"
       ],
       "steps": [
-        "Preheat oven to 375°F.",
-        "Cook quinoa according to package directions to yield 6 cups cooked.",
-        "Scoop out centers of halved zucchini using a spoon to create boats. Reserve scooped flesh and chop it finely.",
-        "Brush zucchini boats lightly with a tiny portion of the 1 tbsp olive oil. Place on a baking sheet and bake 10 minutes until slightly tender.",
-        "In a skillet over medium heat, add remaining olive oil. Brown ground turkey fully, breaking into small crumbles, about 8 minutes.",
-        "Add chopped zucchini flesh, cherry tomatoes, broth, garlic powder, and onion powder. Cook 4-5 minutes until liquid mostly absorbs.",
-        "Mix turkey mixture with cooked quinoa.",
-        "Fill each zucchini boat with turkey quinoa mixture. Top with shredded mozzarella.",
-        "Bake stuffed boats at 375°F for 10-12 minutes until cheese melts and zucchini is fork tender.",
-        "For toddlers, scoop filling out of boats and serve mashed together for easy eating."
+        "Cook quinoa according to package directions, using 3 cups water for 1.5 cups dry quinoa. Set aside.",
+        "Season chicken breasts with salt, garlic powder, and dried parsley.",
+        "Heat a large non-stick skillet or grill pan over medium heat. Add 1 tbsp olive oil for the entire batch of 4 servings.",
+        "Cook chicken breasts 6-7 minutes per side until internal temperature reaches 165°F. Rest 5 minutes then slice.",
+        "In the same pan over medium heat with residual oil, add corn kernels and diced zucchini. Cook 5-6 minutes until tender and lightly golden.",
+        "Add halved cherry tomatoes and cook 2 minutes more until softened.",
+        "Stir cooked quinoa into the vegetable mixture. Add lemon juice and toss to combine.",
+        "Serve sliced chicken over quinoa vegetable mixture.",
+        "For toddlers: cut chicken into small soft pieces and ensure quinoa vegetables are soft enough."
       ],
       "kids_tasks": [
-        "Help halve cherry tomatoes with a plastic knife and adult supervision",
-        "Spoon the turkey quinoa mixture into the zucchini boats",
-        "Sprinkle mozzarella cheese on top before baking"
+        "Toddlers can help rinse cherry tomatoes in a colander",
+        "Toddlers can help stir the quinoa with supervision",
+        "Toddlers can help place corn kernels into a bowl"
       ]
     },
     {
-      "name": "Shrimp and Corn Pasta with Cherry Tomatoes",
+      "name": "Ground Turkey Zucchini Pasta with Cherry Tomato Sauce",
       "macros": {
         "protein_g": 50,
         "fat_g": 12,
         "carbs_g": 71
       },
       "prep_time": "10 minutes",
-      "cook_time": "20 minutes",
+      "cook_time": "25 minutes",
       "ingredients": [
-        "7 oz shrimp per serving peeled and deveined (28 oz total)",
-        "3 cups dry whole wheat rotini pasta (yields approximately 6 cups cooked)",
-        "2 ears fresh corn, kernels cut off",
-        "1 cup cherry tomatoes, halved",
-        "1/2 cup plain Greek yogurt",
-        "1/4 cup grated parmesan cheese",
-        "1/2 cup reserved pasta water",
+        "7.5 oz lean ground turkey per serving",
+        "2.5 oz dry whole wheat pasta per serving (about 10 oz total dry)",
+        "2 medium zucchini, diced small",
+        "2 cups cherry tomatoes, halved",
         "1 tbsp olive oil (total for entire batch)",
-        "1/4 tsp garlic powder",
-        "Salt to taste"
+        "3 cloves garlic, minced",
+        "1 tsp dried basil",
+        "1 tsp dried oregano",
+        "Salt to taste",
+        "2 tbsp low-sodium chicken broth",
+        "2 tbsp shredded parmesan cheese (total batch)"
       ],
       "steps": [
-        "Cook whole wheat rotini in salted boiling water until al dente, about 9-11 minutes. Reserve 1/2 cup pasta water before draining.",
-        "Pat shrimp dry and season lightly with garlic powder and salt.",
-        "In a large skillet over medium heat, add 1 tbsp olive oil for the entire batch.",
-        "Cook shrimp 2-3 minutes per side until pink and opaque. Remove and set aside.",
-        "In the same skillet, add corn kernels and cherry tomatoes. Cook 3-4 minutes until corn is tender and tomatoes begin to soften.",
-        "Reduce heat to low. Add drained pasta to skillet and toss to combine.",
-        "Whisk Greek yogurt with reserved pasta water until smooth. Pour over pasta and toss until creamy.",
-        "Return shrimp to pan and toss gently.",
-        "Serve topped with parmesan cheese.",
-        "For toddlers, cut shrimp into small pieces and ensure pasta is cooked until fully soft."
+        "Cook pasta according to package directions until very soft for toddler-friendly texture. Drain and set aside.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Add ground turkey and cook, breaking into small pieces, 8-10 minutes until fully cooked through.",
+        "Add minced garlic and cook 1 minute.",
+        "Add diced zucchini and cook 4-5 minutes until soft.",
+        "Add cherry tomatoes and chicken broth. Cook 5-6 minutes until tomatoes break down into a sauce.",
+        "Add dried basil, oregano, and salt. Stir to combine.",
+        "Toss cooked pasta with the turkey and vegetable sauce.",
+        "Top with a small amount of parmesan cheese.",
+        "For toddlers: ensure pasta is very soft and cut any larger pieces small."
       ],
       "kids_tasks": [
-        "Help cut corn kernels off the cob with a butter knife and adult supervision",
-        "Stir the pasta while it cooks with a long wooden spoon",
-        "Sprinkle parmesan cheese on each plate"
+        "Toddlers can help rinse cherry tomatoes",
+        "Toddlers can help tear basil leaves if using fresh",
+        "Toddlers can help sprinkle parmesan cheese on their own bowl"
       ]
     },
     {
-      "name": "Baked Mahi-Mahi with Peach Salsa and Brown Rice",
+      "name": "Baked Tilapia with Sweet Corn Succotash and Quinoa",
+      "macros": {
+        "protein_g": 50,
+        "fat_g": 11,
+        "carbs_g": 70
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "ingredients": [
+        "7.5 oz tilapia fillet per serving",
+        "1.5 cups cooked quinoa per serving",
+        "2 ears fresh corn, kernels cut off",
+        "1 cup cherry tomatoes, halved",
+        "1 medium zucchini, diced small",
+        "1 tbsp olive oil (total for entire batch)",
+        "1 tsp garlic powder",
+        "1 tsp dried parsley",
+        "Salt to taste",
+        "1 tbsp lemon juice"
+      ],
+      "steps": [
+        "Preheat oven to 400°F.",
+        "Cook quinoa according to package directions. Set aside.",
+        "Place tilapia fillets on a parchment-lined baking sheet. Drizzle with half the olive oil, season with garlic powder, parsley, salt, and lemon juice.",
+        "Bake tilapia 12-15 minutes until fish flakes easily with a fork.",
+        "While fish bakes, heat remaining olive oil in a skillet over medium heat.",
+        "Add corn kernels and zucchini. Cook 5-6 minutes until tender.",
+        "Add cherry tomatoes and cook 2-3 minutes until softened. Season with salt.",
+        "Serve tilapia over quinoa with succotash on the side or mixed in.",
+        "For toddlers: flake fish into small pieces and ensure all vegetables are tender."
+      ],
+      "kids_tasks": [
+        "Toddlers can help rinse cherry tomatoes",
+        "Toddlers can help spoon quinoa into bowls with supervision",
+        "Toddlers can help pat the fish dry with paper towels"
+      ]
+    },
+    {
+      "name": "Shrimp and Corn Quinoa Bowls with Zucchini",
       "macros": {
         "protein_g": 51,
-        "fat_g": 11,
+        "fat_g": 12,
         "carbs_g": 68
       },
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "ingredients": [
-        "7 oz mahi-mahi fillet per serving (28 oz total)",
-        "1.5 cups cooked brown rice per serving (6 cups total cooked)",
-        "3 ripe peaches, peeled and diced small",
-        "1/2 cup cherry tomatoes, diced small",
-        "1 tbsp lime juice",
+        "8 oz shrimp per serving, peeled and deveined",
+        "1.5 cups cooked quinoa per serving",
+        "2 ears fresh corn, kernels cut off",
+        "2 medium zucchini, sliced into half moons",
+        "1 cup cherry tomatoes, halved",
         "1 tbsp olive oil (total for entire batch)",
-        "1/4 tsp garlic powder",
-        "Salt to taste"
+        "2 cloves garlic, minced",
+        "1 tsp garlic powder",
+        "1 tsp dried parsley",
+        "Salt to taste",
+        "1 tbsp lemon juice"
       ],
       "steps": [
-        "Preheat oven to 400°F. Cook brown rice according to package directions to yield 6 cups cooked.",
-        "Make peach salsa by combining diced peaches, diced cherry tomatoes, and lime juice in a bowl. Stir gently and set aside.",
-        "Place mahi-mahi fillets on a lightly oiled baking sheet using the 1 tbsp olive oil brushed over entire batch.",
-        "Season fish with garlic powder and salt.",
-        "Bake mahi-mahi at 400°F for 12-15 minutes until fish flakes easily with a fork and reaches 145°F internal temperature.",
-        "Plate 1.5 cups brown rice per serving. Place mahi-mahi fillet on top.",
-        "Spoon peach salsa generously over each fillet.",
-        "For toddlers, flake fish into small pieces and mash peach salsa into rice for easy eating."
+        "Cook quinoa according to package directions. Set aside.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Add zucchini and corn kernels. Cook 5-6 minutes until tender.",
+        "Add minced garlic and cook 1 minute.",
+        "Add cherry tomatoes and cook 2 minutes until beginning to soften.",
+        "Push vegetables to the side and add shrimp to the pan. Season shrimp with garlic powder, parsley, and salt.",
+        "Cook shrimp 2-3 minutes per side until pink and cooked through.",
+        "Toss everything together with lemon juice.",
+        "Serve shrimp and vegetable mixture over quinoa.",
+        "For toddlers: cut shrimp into small pieces and ensure all vegetables are very soft."
       ],
       "kids_tasks": [
-        "Help dice peaches into small pieces with a plastic knife and adult supervision",
-        "Stir together the peach salsa in a bowl",
-        "Spoon peach salsa over each plate"
+        "Toddlers can help rinse cherry tomatoes",
+        "Toddlers can help place corn kernels into a bowl",
+        "Toddlers can help stir the quinoa with supervision"
       ]
     },
     {
-      "name": "Lean Ground Beef Taco Bowls with Corn and Zucchini",
+      "name": "Baked Mahi-Mahi with Peach Zucchini Quinoa",
       "macros": {
         "protein_g": 50,
-        "fat_g": 12,
+        "fat_g": 11,
         "carbs_g": 70
       },
       "prep_time": "15 minutes",
       "cook_time": "25 minutes",
       "ingredients": [
-        "7 oz lean ground beef per serving 93 percent lean (28 oz total)",
-        "1.5 cups cooked white rice per serving (6 cups total cooked)",
-        "2 ears fresh corn, kernels cut off",
+        "7.5 oz mahi-mahi fillet per serving",
+        "1.5 cups cooked quinoa per serving",
+        "2 ripe peaches, peeled and diced small",
         "2 medium zucchini, diced small",
         "1 cup cherry tomatoes, halved",
-        "1/2 cup plain Greek yogurt",
-        "1/2 cup shredded Mexican blend cheese",
-        "1/2 cup low-sodium beef broth",
         "1 tbsp olive oil (total for entire batch)",
-        "1/4 tsp garlic powder",
-        "1/4 tsp onion powder",
-        "Salt to taste"
+        "1 tsp garlic powder",
+        "1 tsp dried parsley",
+        "Salt to taste",
+        "1 tbsp lemon juice",
+        "1 tsp honey"
       ],
       "steps": [
-        "Cook white rice according to package directions to yield 6 cups cooked.",
-        "In a large skillet over medium heat, add 1 tbsp olive oil for the entire batch.",
-        "Add diced zucchini and corn kernels. Cook 4-5 minutes until tender. Remove and set aside.",
-        "In the same skillet, brown ground beef fully over medium-high heat breaking into small crumbles, about 7-8 minutes. Drain any excess fat.",
-        "Season beef with garlic powder, onion powder, and salt. Add beef broth and simmer 3 minutes until slightly reduced.",
-        "Return zucchini and corn to the skillet and stir to combine with beef.",
-        "Build bowls with 1.5 cups rice per serving topped with beef and veggie mixture.",
-        "Top each bowl with halved cherry tomatoes, a dollop of Greek yogurt, and shredded cheese.",
-        "For toddlers, mix all components together into a soft mash and ensure beef crumbles are small."
+        "Preheat oven to 400°F.",
+        "Cook quinoa according to package directions. Set aside.",
+        "Place mahi-mahi on a parchment-lined baking sheet. Drizzle with half the olive oil, season with garlic powder, parsley, and salt.",
+        "Bake mahi-mahi 15-18 minutes until fish flakes easily with a fork.",
+        "While fish bakes, heat remaining olive oil in a skillet over medium heat.",
+        "Add zucchini and cook 4-5 minutes until tender.",
+        "Add cherry tomatoes and cook 2-3 minutes until softened.",
+        "Add diced peaches, lemon juice, and honey. Stir gently and cook 2 minutes until peaches are just softened. Remove from heat.",
+        "Toss quinoa with the peach zucchini mixture.",
+        "Serve mahi-mahi over the peach quinoa blend.",
+        "For toddlers: flake fish into small pieces and ensure peaches and zucchini are very soft."
       ],
       "kids_tasks": [
-        "Help halve cherry tomatoes with a plastic knife and adult supervision",
-        "Spoon the beef and veggie mixture over rice bowls",
-        "Add a dollop of Greek yogurt on top of each bowl"
+        "Toddlers can help wash peaches at the sink",
+        "Toddlers can help stir the quinoa with supervision",
+        "Toddlers can help place cherry tomatoes into a bowl"
       ]
     }
   ],
@@ -201,76 +208,76 @@ null
         "organic cherry tomatoes 2 pints",
         "fresh corn 6 ears",
         "organic peaches 3 count",
-        "limes 2 count"
+        "organic lemons 2 count",
+        "organic garlic 1 head"
       ],
       "Protein": [
-        "mahi-mahi fillets 28 oz",
-        "lean ground beef 93 percent lean 28 oz",
-        "ground turkey 28 oz"
+        "tilapia fillets 2 lbs",
+        "mahi-mahi fillets 2 lbs",
+        "organic lean ground turkey 2 lbs"
       ],
       "Dairy": [
-        "cotija cheese 4 oz",
-        "shredded mozzarella cheese 8 oz",
-        "shredded Mexican blend cheese 8 oz",
-        "grated parmesan cheese 4 oz"
+        "parmesan cheese shredded 4 oz"
       ],
       "Pantry": [
-        "organic white rice 5 lb bag",
-        "organic quinoa 16 oz bag",
-        "whole wheat rotini pasta 16 oz box",
-        "organic brown rice 5 lb bag",
-        "low-sodium chicken broth 32 oz carton",
-        "low-sodium beef broth 32 oz carton"
+        "organic quinoa 48 oz",
+        "whole wheat pasta 16 oz",
+        "low sodium chicken broth 32 oz",
+        "honey 12 oz",
+        "dried basil",
+        "dried oregano",
+        "dried parsley",
+        "garlic powder"
       ]
     }
   },
   "costco_list": [
     {
-      "item": "chicken breasts boneless skinless",
-      "quantity": "6 to 7 lbs",
-      "needed_by_date": "May 18 2026",
+      "item": "Chicken Breasts",
+      "quantity": "6 lbs",
+      "needed_by_date": "May 12, 2026",
       "urgent": true
     },
     {
-      "item": "large eggs",
-      "quantity": "2 dozen",
-      "needed_by_date": "May 23 2026",
-      "urgent": true
-    },
-    {
-      "item": "egg whites carton",
-      "quantity": "2 cartons 32 oz each",
-      "needed_by_date": "May 23 2026",
-      "urgent": true
-    },
-    {
-      "item": "shrimp peeled and deveined frozen",
+      "item": "Shrimp",
       "quantity": "3 lbs",
-      "needed_by_date": "May 18 2026",
+      "needed_by_date": "May 13, 2026",
       "urgent": true
     },
     {
-      "item": "plain Greek yogurt",
-      "quantity": "2 large tubs 32 oz each",
-      "needed_by_date": "May 23 2026",
+      "item": "Eggs",
+      "quantity": "2 dozen",
+      "needed_by_date": "May 16, 2026",
+      "urgent": true
+    },
+    {
+      "item": "Egg Whites",
+      "quantity": "2 cartons",
+      "needed_by_date": "May 16, 2026",
+      "urgent": true
+    },
+    {
+      "item": "Greek Yogurt",
+      "quantity": "3 lbs",
+      "needed_by_date": "May 18, 2026",
       "urgent": true
     },
     {
       "item": "Daves Killer Bread 21 Whole Grains and Seeds Organic Sliced Bread",
       "quantity": "2 loaves",
-      "needed_by_date": "May 30 2026",
+      "needed_by_date": "May 18, 2026",
+      "urgent": true
+    },
+    {
+      "item": "Olive Oil",
+      "quantity": "2 liters",
+      "needed_by_date": "May 23, 2026",
       "urgent": false
     },
     {
-      "item": "olive oil extra virgin",
-      "quantity": "2 liter bottle",
-      "needed_by_date": "June 6 2026",
-      "urgent": false
-    },
-    {
-      "item": "white rice long grain",
-      "quantity": "25 lb bag",
-      "needed_by_date": "June 6 2026",
+      "item": "Rice",
+      "quantity": "10 lbs",
+      "needed_by_date": "May 30, 2026",
       "urgent": false
     }
   ]
