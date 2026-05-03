@@ -1,7 +1,7 @@
 null
 {
-  "week_label": "Maxwell Family Dinners – Week of May 11, 2026",
-  "seasonal_tags": ["corn", "zucchini", "cherry tomatoes", "peaches", "blueberries"],
+  "week_label": "Week of May 11, 2026 – Houston TX",
+  "seasonal_tags": ["corn", "zucchini", "cherry tomatoes", "peaches"],
   "recipes": [
     {
       "name": "Grilled Chicken Breast with Corn and Zucchini Rice Bowl",
@@ -13,28 +13,27 @@ null
       "prep_time": "15 minutes",
       "cook_time": "25 minutes",
       "ingredients": [
-        "7.5 oz chicken breast per serving",
-        "1.5 cups cooked white rice per serving",
-        "1 ear corn, kernels cut off",
+        "7 oz chicken breast per serving (28 oz total)",
+        "1.5 cups cooked white rice per serving (6 cups total)",
+        "1 ear fresh corn, kernels cut off (about 1 cup)",
         "1 medium zucchini, diced small",
-        "1/2 cup cherry tomatoes, halved",
+        "1 cup cherry tomatoes, halved",
         "1 tbsp olive oil (total for entire batch)",
         "Salt to taste"
       ],
       "steps": [
-        "Cook rice according to package directions.",
-        "Season chicken breasts lightly with salt.",
-        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Cook chicken breasts 6-7 minutes per side until internal temp reaches 165°F.",
+        "Cook rice according to package directions until fluffy and set aside.",
+        "Heat olive oil in a large skillet over medium heat.",
+        "Season chicken breasts lightly with salt. Cook in skillet 6-7 minutes per side until cooked through and internal temp reaches 165°F.",
         "Remove chicken and let rest 5 minutes, then slice.",
-        "In the same skillet with residual heat, add corn kernels and zucchini and cook 4-5 minutes until tender.",
-        "Add cherry tomatoes and cook 2 minutes until softened.",
-        "Serve sliced chicken over rice topped with the corn, zucchini, and tomato mixture."
+        "In the same skillet over medium heat, add corn kernels and diced zucchini. Cook 4-5 minutes until zucchini is tender and corn is lightly golden.",
+        "Add halved cherry tomatoes and cook 2 minutes more until slightly softened.",
+        "Serve sliced chicken over rice bowls topped with the corn and zucchini mixture."
       ],
       "kids_tasks": [
-        "Help wash the cherry tomatoes",
-        "Help pour the corn kernels into the pan with adult supervision",
-        "Help stir the rice"
+        "Kids can help tear paper towels to pat the chicken dry.",
+        "Toddlers can help pour pre-measured corn kernels into a bowl.",
+        "Kids can place cherry tomatoes into a small bowl with supervision."
       ]
     },
     {
@@ -47,64 +46,63 @@ null
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "ingredients": [
-        "7 oz large shrimp per serving, peeled and deveined",
-        "2 oz dry whole wheat pasta per serving (yields approx 1.5 cups cooked)",
-        "1 ear corn, kernels cut off",
-        "1 medium zucchini, diced",
-        "1/2 cup cherry tomatoes, halved",
+        "7 oz shrimp per serving, peeled and deveined (28 oz total)",
+        "2.5 oz dry penne pasta per serving (10 oz total dry, yields ~1.5 cups cooked)",
+        "1 medium zucchini, sliced into half-moons",
+        "1 ear fresh corn, kernels cut off",
+        "1 cup cherry tomatoes, halved",
         "1 tbsp olive oil (total for entire batch)",
-        "2 tbsp Parmesan cheese, finely grated",
+        "2 tbsp grated Parmesan cheese",
         "Salt to taste"
       ],
       "steps": [
-        "Cook pasta according to package directions, reserve 1/2 cup pasta water before draining.",
-        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Add zucchini and corn, cook 4 minutes until just tender.",
-        "Add shrimp and cook 2-3 minutes per side until pink and opaque.",
-        "Add cherry tomatoes and cook 1-2 minutes until slightly softened.",
-        "Add drained pasta to the skillet with a splash of pasta water and toss to combine.",
-        "Serve topped with grated Parmesan."
+        "Cook penne pasta in salted boiling water until tender. Drain and set aside.",
+        "Heat olive oil in a large skillet over medium heat.",
+        "Add zucchini and corn kernels to skillet. Cook 3-4 minutes until zucchini is soft.",
+        "Add shrimp to skillet and cook 2-3 minutes per side until pink and opaque.",
+        "Add cherry tomatoes and cooked pasta, toss gently to combine. Cook 2 more minutes.",
+        "Plate and top with a light sprinkle of Parmesan cheese before serving."
       ],
       "kids_tasks": [
-        "Help rinse the shrimp with adult supervision",
-        "Help halve cherry tomatoes using a child-safe knife",
-        "Sprinkle the Parmesan cheese on top of finished bowls"
+        "Toddlers can help rinse cherry tomatoes in a colander with supervision.",
+        "Kids can help sprinkle Parmesan cheese on top of finished bowls.",
+        "Older toddler can help stir the pasta with a large spoon while supervised."
       ]
     },
     {
-      "name": "Ground Turkey and Cherry Tomato Rice Bowl with Zucchini",
+      "name": "Ground Turkey and Zucchini Rice Skillet",
       "macros": {
         "protein_g": 52,
         "fat_g": 11,
         "carbs_g": 68
       },
       "prep_time": "10 minutes",
-      "cook_time": "20 minutes",
+      "cook_time": "25 minutes",
       "ingredients": [
-        "7.5 oz lean ground turkey per serving",
-        "1.5 cups cooked white rice per serving",
+        "7 oz 93 percent lean ground turkey per serving (28 oz total)",
+        "1.5 cups cooked white rice per serving (6 cups total)",
+        "2 medium zucchini, diced small",
         "1 cup cherry tomatoes, halved",
-        "1 large zucchini, diced",
         "1 tbsp olive oil (total for entire batch)",
+        "2 tbsp low sodium soy sauce",
         "Salt to taste"
       ],
       "steps": [
-        "Cook rice according to package directions.",
-        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Add ground turkey and cook, breaking apart, until browned and cooked through, about 8-10 minutes.",
-        "Season lightly with salt.",
-        "Push turkey to the side, add zucchini and cook 4 minutes until tender.",
-        "Add cherry tomatoes and cook 2-3 minutes until they begin to burst.",
-        "Stir everything together and serve over rice."
+        "Cook rice according to package directions and set aside.",
+        "Heat olive oil in a large skillet over medium heat.",
+        "Add ground turkey and cook, breaking apart with a spoon, until fully browned, about 8-10 minutes.",
+        "Add diced zucchini and cook 4-5 minutes until tender.",
+        "Add cherry tomatoes and soy sauce, stir to combine and cook 2 more minutes.",
+        "Serve turkey and vegetable mixture over bowls of cooked rice."
       ],
       "kids_tasks": [
-        "Help wash the cherry tomatoes",
-        "Help press the ground turkey flat in the pan with a wooden spoon with adult supervision",
-        "Help scoop rice into bowls"
+        "Kids can help set out plates and utensils.",
+        "Toddlers can help rinse zucchini under water with supervision.",
+        "Kids can help scoop rice into bowls with a large spoon."
       ]
     },
     {
-      "name": "Baked Mahi-Mahi with Peach Corn Salsa and Rice",
+      "name": "Baked Tilapia with Corn and Peach Salsa Over Rice",
       "macros": {
         "protein_g": 50,
         "fat_g": 11,
@@ -113,131 +111,127 @@ null
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz mahi-mahi fillet per serving",
-        "1.5 cups cooked white rice per serving",
-        "2 ripe peaches, diced small",
-        "1 ear corn, kernels cut off",
-        "1/2 cup cherry tomatoes, halved",
+        "7 oz tilapia fillet per serving (28 oz total)",
+        "1.5 cups cooked white rice per serving (6 cups total)",
+        "2 ears fresh corn, kernels cut off",
+        "2 fresh peaches, diced small",
+        "1 cup cherry tomatoes, halved",
         "1 tbsp olive oil (total for entire batch)",
         "Salt to taste"
       ],
       "steps": [
-        "Preheat oven to 400°F.",
-        "Cook rice according to package directions.",
-        "Place mahi-mahi on a lined baking sheet, brush lightly with a very small amount of olive oil, season with salt.",
-        "Bake 15-18 minutes until fish flakes easily with a fork.",
-        "While fish bakes, combine peaches, corn kernels, and cherry tomatoes in a bowl with a small pinch of salt.",
-        "Serve fish over rice topped generously with the peach corn salsa."
+        "Preheat oven to 400°F. Line a baking sheet with foil.",
+        "Cook rice according to package directions and set aside.",
+        "Place tilapia fillets on the lined baking sheet, brush lightly with a small amount of olive oil, and season with salt.",
+        "Bake tilapia 12-15 minutes until fish flakes easily with a fork.",
+        "While fish bakes, combine corn kernels, diced peaches, and halved cherry tomatoes in a bowl with remaining olive oil and a pinch of salt to make salsa.",
+        "Serve baked tilapia over rice topped with the corn and peach salsa."
       ],
       "kids_tasks": [
-        "Help mix the peach corn salsa in the bowl",
-        "Help scoop rice onto plates",
-        "Help place cherry tomatoes into the salsa bowl"
+        "Toddlers can help mix the corn and peach salsa together in a bowl with a spoon.",
+        "Kids can help place foil on the baking sheet with supervision.",
+        "Kids can help scoop rice into bowls."
       ]
     },
     {
-      "name": "Chicken Breast and Zucchini Pasta with Cherry Tomatoes",
+      "name": "Chicken Breast and Zucchini Quesadillas with Corn",
       "macros": {
         "protein_g": 51,
         "fat_g": 12,
         "carbs_g": 69
       },
-      "prep_time": "10 minutes",
-      "cook_time": "25 minutes",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz chicken breast per serving, cut into bite-sized pieces",
-        "2 oz dry whole wheat pasta per serving (yields approx 1.5 cups cooked)",
-        "2 medium zucchini, diced",
-        "1 cup cherry tomatoes, halved",
+        "7 oz chicken breast per serving, thinly sliced (28 oz total)",
+        "4 large whole wheat flour tortillas (10-inch)",
+        "1 medium zucchini, grated",
+        "1 ear fresh corn, kernels cut off",
+        "1 cup cherry tomatoes, halved for serving",
+        "3 oz shredded Monterey Jack cheese (total for batch)",
         "1 tbsp olive oil (total for entire batch)",
-        "2 tbsp Parmesan cheese, finely grated",
         "Salt to taste"
       ],
       "steps": [
-        "Cook pasta according to package directions, reserve 1/2 cup pasta water before draining.",
-        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Add chicken pieces and cook 6-8 minutes until cooked through, season lightly with salt.",
-        "Remove chicken and set aside.",
-        "In same skillet, add zucchini and cook 4 minutes until tender.",
-        "Add cherry tomatoes and cook 2 minutes until softened.",
-        "Return chicken to pan, add drained pasta and a splash of pasta water, toss to combine.",
-        "Serve topped with grated Parmesan."
+        "Heat olive oil in a skillet over medium heat. Cook sliced chicken breast with salt until cooked through, about 6-7 minutes. Remove and set aside.",
+        "In the same skillet, cook grated zucchini and corn kernels over medium heat for 3-4 minutes until softened. Remove from heat.",
+        "Lay out tortillas on a clean surface. Divide cooked chicken, zucchini and corn mixture, and shredded cheese evenly over half of each tortilla.",
+        "Fold each tortilla in half over the filling.",
+        "Wipe skillet clean and heat over medium-low. Cook each quesadilla 2-3 minutes per side until golden and cheese is melted.",
+        "Cut into wedges and serve with halved cherry tomatoes on the side."
       ],
       "kids_tasks": [
-        "Help wash the zucchini and cherry tomatoes",
-        "Help halve cherry tomatoes using a child-safe knife",
-        "Sprinkle Parmesan cheese on finished plates"
+        "Toddlers can help sprinkle cheese onto tortillas with supervision.",
+        "Kids can help fold the tortillas in half.",
+        "Kids can help place cherry tomatoes in small serving bowls."
       ]
     }
   ],
   "grocery_preview": {
     "grouped_by_section": {
       "Produce": [
-        "organic zucchini 5 count",
-        "organic cherry tomatoes 2 pints",
-        "corn on the cob 4 ears",
-        "peaches 4 count"
+        "fresh corn 6 ears",
+        "fresh organic zucchini 4 count",
+        "fresh cherry tomatoes 3 pints",
+        "fresh peaches 3 count"
       ],
       "Protein": [
-        "mahi-mahi fillets 2 lbs",
-        "lean ground turkey 2 lbs",
-        "whole wheat pasta 16 oz box"
+        "tilapia fillets 2 lbs",
+        "ground turkey 93 percent lean 2 lbs"
       ],
       "Dairy": [
-        "Parmesan cheese 6 oz wedge"
+        "Monterey Jack cheese shredded 8 oz",
+        "Parmesan cheese grated 5 oz"
       ],
       "Pantry": [
-        "organic white rice 32 oz bag"
+        "white rice 32 oz",
+        "penne pasta 16 oz",
+        "whole wheat flour tortillas 10 inch 8 count",
+        "low sodium soy sauce 10 oz"
       ]
     }
   },
   "costco_list": [
     {
       "item": "Chicken Breasts",
-      "quantity": "6-7 lbs",
-      "needed_by_date": "May 12, 2026",
+      "quantity": "6 lbs",
+      "needed_by_date": "May 11 2026",
       "urgent": true
     },
     {
-      "item": "Shrimp",
-      "quantity": "3 lbs",
-      "needed_by_date": "May 12, 2026",
+      "item": "Shrimp peeled and deveined frozen",
+      "quantity": "2 lbs",
+      "needed_by_date": "May 11 2026",
       "urgent": true
     },
     {
       "item": "Eggs",
       "quantity": "2 dozen",
-      "needed_by_date": "May 16, 2026",
+      "needed_by_date": "May 15 2026",
       "urgent": true
     },
     {
       "item": "Egg Whites",
       "quantity": "2 cartons",
-      "needed_by_date": "May 16, 2026",
+      "needed_by_date": "May 18 2026",
       "urgent": true
     },
     {
       "item": "Greek Yogurt",
-      "quantity": "3 large tubs",
-      "needed_by_date": "May 16, 2026",
+      "quantity": "3 lbs tub",
+      "needed_by_date": "May 16 2026",
       "urgent": true
     },
     {
-      "item": "Daves Killer Bread 21 Whole Grains and Seeds Organic Sliced Bread",
+      "item": "Daves Killer Bread 21 Whole Grains and Seeds Organic Sliced",
       "quantity": "2 loaves",
-      "needed_by_date": "May 16, 2026",
+      "needed_by_date": "May 11 2026",
       "urgent": true
     },
     {
       "item": "Olive Oil",
-      "quantity": "1 large bottle",
-      "needed_by_date": "May 23, 2026",
-      "urgent": false
-    },
-    {
-      "item": "Rice",
-      "quantity": "1 large bag",
-      "needed_by_date": "May 23, 2026",
+      "quantity": "2 liter bottle",
+      "needed_by_date": "May 23 2026",
       "urgent": false
     }
   ]
