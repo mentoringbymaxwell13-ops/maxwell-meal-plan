@@ -1,1 +1,297 @@
-map to previous Replace module output
+null
+{
+  "week_label": "Week of May 2025 — Houston, TX",
+  "seasonal_tags": [
+    "peaches",
+    "blackberries",
+    "tomatoes",
+    "zucchini",
+    "corn",
+    "okra",
+    "green beans",
+    "cucumbers",
+    "basil",
+    "watermelon"
+  ],
+  "recipes": [
+    {
+      "name": "Grilled Chicken Thighs with Corn & Zucchini Succotash",
+      "macros": {
+        "calories": 520,
+        "protein_g": 42,
+        "carbs_g": 38,
+        "fat_g": 22,
+        "fiber_g": 6,
+        "note": "Macro targets approximate — adjust portions to family reference doc once provided"
+      },
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "ingredients": [
+        "6 bone-in skin-on chicken thighs",
+        "3 ears fresh corn, kernels cut off",
+        "2 medium zucchini, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 red onion, diced",
+        "3 cloves garlic, minced",
+        "2 tbsp olive oil",
+        "1 tsp smoked paprika",
+        "1 tsp cumin",
+        "1/2 tsp garlic powder",
+        "Salt and pepper to taste",
+        "Fresh basil for garnish",
+        "Juice of 1 lime"
+      ],
+      "steps": [
+        "Preheat grill or grill pan to medium-high heat.",
+        "Pat chicken thighs dry and rub with smoked paprika, cumin, garlic powder, salt, pepper, and 1 tbsp olive oil.",
+        "Grill chicken thighs skin-side down for 8–10 minutes, flip, and cook another 10–12 minutes until internal temp reaches 165°F.",
+        "While chicken grills, heat remaining olive oil in a large skillet over medium-high heat.",
+        "Sauté red onion for 3 minutes, then add garlic for 1 minute.",
+        "Add corn and zucchini, cook 5–6 minutes until slightly golden.",
+        "Stir in cherry tomatoes, cook 2 more minutes. Season with salt, pepper, and lime juice.",
+        "Plate succotash and top with grilled chicken. Garnish with fresh basil."
+      ],
+      "kids_tasks": [
+        "Pull corn kernels off cobs using a safe corn stripper tool with adult supervision",
+        "Wash cherry tomatoes and halve with a crinkle cutter",
+        "Tear fresh basil leaves for garnish",
+        "Squeeze the lime juice using a hand juicer"
+      ]
+    },
+    {
+      "name": "Sheet Pan Salmon with Green Beans and Peach Salsa",
+      "macros": {
+        "calories": 490,
+        "protein_g": 38,
+        "carbs_g": 28,
+        "fat_g": 24,
+        "fiber_g": 5,
+        "note": "Macro targets approximate — adjust portions to family reference doc once provided"
+      },
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "ingredients": [
+        "4 salmon fillets (6 oz each)",
+        "1 lb fresh green beans, trimmed",
+        "2 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "Salt and pepper to taste",
+        "2 ripe peaches, diced",
+        "1/4 red onion, finely diced",
+        "1 jalapeño, seeded and minced",
+        "Juice of 1 lime",
+        "2 tbsp fresh cilantro, chopped",
+        "1 tbsp honey"
+      ],
+      "steps": [
+        "Preheat oven to 400°F. Line a large sheet pan with parchment paper.",
+        "Toss green beans with 1 tbsp olive oil, salt, and pepper. Spread on half the sheet pan.",
+        "Place salmon fillets on the other half. Drizzle with remaining olive oil. Season with garlic powder, onion powder, salt, and pepper.",
+        "Roast for 18–20 minutes until salmon flakes easily and green beans are tender-crisp.",
+        "While everything roasts, combine peaches, red onion, jalapeño, lime juice, cilantro, and honey in a bowl. Stir and season with salt.",
+        "Serve salmon and green beans topped with fresh peach salsa."
+      ],
+      "kids_tasks": [
+        "Snap ends off green beans",
+        "Combine peach salsa ingredients in a bowl and stir gently",
+        "Drizzle honey into the salsa bowl",
+        "Squeeze lime juice with a hand juicer"
+      ]
+    },
+    {
+      "name": "Turkey & Okra Stuffed Bell Peppers with Brown Rice",
+      "macros": {
+        "calories": 510,
+        "protein_g": 36,
+        "carbs_g": 45,
+        "fat_g": 18,
+        "fiber_g": 7,
+        "note": "Macro targets approximate — adjust portions to family reference doc once provided"
+      },
+      "prep_time": "20 min",
+      "cook_time": "35 min",
+      "ingredients": [
+        "6 large bell peppers (mixed colors), tops cut and seeds removed",
+        "1.5 lbs ground turkey",
+        "1.5 cups cooked brown rice",
+        "1 cup fresh okra, sliced into rounds",
+        "1 can (14.5 oz) diced tomatoes, drained",
+        "1/2 yellow onion, diced",
+        "3 cloves garlic, minced",
+        "1 tsp Italian seasoning",
+        "1/2 tsp red pepper flakes",
+        "1 tbsp olive oil",
+        "1 cup shredded mozzarella cheese",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "steps": [
+        "Preheat oven to 375°F.",
+        "Heat olive oil in a skillet over medium heat. Sauté onion for 3 minutes, add garlic for 1 minute.",
+        "Add ground turkey, cook until browned, about 7–8 minutes. Drain excess fat.",
+        "Stir in okra, diced tomatoes, cooked brown rice, Italian seasoning, red pepper flakes, salt, and pepper. Cook 3–4 more minutes.",
+        "Place peppers cut-side up in a baking dish. Fill each with turkey-rice mixture.",
+        "Top each pepper with shredded mozzarella.",
+        "Cover with foil and bake 25 minutes. Uncover and bake 10 more minutes until cheese is bubbly.",
+        "Garnish with fresh parsley and serve."
+      ],
+      "kids_tasks": [
+        "Help scoop seeds out of bell peppers using a spoon",
+        "Spoon the turkey filling into each pepper",
+        "Sprinkle cheese on top of filled peppers",
+        "Wash and dry fresh parsley for garnish"
+      ]
+    },
+    {
+      "name": "Shrimp Tacos with Mango-Cucumber Slaw and Corn Tortillas",
+      "macros": {
+        "calories": 480,
+        "protein_g": 34,
+        "carbs_g": 50,
+        "fat_g": 15,
+        "fiber_g": 6,
+        "note": "Macro targets approximate — adjust portions to family reference doc once provided"
+      },
+      "prep_time": "20 min",
+      "cook_time": "10 min",
+      "ingredients": [
+        "1.5 lbs large shrimp, peeled and deveined",
+        "12 small corn tortillas",
+        "2 tsp chili powder",
+        "1 tsp cumin",
+        "1/2 tsp garlic powder",
+        "1 tbsp olive oil",
+        "Salt to taste",
+        "1 large mango, peeled and julienned",
+        "1 medium cucumber, julienned",
+        "1/4 red cabbage, thinly sliced",
+        "Juice of 2 limes",
+        "2 tbsp apple cider vinegar",
+        "1 tbsp honey",
+        "1/4 cup Greek yogurt",
+        "1/4 cup fresh cilantro",
+        "1 avocado, sliced",
+        "Hot sauce for serving"
+      ],
+      "steps": [
+        "Make slaw: whisk lime juice, apple cider vinegar, honey, and Greek yogurt in a large bowl. Toss with mango, cucumber, red cabbage, and cilantro. Season with salt. Refrigerate while cooking shrimp.",
+        "Pat shrimp dry. Toss with chili powder, cumin, garlic powder, salt, and olive oil.",
+        "Heat a skillet or grill pan over high heat. Cook shrimp 2 minutes per side until pink and opaque. Do not overcrowd.",
+        "Warm corn tortillas directly over a gas flame or in a dry skillet for 30 seconds per side.",
+        "Assemble tacos: tortilla → slaw → 2–3 shrimp → avocado slice → hot sauce.",
+        "Serve immediately with extra lime wedges."
+      ],
+      "kids_tasks": [
+        "Peel mango pieces with adult help and place in slaw bowl",
+        "Toss slaw ingredients together in the bowl",
+        "Lay tortillas flat and spoon on their own slaw portion",
+        "Squeeze lime wedges over finished tacos"
+      ]
+    },
+    {
+      "name": "One-Pot Chicken & Tomato Basil Pasta with Summer Vegetables",
+      "macros": {
+        "calories": 530,
+        "protein_g": 38,
+        "carbs_g": 55,
+        "fat_g": 16,
+        "fiber_g": 7,
+        "note": "Macro targets approximate — adjust portions to family reference doc once provided"
+      },
+      "prep_time": "15 min",
+      "cook_time": "30 min",
+      "ingredients": [
+        "1.5 lbs boneless skinless chicken breast, cut into 1-inch cubes",
+        "12 oz whole wheat penne pasta",
+        "2 cups cherry tomatoes",
+        "2 medium zucchini, halved and sliced",
+        "1/2 yellow onion, diced",
+        "4 cloves garlic, minced",
+        "3 cups low-sodium chicken broth",
+        "1 can (14.5 oz) crushed tomatoes",
+        "2 tbsp olive oil",
+        "1 tsp Italian seasoning",
+        "1/2 tsp red pepper flakes",
+        "1 cup fresh basil, torn",
+        "1/2 cup shredded Parmesan cheese",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Heat olive oil in a large Dutch oven or deep pot over medium-high heat.",
+        "Season chicken cubes with salt, pepper, and Italian seasoning. Sear for 4–5 minutes until golden. Remove and set aside.",
+        "In the same pot, sauté onion for 3 minutes, then garlic for 1 minute.",
+        "Add cherry tomatoes, cook 2–3 minutes until they begin to burst.",
+        "Add crushed tomatoes, chicken broth, red pepper flakes, and dry pasta. Stir to combine.",
+        "Return chicken to pot. Bring to a boil, then reduce heat to a simmer.",
+        "Cover and cook 15–18 minutes, stirring every 5 minutes, until pasta is al dente and liquid is mostly absorbed.",
+        "Stir in zucchini, cook uncovered 3–4 more minutes.",
+        "Remove from heat. Fold in fresh basil. Top with Parmesan and serve."
+      ],
+      "kids_tasks": [
+        "Wash cherry tomatoes and place in pot when instructed",
+        "Tear fresh basil leaves by hand for topping",
+        "Stir the pasta every 5 minutes with adult supervision using a long spoon",
+        "Sprinkle Parmesan cheese over finished bowls"
+      ]
+    }
+  ],
+  "grocery_preview": {
+    "store": "HEB",
+    "note": "All items available at HEB Houston locations. Select organic where budget allows.",
+    "Produce": [
+      "6 ears fresh corn (or 3 already shucked)",
+      "4 medium zucchini",
+      "2 pints cherry tomatoes",
+      "1 red cabbage (small)",
+      "1 lb fresh green beans",
+      "1 lb fresh okra",
+      "6 large bell peppers (mixed colors)",
+      "3 ripe peaches",
+      "1 large mango",
+      "1 medium cucumber",
+      "1 bunch fresh basil",
+      "1 bunch fresh cilantro",
+      "1 bunch fresh parsley",
+      "2 avocados",
+      "3 limes + 1 lemon",
+      "2 heads garlic",
+      "2 yellow onions",
+      "1 red onion",
+      "1 jalapeño"
+    ],
+    "Protein": [
+      "6 bone-in skin-on chicken thighs (family pack)",
+      "4 salmon fillets 6 oz each (HEB Seafood counter)",
+      "1.5 lbs ground turkey (93% lean)",
+      "1.5 lbs large shrimp peeled and deveined (HEB frozen or fresh seafood)",
+      "1.5 lbs boneless skinless chicken breast"
+    ],
+    "Dairy": [
+      "1 cup shredded mozzarella (HEB Central Market or store brand)",
+      "1/2 cup shredded Parmesan (block or pre-shredded)",
+      "1 small container plain Greek yogurt (non-fat or 2%)"
+    ],
+    "Pantry": [
+      "12 oz whole wheat penne pasta",
+      "12 small corn tortillas (HEB Tortilleria if available)",
+      "1.5 cups brown rice (or 1 bag HEB brown rice, microwaveable)",
+      "1 can (14.5 oz) diced tomatoes, low-sodium",
+      "1 can (14.5 oz) crushed tomatoes, low-sodium",
+      "32 oz low-sodium chicken broth",
+      "Olive oil (extra virgin)",
+      "Apple cider vinegar",
+      "Honey",
+      "Smoked paprika",
+      "Cumin",
+      "Chili powder",
+      "Garlic powder",
+      "Onion powder",
+      "Italian seasoning",
+      "Red pepper flakes",
+      "Salt and black pepper",
+      "Parchment paper"
+    ]
+  }
+}
+null
