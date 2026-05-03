@@ -817,7 +817,7 @@
 
         <div class="alert-box alert-info">
           <span class="alert-icon">ℹ</span>
-          <div><strong>Costco Staples Excluded:</strong> Chicken breast, eggs, egg whites, Greek yogurt, Dave's Killer Bread, cottage cheese, and olive oil are assumed stocked. See Costco tab if restocking is needed.</div>
+          <div><strong>Costco Staples Excluded:</strong> Chicken breast, eggs, egg whites, Greek yogurt, Dave's Killer Bread 21 Whole Grains (2-pack), and olive oil are assumed stocked. See Costco tab if restocking is needed.</div>
         </div>
       </div>
     </div>
@@ -1196,10 +1196,7 @@ const HEB_LIST = {
     { name: "Low-sodium soy sauce", qty: "1 bottle", free: true },
     { name: "Cumin, chili powder (if low)", qty: "check pantry", free: true }
   ],
-  "Bakery / Grains": [
-    { name: "Dave's Killer Bread Multigrain", qty: "1 loaf", free: true },
-    { name: "HEB granola", qty: "1 bag", free: true }
-  ]
+  "Bakery / Grains": []
 };
 
 const BREAKFAST_LIST = [
@@ -1207,7 +1204,6 @@ const BREAKFAST_LIST = [
   { name: "Organic Blueberries", qty: "6oz + 1 pint", free: true },
   { name: "Organic Raspberries", qty: "6oz", free: true },
   { name: "Organic Hass Avocados 5 count", qty: "1 bag", free: true },
-  { name: "HEB Classic Granola", qty: "1 bag", free: true }
 ];
 
 const COSTCO_LIST = [
@@ -1394,20 +1390,53 @@ function toggleCheck(el, nameId) {
 }
 
 function exportGroceryList() {
-  let text = "MAXWELL FAMILY — HEB GROCERY LIST\n";
-  text += "Week of " + WEEK_DATA.label + "\n\n";
+  // HEB Extension format: plain list, one item per line, no headers or bullets
+  let hebText = '';
   Object.entries(HEB_LIST).forEach(([section, items]) => {
-    text += "── " + section.toUpperCase() + " ──\n";
-    items.forEach(i => text += `• ${i.name} — ${i.qty}\n`);
-    text += "\n";
+    items.forEach(i => {
+      if (i.name && i.name.trim()) {
+        const qty = i.qty && i.qty.trim() ? ' ' + i.qty : '';
+        hebText += i.name.trim() + qty + '\n';
+      }
+    });
   });
-  text += "── BREAKFAST PRODUCE ──\n";
-  BREAKFAST_LIST.forEach(i => text += `• ${i.name} — ${i.qty}\n`);
-  const blob = new Blob([text], { type: 'text/plain' });
+  BREAKFAST_LIST.forEach(i => {
+    if (i.name && i.name.trim()) {
+      const qty = i.qty && i.qty.trim() ? ' ' + i.qty : '';
+      hebText += i.name.trim() + qty + '\n';
+    }
+  });
+
+  // Also create a formatted reference version for viewing
+  let readableText = "MAXWELL FAMILY HEB GROCERY LIST\n";
+  readableText += "Week of " + WEEK_DATA.label + "\n\n";
+  Object.entries(HEB_LIST).forEach(([section, items]) => {
+    if (items.length > 0) {
+      readableText += section.toUpperCase() + "\n";
+      items.forEach(i => readableText += "  " + i.name + (i.qty ? " — " + i.qty : "") + "\n");
+      readableText += "\n";
+    }
+  });
+  readableText += "BREAKFAST PRODUCE\n";
+  BREAKFAST_LIST.forEach(i => readableText += "  " + i.name + (i.qty ? " — " + i.qty : "") + "\n");
+
+  // Download the clean HEB extension version
+  const blob = new Blob([hebText], { type: 'text/plain' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'maxwell-grocery-list.txt';
+  a.download = 'heb-cart-list.txt';
   a.click();
+
+  // Also copy to clipboard for easy pasting into HEB extension
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(hebText).then(() => {
+      const btn = document.querySelector('.btn-export');
+      if (btn) {
+        btn.textContent = '✓ Copied to Clipboard';
+        setTimeout(() => btn.textContent = '↓ Export List', 3000);
+      }
+    });
+  }
 }
 
 function showSkylight() {
