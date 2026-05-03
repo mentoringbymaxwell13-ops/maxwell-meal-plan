@@ -1,267 +1,241 @@
 null
 {
-  "week_label": "Maxwell Family Dinners – Week of May 11, 2026",
-  "seasonal_tags": ["corn", "zucchini", "cherry tomatoes"],
+  "week_label": "Week of May 11, 2026 – Normal Week",
+  "seasonal_tags": ["corn", "zucchini", "cherry tomatoes", "blueberries", "peaches"],
   "recipes": [
     {
-      "name": "Grilled Chicken Breast with Corn and Zucchini Quinoa Bowl",
+      "id": 1,
+      "name": "Grilled Chicken Breast with Corn and Zucchini Rice Bowl",
       "macros": {
         "protein_g": 51,
-        "fat_g": 12,
+        "fat_g": 11,
         "carbs_g": 69
       },
       "prep_time": "15 minutes",
       "cook_time": "25 minutes",
       "ingredients": [
         "7.5 oz boneless skinless chicken breast per serving",
-        "1.5 cups cooked quinoa per serving",
-        "1 ear fresh corn, kernels cut off",
+        "1.5 cups cooked white rice per serving",
+        "1 ear fresh corn, kernels cut off (about 0.5 cup per serving)",
         "1 medium zucchini, diced small",
-        "1 tbsp olive oil total for pan",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "Salt to taste",
-        "Low sodium chicken broth for cooking quinoa"
+        "1 tbsp olive oil (total for pan, shared across 4 servings)",
+        "Salt to taste"
       ],
       "steps": [
-        "Cook quinoa in low sodium chicken broth according to package directions, about 15 minutes, and set aside.",
-        "Season chicken breasts with garlic powder, onion powder, and salt.",
+        "Cook white rice according to package directions and set aside.",
+        "Season chicken breasts lightly with salt.",
         "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Cook chicken breasts 6 to 7 minutes per side until internal temperature reaches 165 degrees F, then rest 5 minutes and slice.",
-        "In the same skillet with residual oil, sauté zucchini over medium heat for 3 to 4 minutes until tender.",
-        "Add corn kernels and cook 2 more minutes until slightly softened.",
-        "Fold corn and zucchini into the cooked quinoa.",
-        "Serve sliced chicken over vegetable quinoa bowl."
+        "Cook chicken breasts 6-7 minutes per side until internal temp reaches 165°F. Remove and rest 5 minutes.",
+        "In the same skillet over medium heat, add corn kernels and diced zucchini. Cook 5-6 minutes until tender and lightly golden.",
+        "Slice chicken into strips. Serve over rice with corn and zucchini spooned on top."
       ],
       "kids_tasks": [
-        "Tear paper towels to pat chicken dry",
-        "Stir the quinoa with a spoon while an adult supervises",
-        "Help scoop corn kernels off pre-cut cob into a bowl"
+        "Help shuck the corn with supervision",
+        "Stir the rice with a big spoon",
+        "Place sliced chicken pieces onto plates"
       ]
     },
     {
-      "name": "Shrimp and Cherry Tomato Pasta with Zucchini",
+      "id": 2,
+      "name": "Shrimp and Cherry Tomato Pasta Toss",
       "macros": {
         "protein_g": 50,
-        "fat_g": 11,
+        "fat_g": 12,
         "carbs_g": 71
       },
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "ingredients": [
-        "7 oz large shrimp per serving, peeled and deveined",
-        "2.5 oz dry whole wheat pasta per serving, about 1.5 cups cooked",
+        "7 oz large shrimp per serving (peeled, deveined)",
+        "2 cups cooked whole wheat pasta per serving (approx 1.5 cups cooked equivalent in volume, weighed to hit carb target)",
         "1 cup cherry tomatoes, halved",
-        "1 medium zucchini, sliced into half moons",
-        "1 tbsp olive oil total",
-        "3 garlic cloves, minced",
+        "1 medium zucchini, sliced into thin half-moons",
+        "1 tbsp olive oil (total, shared across 4 servings)",
         "Salt to taste",
-        "Fresh parsley for garnish",
-        "Low sodium chicken broth splash to loosen sauce"
+        "Parmesan cheese, 1 tbsp per serving for topping"
       ],
       "steps": [
-        "Boil pasta in salted water until al dente, about 9 minutes, then drain and reserve 0.25 cup pasta water.",
+        "Cook whole wheat penne according to package directions, drain and reserve 0.25 cup pasta water.",
         "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Add garlic and cook 30 seconds until fragrant.",
-        "Add zucchini and cook 3 to 4 minutes until softened.",
-        "Add cherry tomatoes and cook 2 minutes until they begin to burst.",
-        "Add shrimp and cook 2 to 3 minutes per side until pink and opaque.",
-        "Toss in cooked pasta with a splash of reserved pasta water to bring everything together.",
-        "Season with salt and garnish with parsley before serving."
+        "Add zucchini slices and cook 3-4 minutes until softened.",
+        "Add shrimp and cook 2 minutes per side until pink and cooked through.",
+        "Add cherry tomatoes and cook 2 minutes until they just begin to burst.",
+        "Toss in cooked pasta with a splash of reserved pasta water. Stir gently to combine.",
+        "Season with salt. Serve in shallow bowls topped with Parmesan."
       ],
       "kids_tasks": [
-        "Help rinse cherry tomatoes in a colander",
-        "Place shrimp in a bowl before cooking with adult supervision",
-        "Tear parsley leaves off the stem for garnish"
+        "Rinse cherry tomatoes in a colander",
+        "Help pour pasta into serving bowls with supervision",
+        "Sprinkle Parmesan on top of each bowl"
       ]
     },
     {
-      "name": "Ground Turkey and Corn Stuffed Zucchini Boats",
+      "id": 3,
+      "name": "Ground Turkey and Corn Rice Bowl with Cherry Tomatoes",
       "macros": {
-        "protein_g": 50,
-        "fat_g": 12,
-        "carbs_g": 68
-      },
-      "prep_time": "15 minutes",
-      "cook_time": "30 minutes",
-      "ingredients": [
-        "7 oz 93 percent lean ground turkey per serving",
-        "1.5 cups cooked quinoa per serving",
-        "2 large zucchini, halved lengthwise and scooped",
-        "1 ear fresh corn, kernels cut off",
-        "0.5 cup part skim mozzarella cheese, shredded, divided across 4 servings",
-        "1 tbsp olive oil total",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "Salt to taste",
-        "Low sodium chicken broth for cooking quinoa"
-      ],
-      "steps": [
-        "Preheat oven to 400 degrees F.",
-        "Cook quinoa in low sodium chicken broth and set aside.",
-        "Scoop out zucchini halves leaving a 0.25 inch shell, chop the scooped flesh and set aside.",
-        "Brush zucchini shells with a thin layer of the 1 tbsp olive oil and place on a baking sheet.",
-        "In a skillet over medium heat, cook ground turkey with garlic powder, onion powder, and salt until no longer pink, about 7 minutes.",
-        "Add chopped zucchini flesh and corn kernels to the skillet and cook 3 more minutes.",
-        "Mix turkey mixture with cooked quinoa.",
-        "Fill zucchini boats with the turkey quinoa mixture and top with shredded mozzarella.",
-        "Bake 15 to 18 minutes until zucchini is tender and cheese is melted.",
-        "Cool slightly before serving to toddlers."
-      ],
-      "kids_tasks": [
-        "Sprinkle shredded cheese on top of the filled zucchini boats",
-        "Help stir the turkey and quinoa mixture with a spoon",
-        "Place filled boats onto the baking sheet with adult help"
-      ]
-    },
-    {
-      "name": "Baked Tilapia with Cherry Tomato Corn Salsa and Quinoa",
-      "macros": {
-        "protein_g": 51,
+        "protein_g": 52,
         "fat_g": 11,
         "carbs_g": 70
       },
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz tilapia fillet per serving",
-        "1.5 cups cooked quinoa per serving",
-        "1 cup cherry tomatoes, halved",
+        "7 oz lean ground turkey per serving",
+        "1.5 cups cooked white rice per serving",
         "1 ear fresh corn, kernels cut off",
-        "1 tbsp olive oil total",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
-        "Salt to taste",
-        "Fresh parsley chopped for garnish",
-        "Low sodium chicken broth for cooking quinoa"
+        "1 cup cherry tomatoes, halved",
+        "1 tbsp olive oil (total, shared across 4 servings)",
+        "Salt to taste"
       ],
       "steps": [
-        "Preheat oven to 400 degrees F.",
-        "Cook quinoa in low sodium chicken broth according to package directions and set aside.",
-        "Place tilapia fillets on a parchment-lined baking sheet.",
-        "Brush fillets lightly with 0.5 tbsp of the olive oil and season with garlic powder, onion powder, and salt.",
-        "Bake tilapia 12 to 14 minutes until it flakes easily with a fork.",
-        "While fish bakes, warm remaining 0.5 tbsp olive oil in a small skillet over medium low heat.",
-        "Add corn kernels and cook 2 minutes, then add cherry tomatoes and cook 2 more minutes until softened.",
-        "Season corn tomato mixture lightly with salt.",
-        "Serve tilapia over quinoa topped with warm corn and tomato salsa, garnished with parsley."
+        "Cook white rice and set aside.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Add ground turkey, breaking it apart with a spoon. Cook 8-10 minutes until cooked through. Season with salt.",
+        "Add corn kernels to the skillet and cook 3-4 minutes, stirring occasionally.",
+        "Add cherry tomatoes and cook 2 minutes until slightly softened.",
+        "Serve turkey and vegetable mixture over rice bowls."
       ],
       "kids_tasks": [
-        "Rinse cherry tomatoes in a colander",
-        "Help spoon the corn tomato salsa over the fish at the table",
-        "Fluff the cooked quinoa with a fork with adult help"
+        "Help pour corn kernels into the pan (with adult guidance)",
+        "Rinse cherry tomatoes",
+        "Scoop rice into bowls with a big spoon"
       ]
     },
     {
-      "name": "Chicken Breast and Zucchini Skillet with Cherry Tomatoes over Quinoa",
+      "id": 4,
+      "name": "Baked Tilapia with Zucchini and Rice",
       "macros": {
-        "protein_g": 52,
+        "protein_g": 50,
         "fat_g": 12,
-        "carbs_g": 69
+        "carbs_g": 68
       },
       "prep_time": "10 minutes",
-      "cook_time": "25 minutes",
+      "cook_time": "20 minutes",
       "ingredients": [
-        "7.5 oz boneless skinless chicken breast per serving, cut into bite-size pieces",
-        "1.5 cups cooked quinoa per serving",
-        "1 medium zucchini, diced",
-        "1 cup cherry tomatoes, halved",
-        "1 tbsp olive oil total",
-        "1 tsp garlic powder",
-        "1 tsp onion powder",
+        "7.5 oz tilapia fillet per serving",
+        "1.5 cups cooked white rice per serving",
+        "2 medium zucchini, sliced into rounds",
+        "1 tbsp olive oil (total, shared across 4 servings)",
         "Salt to taste",
-        "Low sodium chicken broth for cooking quinoa and deglazing pan"
+        "Lemon, 1 whole (for squeezing over fish)"
       ],
       "steps": [
-        "Cook quinoa in low sodium chicken broth and set aside.",
-        "Season chicken pieces with garlic powder, onion powder, and salt.",
-        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
-        "Add chicken pieces and cook 5 to 6 minutes, stirring occasionally, until cooked through to 165 degrees F.",
-        "Remove chicken and set aside.",
-        "In the same skillet add diced zucchini and cook 3 to 4 minutes until tender.",
-        "Add cherry tomatoes and cook 2 minutes until they soften and release juices.",
-        "Splash 2 tbsp low sodium chicken broth to deglaze the pan and stir.",
-        "Return chicken to the skillet and toss everything together.",
-        "Serve chicken and vegetable mixture over cooked quinoa."
+        "Preheat oven to 400°F.",
+        "Cook white rice and set aside.",
+        "Line a large baking sheet with foil. Lay tilapia fillets on one half and zucchini rounds on the other.",
+        "Brush tilapia and zucchini lightly with olive oil (1 tbsp total). Season with salt.",
+        "Bake 18-20 minutes until tilapia flakes easily and zucchini is tender.",
+        "Squeeze fresh lemon juice over fish. Serve over rice with zucchini on the side."
       ],
       "kids_tasks": [
-        "Help rinse cherry tomatoes",
-        "Stir the quinoa with a spoon while adult supervises",
-        "Help arrange plates with a scoop of quinoa before adults add the topping"
+        "Arrange zucchini rounds on the baking sheet with supervision",
+        "Help squeeze lemon (with a hand juicer)",
+        "Place rice in bowls"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chicken Breast and Peach Rice Bowl with Zucchini",
+      "macros": {
+        "protein_g": 51,
+        "fat_g": 11,
+        "carbs_g": 72
+      },
+      "prep_time": "15 minutes",
+      "cook_time": "25 minutes",
+      "ingredients": [
+        "7.5 oz boneless skinless chicken breast per serving",
+        "1.5 cups cooked white rice per serving",
+        "2 ripe peaches, peeled and diced",
+        "1 medium zucchini, diced small",
+        "1 tbsp olive oil (total, shared across 4 servings)",
+        "Salt to taste"
+      ],
+      "steps": [
+        "Cook white rice and set aside.",
+        "Season chicken breasts lightly with salt.",
+        "Heat 1 tbsp olive oil in a large skillet over medium heat.",
+        "Cook chicken 6-7 minutes per side until internal temp reaches 165°F. Remove and rest 5 minutes.",
+        "In the same skillet over medium heat, add zucchini and cook 4 minutes until softened.",
+        "Add diced peaches and cook 2-3 minutes until warm and slightly caramelized.",
+        "Slice chicken and serve over rice topped with the peach and zucchini mixture."
+      ],
+      "kids_tasks": [
+        "Help peel peaches with supervision using a soft peeler",
+        "Stir zucchini gently in the pan with a wooden spoon",
+        "Arrange chicken slices on plates"
       ]
     }
   ],
   "grocery_preview": {
     "grouped_by_section": {
       "Produce": [
-        "organic zucchini 3 count",
-        "organic cherry tomatoes 2 pints",
+        "organic zucchini 4 count (organic preferred)",
+        "organic cherry tomatoes 2 pints (organic preferred)",
         "fresh corn 4 ears",
-        "organic flat leaf parsley 1 bunch",
-        "organic garlic 1 head"
+        "organic peaches 4 count (organic preferred)",
+        "organic lemon 1 count (organic preferred)"
       ],
       "Protein": [
         "tilapia fillets 2 lbs",
-        "93 percent lean ground turkey 2 lbs"
+        "lean ground turkey 2 lbs",
+        "whole wheat penne pasta 1 lb box"
       ],
       "Dairy": [
-        "part skim mozzarella cheese shredded 8 oz bag"
+        "Parmesan cheese 4 oz block or shredded"
       ],
       "Pantry": [
-        "organic quinoa 2 lbs",
-        "whole wheat penne pasta 1 lb",
-        "low sodium chicken broth 32 oz carton",
-        "whole wheat penne pasta 1 lb"
+        "organic white rice 4 lb bag (organic preferred)"
       ]
     }
   },
   "costco_list": [
     {
-      "item": "Boneless Skinless Chicken Breasts",
-      "quantity": "7 lbs",
-      "needed_by_date": "May 11",
+      "item": "Chicken Breasts (boneless skinless)",
+      "quantity": "7-8 lbs (used in 2 of 5 dinners, 7.5 oz per serving x 4 servings x 2 meals)",
+      "needed_by_date": "May 11, 2026",
       "urgent": true
     },
     {
-      "item": "Large Shrimp Peeled and Deveined Frozen",
-      "quantity": "2 lbs",
-      "needed_by_date": "May 11",
+      "item": "Shrimp (large, peeled and deveined, frozen)",
+      "quantity": "3 lbs",
+      "needed_by_date": "May 11, 2026",
       "urgent": true
-    },
-    {
-      "item": "Olive Oil Extra Virgin",
-      "quantity": "1 bottle 2 liter",
-      "needed_by_date": "May 23",
-      "urgent": false
     },
     {
       "item": "Eggs",
       "quantity": "2 dozen",
-      "needed_by_date": "May 18",
+      "needed_by_date": "May 15, 2026",
       "urgent": true
     },
     {
-      "item": "Egg Whites",
-      "quantity": "2 cartons 32 oz each",
-      "needed_by_date": "May 18",
+      "item": "Egg Whites (carton)",
+      "quantity": "2 cartons",
+      "needed_by_date": "May 15, 2026",
       "urgent": true
     },
     {
-      "item": "Greek Yogurt Plain Nonfat",
-      "quantity": "3 lbs tub",
-      "needed_by_date": "May 18",
+      "item": "Greek Yogurt (plain nonfat)",
+      "quantity": "3 large tubs",
+      "needed_by_date": "May 18, 2026",
       "urgent": true
     },
     {
-      "item": "Daves Killer Bread 21 Whole Grains and Seeds Organic Sliced Bread",
+      "item": "Dave's Killer Bread 21 Whole Grains and Seeds Organic Sliced Bread",
       "quantity": "2 loaves",
-      "needed_by_date": "May 18",
+      "needed_by_date": "May 16, 2026",
       "urgent": true
     },
     {
-      "item": "White Rice",
-      "quantity": "25 lb bag",
-      "needed_by_date": "May 23",
+      "item": "Olive Oil (extra virgin)",
+      "quantity": "1 large bottle (2 liter)",
+      "needed_by_date": "May 23, 2026",
+      "urgent": false
+    },
+    {
+      "item": "White Rice (long grain)",
+      "quantity": "10 lb bag",
+      "needed_by_date": "May 23, 2026",
       "urgent": false
     }
   ]
